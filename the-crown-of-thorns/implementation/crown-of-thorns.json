@@ -1,0 +1,3203 @@
+{
+  "id": "crown-of-thorns",
+  "revision": 1,
+  "title": "The Crown of Thorns",
+  "author": "NIGHT",
+  "start": "start",
+  "fixedIdentity": true,
+  "setupTitle": "Before the bell",
+  "identity": {
+    "firstName": "Unknown",
+    "surname": "Traveller"
+  },
+  "setupText": "A dark fairytale in twelve chapters. Your choices and their consequences are saved in this browser. Begin without choosing a name; discover her history with her.",
+  "identityLabels": [
+    {
+      "text": "Ilyen, called Reed",
+      "when": {
+        "lore": "identity"
+      }
+    },
+    {
+      "text": "Reed",
+      "when": {
+        "event": "named"
+      }
+    },
+    {
+      "text": "The traveller"
+    }
+  ],
+  "initial": {
+    "elian_alive": false,
+    "notebook": false,
+    "bird": false,
+    "bond": false,
+    "retained_clues": false,
+    "public_warning": false,
+    "pip_safe": false,
+    "pip_injured": false,
+    "seized": false,
+    "hearing": false,
+    "invited": false,
+    "crown_connection": false,
+    "witnesses": 0
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "The Woman in the Millrace"
+    },
+    {
+      "number": 2,
+      "title": "Things Written on Doors"
+    },
+    {
+      "number": 3,
+      "title": "Fenmere"
+    },
+    {
+      "number": 4,
+      "title": "The Bell Brought Forward"
+    },
+    {
+      "number": 5,
+      "title": "Tomorrow’s Portion"
+    },
+    {
+      "number": 6,
+      "title": "The Water Copy"
+    },
+    {
+      "number": 7,
+      "title": "The Debt Collector"
+    },
+    {
+      "number": 8,
+      "title": "The Girl Under the Sluice"
+    },
+    {
+      "number": 9,
+      "title": "The Original Roll"
+    },
+    {
+      "number": 10,
+      "title": "What Returning Would Cost"
+    },
+    {
+      "number": 11,
+      "title": "The Crown on the Table"
+    },
+    {
+      "number": 12,
+      "title": "Beyond the Keeping"
+    }
+  ],
+  "nodes": {
+    "start": {
+      "chapter": 1,
+      "title": "The woman in the millrace",
+      "beats": [
+        {
+          "text": "The boy had tied her wrist to a goose."
+        },
+        {
+          "text": "It was a large grey goose, standing in the shallows and objecting to everything. When she moved, the string pulled tight. The boy looked up from the bank."
+        },
+        {
+          "text": "“Good. You're not dead.”"
+        },
+        {
+          "text": "She sat in six inches of water. A millwheel turned behind her, bringing down a regular spill of foam. Her left shoe was missing. She could name the wheel, the goose, the dark stain spreading from her torn sleeve. She could not think of a single place she had been before this one."
+        },
+        {
+          "text": "“Why did you tie me to that?”"
+        },
+        {
+          "text": "“So I could hear if you floated off.”"
+        },
+        {
+          "text": "He was perhaps nine, with a sack apron and a split in one eyebrow. He unwound the string and offered a stick. She took it. Getting out hurt in several ordinary, reassuring ways."
+        },
+        {
+          "text": "On the bank, he gave her a piece of cold oatcake. She knew how to chew. She knew the bird ought not to be fed her last crumbs. Somewhere inside her were instructions for living, neatly arranged around an empty space."
+        },
+        {
+          "text": "“I'm Pip,” he said. “What's yours?”"
+        },
+        {
+          "text": "She tried. Water dripped from her chin. The boy waited longer than most people would have."
+        },
+        {
+          "text": "“You can tell me tomorrow. My aunt writes hers on the door.”"
+        },
+        {
+          "text": "Above the mill stood a town of red roofs and narrow yards. Beyond it, fields climbed towards a wooded rim. A road ran into the trees. A man was walking up it, carrying a blue bowl with both hands."
+        },
+        {
+          "text": "Pip dropped the string."
+        },
+        {
+          "text": "“Master Elian!”"
+        },
+        {
+          "text": "The man did not turn. Between the trees, three white stones marked the sides of the road. He was nearly at them."
+        }
+      ],
+      "choices": [
+        {
+          "id": "start-catch",
+          "label": "Catch the man before he reaches the stones.",
+          "to": "rescue",
+          "effects": [
+            {
+              "op": "set",
+              "key": "elian_alive",
+              "value": true
+            },
+            {
+              "op": "add",
+              "key": "witnesses",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "start-follow",
+          "label": "Follow Pip; keep your injured leg out of danger.",
+          "to": "observe",
+          "risk": "You may arrive too late to stop the man."
+        }
+      ],
+      "effects": [
+        {
+          "op": "event",
+          "key": "met_pip"
+        }
+      ]
+    },
+    "rescue": {
+      "chapter": 1,
+      "title": "Before the white stones",
+      "beats": [
+        {
+          "text": "She caught the man by the belt. He spun and struck her with the bowl, hard enough to chip a tooth. She held on. His feet scraped backwards through wet leaves."
+        },
+        {
+          "text": "“My wife,” he said. “She's waiting.”"
+        },
+        {
+          "text": "Pip came panting up beside them. “Your wife is at the pottery.”"
+        },
+        {
+          "text": "“I must take this to her.”"
+        },
+        {
+          "text": "“She's at the pottery.”"
+        },
+        {
+          "text": "The man looked from Pip to the bowl. Inside it was a spoon and a folded scrap of cloth. Beyond the stones, the road continued through harmless-looking trees. The woman wanted to let him go. He was frightened of her, and she had no authority to hold him."
+        },
+        {
+          "text": "Then Pip said, very quietly, “Three steps. That's all you get.”"
+        },
+        {
+          "text": "She kept her hand on the belt."
+        },
+        {
+          "text": "A woman in a leather apron arrived with two neighbours. Nobody scolded Elian. His wife put her hand inside his and said they needed to inspect the kiln. They walked down together, carrying the bowl between them."
+        },
+        {
+          "text": "The stranger's bleeding hand had left a print on his coat. She put it in her mouth."
+        },
+        {
+          "text": "“He'll hate that,” Pip said. “He likes his good coat.”"
+        },
+        {
+          "text": "After a moment she laughed, although it hurt. Pip did not. He was looking at her feet, checking where they had stopped."
+        }
+      ],
+      "choices": [
+        {
+          "id": "rescue-continue",
+          "label": "Continue",
+          "to": "kitchen",
+          "continue": true
+        }
+      ]
+    },
+    "observe": {
+      "chapter": 1,
+      "title": "What the road takes",
+      "beats": [
+        {
+          "text": "She went after Pip, but the cut in her leg opened when she tried to run. By the time she reached the trees, the man had passed the white stones."
+        },
+        {
+          "text": "He took one step onto the road beyond them. His blue bowl tilted. On the second step, his knees bent as though he were about to sit down."
+        },
+        {
+          "text": "Pip caught her sleeve before she reached him."
+        },
+        {
+          "text": "“Don't go after.”"
+        },
+        {
+          "text": "The man made a third small, shuffling step. He fell sideways. The bowl rolled back towards the stones, whole and empty."
+        },
+        {
+          "text": "She waited for him to move. She had seen a body fall before. That much her own stomach told her."
+        },
+        {
+          "text": "Neighbours came with a long cart rope. A woman in a leather apron took one look and went to her knees, but she did not cross. They hooked the man's belt from inside the stones and pulled him back. His wife covered his face with her apron."
+        },
+        {
+          "text": "“He was taking me breakfast,” she said. “I was only at the kiln.”"
+        },
+        {
+          "text": "Nobody answered. Pip stood by the bowl. The stranger picked it up for him, and he stepped away from her."
+        },
+        {
+          "text": "On the inner face of the nearest stone, a warning had been cut and recut until the letters resembled a wound: FIRST THE WAY. SECOND THE VOICE. THIRD THE BREATH."
+        }
+      ],
+      "choices": [
+        {
+          "id": "observe-continue",
+          "label": "Continue",
+          "to": "kitchen",
+          "continue": true
+        }
+      ]
+    },
+    "kitchen": {
+      "chapter": 2,
+      "title": "Things written on doors",
+      "beats": [
+        {
+          "text": "Pip's aunt lived over a repair shop. Her door said SERA VALE, SEAMSTRESS in black paint. Underneath, in smaller writing: PIP LIVES HERE. HE HAS PERMISSION TO EAT."
+        },
+        {
+          "text": "Sera read the second line before she opened the door for him."
+        },
+        {
+          "text": "“You missed breakfast.”"
+        },
+        {
+          "text": "“I found someone.”"
+        },
+        {
+          "text": "“I can see that.”"
+        },
+        {
+          "text": "She gave the stranger a stool, a dry shift and a basin. Her hands were broad, the nails cut short. She set stitches in the torn calf without asking questions that could not yet be answered. The woman watched the needle go in and out. Once she flinched; Sera waited and began again."
+        },
+        {
+          "text": "“What do we call you?”"
+        },
+        {
+          "text": "“I don't know.”"
+        },
+        {
+          "text": "“We can leave the box empty.”"
+        },
+        {
+          "text": "She had drawn a small household chart on the wall. Pip's face was sketched beside a picture of a goose. The space below it was blank."
+        },
+        {
+          "text": "Pip fetched a nub of charcoal. “You came out of the water. Reed?”"
+        },
+        {
+          "text": "The name did not bring anything back. That made it possible to accept."
+        },
+        {
+          "text": "“Reed,” she said."
+        },
+        {
+          "text": "Sera wrote it down. “This isn't a debt. Bed's in the loft. If you're staying, you can help me turn mattresses when that leg closes.”"
+        },
+        {
+          "text": "She put a bowl of barley soup on the table and turned to the stove. Pip tipped his portion of onion into Reed's bowl while his aunt's back was turned. Sera, without looking round, told him to put half of it back."
+        },
+        {
+          "text": "For the first time since waking, Reed was able to think about something as small as eating."
+        },
+        {
+          "text": "After supper Pip pushed two objects towards her: Sera's spare pocketbook and a little bird he had cut from willow, badly enough that it could also have been a boot."
+        },
+        {
+          "text": "“The book helps you know things,” he said. “The bird's just mine.”"
+        }
+      ],
+      "choices": [
+        {
+          "id": "kitchen-notes",
+          "label": "Take the pocketbook. Begin with the facts.",
+          "to": "notebook",
+          "effects": [
+            {
+              "op": "set",
+              "key": "notebook",
+              "value": true
+            },
+            {
+              "op": "gain",
+              "key": "pocketbook"
+            }
+          ]
+        },
+        {
+          "id": "kitchen-gift",
+          "label": "Take Pip’s bird. Begin with a person.",
+          "to": "bird",
+          "effects": [
+            {
+              "op": "set",
+              "key": "bird",
+              "value": true
+            },
+            {
+              "op": "gain",
+              "key": "bird"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "op": "event",
+          "key": "named"
+        }
+      ]
+    },
+    "notebook": {
+      "chapter": 2,
+      "title": "The blank box",
+      "beats": [
+        {
+          "text": "Reed took the pocketbook. The first pages listed needle sizes and names beside amounts of flour. She asked before using the empty leaves."
+        },
+        {
+          "text": "Sera gave her a pencil. “Date it. We use the mill tally, not the council calendar. Oren changes that when he corrects the festivals.”"
+        },
+        {
+          "text": "Pip put the wooden bird away."
+        },
+        {
+          "text": "At Reed's request he drew the town: a crooked cluster of houses, a river, the hill where the old hall stood. He added the forest and the dairy meadows. When she asked how far the boundary extended, he used both hands to measure a distance on the table."
+        },
+        {
+          "text": "“All round the bowl of the hills. Whole day's walk to the far sheep.”"
+        },
+        {
+          "text": "“Who lives outside?”"
+        },
+        {
+          "text": "“Nobody who sends letters.”"
+        },
+        {
+          "text": "Sera set a cup down. “We know there were travellers. There are coins from elsewhere. Nobody's arrived in my lifetime.”"
+        },
+        {
+          "text": "“Until me.”"
+        },
+        {
+          "text": "“You came from the upper millrace. That comes from inside.”"
+        },
+        {
+          "text": "Reed wrote it down. She had been imagining a road home. Now she drew a line under the possibility that home was here."
+        }
+      ],
+      "choices": [
+        {
+          "id": "notebook-continue",
+          "label": "Continue",
+          "to": "market",
+          "continue": true
+        }
+      ]
+    },
+    "bird": {
+      "chapter": 2,
+      "title": "A bird with no beak",
+      "beats": [
+        {
+          "text": "Reed took the bird. Pip showed her the black groove beneath one wing, where the knife had slipped and cut his finger."
+        },
+        {
+          "text": "“It looks down because it's thinking,” he said."
+        },
+        {
+          "text": "“What about?”"
+        },
+        {
+          "text": "“Things to eat.”"
+        },
+        {
+          "text": "They arranged a greeting. He would ask whether the bird had flown. She would say it had eaten too much. Pip tried the exchange twice, correcting her on the second attempt because he wanted exactly the same words."
+        },
+        {
+          "text": "Sera listened while she darned. At last she said, “Tell her what a greeting can do.”"
+        },
+        {
+          "text": "“Help,” Pip said."
+        },
+        {
+          "text": "“And what it can't.”"
+        },
+        {
+          "text": "He studied a loose shaving in his palm. “Make you remember.”"
+        },
+        {
+          "text": "Reed held the bird by its thick wing. “Then we'll try it anyway.”"
+        },
+        {
+          "text": "Sera tied a loop of thread through it so Reed could wear it under her shift. The needle caught on a hard ridge beneath Reed's collarbone. A pale, old scar ran there: three little punctures in a curve."
+        },
+        {
+          "text": "Sera touched none of them. “Someone sewed this in a hurry.”"
+        },
+        {
+          "text": "Reed lifted her hand to the marks. For a moment she smelled hot wool. Then it went away, leaving the kitchen and Pip pretending not to watch her."
+        }
+      ],
+      "choices": [
+        {
+          "id": "bird-continue",
+          "label": "Continue",
+          "to": "market",
+          "continue": true
+        }
+      ]
+    },
+    "market": {
+      "chapter": 3,
+      "title": "Fenmere",
+      "beats": [
+        {
+          "text": "Fenmere held a market every fourth morning. Reed learned this by carrying Sera's mending there, past strips of drying flax and a yard full of turnip peelings for the pigs. The town smelled of wet leather, yeast and river mud."
+        },
+        {
+          "text": "At the grain stall, two women checked a balance against a stone kept in a sealed box. A third read the tally aloud. When one forgot a number, they began again without changing the agreed price."
+        },
+        {
+          "text": "“It takes ages,” Pip complained."
+        },
+        {
+          "text": "“It takes less time than fighting,” Sera said."
+        },
+        {
+          "text": "Work was taught in pairs. The old potter watched his apprentice's hands; a brewer followed a board covered in pictures. People could lose the afternoon when they first made bread and still make bread. They could know that a woman was their daughter because a register said so, yet move aside when she tried to kiss them."
+        },
+        {
+          "text": "At a stall selling buttons, Reed saw it happen. The daughter bought a green one and left it on her mother's table. Neither cried until they were out of the other's sight."
+        },
+        {
+          "text": "Every house had names. The bridge had a warning to count the children both ways. At the well, someone had hung a list of people who must not draw water alone."
+        },
+        {
+          "text": "Fenmere had orchards, three mills, a small ironworking hearth fed from the western bog, and salt made from a bitter spring. Its roofs needed repair. Its sheep had to be shorn. The curse did not do any of the work."
+        },
+        {
+          "text": "Across the square, a bell began to ring. Sera stopped counting buttons."
+        },
+        {
+          "text": "It rang once, then again. Everyone listened for a third stroke. It did not come."
+        },
+        {
+          "text": "“That's tomorrow's bell,” Sera said."
+        }
+      ],
+      "choices": [
+        {
+          "id": "market-continue",
+          "label": "Continue",
+          "to": "mill-work",
+          "continue": true
+        }
+      ]
+    },
+    "archive": {
+      "chapter": 3,
+      "title": "The keeper of dates",
+      "beats": [
+        {
+          "text": "The public record room smelled of tallow. Reed found an old woman seated at its only sunny window, slicing spoiled edges from account books. A cloth on her knee caught the crumbs."
+        },
+        {
+          "text": "“Marta,” she said. “If you've come for a birth, give me a year.”"
+        },
+        {
+          "text": "Reed explained that she needed her own."
+        },
+        {
+          "text": "Marta looked at her properly. “That will be difficult.”"
+        },
+        {
+          "text": "They worked backwards from clothing. Reed's ruined dress had hand-worked buttonholes and expensive thread. Marta found three illustrations of similar sleeves, all in books older than Sera. She did not announce a conclusion. She fetched another volume."
+        },
+        {
+          "text": "On its first page was a count of households before the enclosure: millers, charcoal burners, shepherds, refugees in the north pasture. The date was one hundred and ninety-seven years before the current mill tally."
+        },
+        {
+          "text": "Someone had scraped a signature from the bottom. Three pinholes remained where a seal had been fastened."
+        },
+        {
+          "text": "“Why ruin that part?” Reed asked."
+        },
+        {
+          "text": "“I don't know. I wrote a note about it.” Marta searched her own pockets and produced a dozen slips. “Somewhere.”"
+        },
+        {
+          "text": "Reed found the note tucked in the binding. It said CHECK THE WATER COPY. NORTH BRIDGE. Beneath it, more recently: DO NOT ASK OREN FIRST."
+        },
+        {
+          "text": "Marta read it twice. “I dislike him less on mornings when I can't remember why.”"
+        },
+        {
+          "text": "She lent Reed a rubbing of the damaged page. The copied pinholes made Reed touch her collarbone."
+        }
+      ],
+      "choices": [
+        {
+          "id": "archive-continue",
+          "label": "Continue",
+          "to": "perimeter",
+          "continue": true
+        }
+      ]
+    },
+    "pottery": {
+      "chapter": 3,
+      "title": "A place beside the kiln",
+      "beats": [
+        {
+          "text": "At the pottery, Elian's wife was trimming a foot ring from a bowl. Her name was Hessa. She did not ask Reed to sit until Reed offered to wedge clay."
+        },
+        {
+          "text": "Reed knew nothing about clay. Hessa showed her. For a while, there was only the slap of it on the bench and the effort of getting the air out."
+        },
+        {
+          "text": "“He forgets the route before he forgets me,” Hessa said. “I used to think that made it better.”",
+          "when": {
+            "var": "elian_alive",
+            "eq": true
+          }
+        },
+        {
+          "text": "“He forgot the route before he forgot me,” Hessa said. “I thought there would be more time.”",
+          "when": {
+            "not": {
+              "var": "elian_alive",
+              "eq": true
+            }
+          }
+        },
+        {
+          "text": "She put down the wire cutter."
+        },
+        {
+          "text": "“People tell you to write everything. Then he goes out to find the person in the writing. You can't put every road on a bowl.”"
+        },
+        {
+          "text": "Reed asked about the white stones. Hessa brought out a box of broken glaze trials. On one was an impression of words, made by pressing clay against carved stone: THE ROAD MAY BE OPENED BY THE CROWN AND THE WITNESS."
+        },
+        {
+          "text": "“Under the north bridge. The rest is below the waterline.”"
+        },
+        {
+          "text": "“Why didn't you show the council?”"
+        },
+        {
+          "text": "Hessa took the clay back. “I did.”"
+        },
+        {
+          "text": "She gave Reed a coil of kiln wire. “If you go, tie it to something you can find again. Some days you won't know why you're there.”"
+        }
+      ],
+      "choices": [
+        {
+          "id": "pottery-continue",
+          "label": "Continue",
+          "to": "perimeter",
+          "continue": true
+        }
+      ]
+    },
+    "council": {
+      "chapter": 4,
+      "title": "The bell brought forward",
+      "beats": [
+        {
+          "text": "Oren met Reed outside the granary. He wore an ordinary coat with one fine silver clasp. His clerk carried a slate full of erased white smudges."
+        },
+        {
+          "text": "“You'll need a ration mark,” he said. “Sera shouldn't have to feed another adult from her allowance.”"
+        },
+        {
+          "text": "She had expected a threat. He gave her three barley tokens instead."
+        },
+        {
+          "text": "“Why is the bell early?”"
+        },
+        {
+          "text": "Oren sent the clerk to count the granary locks. When they were alone, he rubbed a raw patch at the base of his thumb."
+        },
+        {
+          "text": "“The thorn root under the hall was pushing through the sluice. I had it cut back. The water's safe. The bell has been irregular since.”"
+        },
+        {
+          "text": "“What does it take?”"
+        },
+        {
+          "text": "“A memory. At each new moon. A little more if the enclosure is damaged. First the distant things. Eventually the near ones. We can't make it take a chosen memory. We can keep one present by speaking it through the bell, but then we leave the rest exposed.”"
+        },
+        {
+          "text": "“And you don't think people should know you damaged it?”"
+        },
+        {
+          "text": "“I think they should keep eating while I find out how to repair it.”"
+        },
+        {
+          "text": "Children were chasing a hoop round the well. He waited until they passed."
+        },
+        {
+          "text": "“There are people who'll burn down the hall if they think someone can be blamed. Our winter grain is beneath it. Tell them what you know. Decide whether you know enough first.”"
+        },
+        {
+          "text": "He was afraid, Reed thought. He also wanted her to carry the fear in his place."
+        }
+      ],
+      "choices": [
+        {
+          "id": "council-public",
+          "label": "Tell the square, and organise public witnesses.",
+          "to": "warn",
+          "effects": [
+            {
+              "op": "add",
+              "key": "witnesses",
+              "value": 1
+            },
+            {
+              "op": "set",
+              "key": "public_warning",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "council-key",
+          "label": "Wait until morning in exchange for the cellar key.",
+          "to": "bargain",
+          "effects": [
+            {
+              "op": "gain",
+              "key": "hall_key"
+            }
+          ]
+        }
+      ]
+    },
+    "warn": {
+      "chapter": 4,
+      "title": "In the open square",
+      "beats": [
+        {
+          "text": "Reed climbed onto the well curb and told the market what Oren had said. She repeated his admission exactly, including the part about the sluice."
+        },
+        {
+          "text": "Hessa came first. Others stopped work. Someone shouted that the granary should be seized. Sera put herself between the well and a man carrying a mallet."
+        },
+        {
+          "text": "“We want witnesses,” Reed said. “People to check what happens. People to keep copies.”"
+        },
+        {
+          "text": "It took a long time. Nobody wanted the same thing. By the end, each craft had chosen someone to attend the hall. They agreed that stores would be counted before anyone touched a lock."
+        },
+        {
+          "text": "Oren stayed at the edge of the crowd. When Reed stepped down, he took back the unopened barley tokens."
+        },
+        {
+          "text": "“You'll be fed at the public table,” he said. “The public will want to know what they're buying.”"
+        },
+        {
+          "text": "Sera walked home with her. “He's right about that part.”"
+        },
+        {
+          "text": "Pip had collected seven different versions of Reed's speech. They spent the evening correcting them. Underneath all seven was the same small error: everyone remembered that somebody else had rung the bell."
+        }
+      ],
+      "choices": [
+        {
+          "id": "warn-continue",
+          "label": "Continue",
+          "to": "night-watch",
+          "continue": true
+        }
+      ]
+    },
+    "bargain": {
+      "chapter": 4,
+      "title": "A key with conditions",
+      "beats": [
+        {
+          "text": "Reed agreed to wait until morning before speaking publicly. In return, she asked for access to the hall beneath the granary."
+        },
+        {
+          "text": "Oren took a key from inside his coat. His thumb left a red print on its bow."
+        },
+        {
+          "text": "“The door below the steps. Don't touch the crown.”"
+        },
+        {
+          "text": "“You might have started with the crown.”"
+        },
+        {
+          "text": "“I might have started with a great many things.”"
+        },
+        {
+          "text": "He did not release the key until she promised to take another person. She chose Sera. Oren objected that the seamstress was neither a clerk nor a mason."
+        },
+        {
+          "text": "“She noticed my stitches were old,” Reed said. “I need someone who notices things.”"
+        },
+        {
+          "text": "At home Sera turned the key over on the table. “Have you agreed to keep quiet forever?”"
+        },
+        {
+          "text": "“Until morning.”"
+        },
+        {
+          "text": "“Good. I'll have a great deal to say by then.”"
+        },
+        {
+          "text": "Pip asked to come. They refused together. He went up to the loft early, which Reed later understood should have worried her more."
+        }
+      ],
+      "choices": [
+        {
+          "id": "bargain-continue",
+          "label": "Continue",
+          "to": "night-watch",
+          "continue": true
+        }
+      ]
+    },
+    "supper": {
+      "chapter": 5,
+      "title": "Tomorrow's portion",
+      "beats": [
+        {
+          "text": "At supper Sera served three bowls and put away a fourth. Reed watched her do it. So did Pip."
+        },
+        {
+          "text": "“Who is that for?” Reed asked."
+        },
+        {
+          "text": "“Nobody.” Sera kept her hand on the cupboard door. “There used to be someone. I don't want the rest of you thinking I haven't enough.”"
+        },
+        {
+          "text": "Pip stirred his soup until the barley settled. He asked whether Reed would still be there after the bell."
+        },
+        {
+          "text": "She wanted to promise. Instead she asked Sera for a second piece of paper. They wrote where Reed had been found, what Sera had done for her, and the things Pip wanted recorded about himself. He insisted that his goose was a gander, named Boots, and not his pet. He minded it for the miller."
+        },
+        {
+          "text": "“And I want to build a boat,” he said."
+        },
+        {
+          "text": "“There's a ferry already.”"
+        },
+        {
+          "text": "“It's a bad boat.”"
+        },
+        {
+          "text": "They drew a better one. Pip tried a greeting: “Has the bird flown?” Reed answered, “It ate too much.” He asked if they could use it tomorrow. She said yes. Sera mended in the doorway where the light lasted longest. Reed could see how a person might begin a life here and, little by little, lose track of having wanted another."
+        },
+        {
+          "text": "Before bed, Pip said his mother's name was Ada. She had died of a fever two winters ago. He could still remember the scar on her elbow and the way she tested porridge with her smallest finger."
+        },
+        {
+          "text": "“It's nearly gone,” he said. “When I try, it's like knowing where a tooth was.”"
+        },
+        {
+          "text": "Outside, someone began covering the bell's sounding holes with wool. It would not stop the tithe. It made the sound easier for the children."
+        }
+      ],
+      "choices": [
+        {
+          "id": "supper-person",
+          "label": "Rehearse the greeting with Pip. Hold onto him.",
+          "to": "keep-pip",
+          "effects": [
+            {
+              "op": "set",
+              "key": "bond",
+              "value": true
+            },
+            {
+              "op": "learn",
+              "key": "tithe"
+            }
+          ],
+          "risk": "The next tithe can take the emotional context of your discoveries."
+        },
+        {
+          "id": "supper-evidence",
+          "label": "Rehearse the evidence. Hold onto the investigation.",
+          "to": "keep-clue",
+          "effects": [
+            {
+              "op": "set",
+              "key": "bond",
+              "value": false
+            },
+            {
+              "op": "set",
+              "key": "retained_clues",
+              "value": true
+            },
+            {
+              "op": "learn",
+              "key": "tithe"
+            }
+          ],
+          "risk": "Your newly formed recognition of Pip is the most exposed memory."
+        }
+      ]
+    },
+    "keep-pip": {
+      "chapter": 5,
+      "title": "The next morning",
+      "beats": [
+        {
+          "text": "At the bell, Reed repeated the words she and Pip had agreed to use for a greeting. She had rehearsed the most recent, most fragile thing she owned. The bell passed over a living memory while it was being spoken. Everything else lay exposed. It did not protect everything."
+        },
+        {
+          "text": "The next morning she recognised Pip before he spoke. But when she went to ask Sera for the pocketbook, she could not remember its colour, or where Sera had left it, or why the notes inside mattered."
+        },
+        {
+          "text": "Reading restored the facts. It did not restore the evening in which she had learned them."
+        },
+        {
+          "text": "Pip tried the greeting. Reed answered correctly. His relief made her ashamed of how glad she was to have kept him at another part of her mind's expense."
+        },
+        {
+          "text": "Sera was standing at the cupboard. She took out the fourth bowl, looked at it and put it with the others."
+        },
+        {
+          "text": "“We can use this,” she said."
+        },
+        {
+          "text": "Pip went outside. Reed followed him halfway down the stairs, then stopped. She had no memory to give back to either of them."
+        },
+        {
+          "text": "The pocketbook gave her a place to reconstruct the lost context. She began a second account, marking what she knew from writing and what she still remembered.",
+          "when": {
+            "var": "notebook",
+            "eq": true
+          }
+        },
+        {
+          "text": "Pip’s bird lay under her shift. She held it while she read the copied scraps Sera brought her, trying to rebuild the sequence she no longer felt sure of.",
+          "when": {
+            "var": "bird",
+            "eq": true
+          }
+        }
+      ],
+      "choices": [
+        {
+          "id": "keep-pip-continue",
+          "label": "Continue",
+          "to": "after-bell",
+          "continue": true
+        }
+      ]
+    },
+    "keep-clue": {
+      "chapter": 5,
+      "title": "A familiar stranger",
+      "beats": [
+        {
+          "text": "At the bell, Reed pressed the copied evidence under her palm and rehearsed it: three holes, the crown, the witness, words beneath the bridge. She woke remembering why each mattered."
+        },
+        {
+          "text": "She kept reading until the bell fell silent. The words stayed present while it rang. The person she had come to know over them did not."
+        },
+        {
+          "text": "A boy was sitting beside the bed. She pulled the blanket to her throat."
+        },
+        {
+          "text": "“Who let you in?”"
+        },
+        {
+          "text": "He looked at the floor. “I live here.”"
+        },
+        {
+          "text": "She found his face on the household chart. Pip. She knew the name when she read it. The certainty of his place in her life had disappeared."
+        },
+        {
+          "text": "He asked a question about a bird. She waited, trying to help by concentrating. At last he said it had eaten too much and climbed down the ladder."
+        },
+        {
+          "text": "Sera let Reed read the pocketbook alone. Later, Pip agreed to show her the north bridge, provided she stopped saying she was sorry every time he handed her something."
+        },
+        {
+          "text": "“I know you didn't pick me to go,” he said."
+        },
+        {
+          "text": "Reed could not honestly say that. She told him she had chosen to hold the clues."
+        },
+        {
+          "text": "He listened, then moved his chair a little farther from hers. The distance stayed there all morning."
+        },
+        {
+          "text": "He left the bird on the table. Reed could match the slipped knife mark to the tiny scar on his finger. When he saw her make the connection, he sat down again, though not so close as before.",
+          "when": {
+            "var": "bird",
+            "eq": true
+          }
+        }
+      ],
+      "choices": [
+        {
+          "id": "keep-clue-continue",
+          "label": "Continue",
+          "to": "after-bell",
+          "continue": true
+        }
+      ]
+    },
+    "bridge": {
+      "chapter": 6,
+      "title": "The water copy",
+      "beats": [
+        {
+          "text": "Hessa lent them the pottery punt. Pip said it leaked on the wrong side. Reed asked what the right side would be. He considered refusing to answer, then showed her where to put her weight."
+        },
+        {
+          "text": "The north bridge was older than the houses around it. Its inner abutment had been built from carved blocks turned face down. Water slid over half an inscription. Sera held the punt while Reed worked beneath the arch with a lamp."
+        },
+        {
+          "text": "Three figures had been cut into the stone: a woman bearing a circlet, a crowd holding a roll, and a narrow person with roots instead of feet. Beneath them ran a line of text. Reed read aloud what she could reach."
+        },
+        {
+          "text": "“Until the danger passes, keep us. Let the Crown hold our pledge. Let the Witness hold our names.”"
+        },
+        {
+          "text": "Around the three figures ran a smaller sentence: OUR WAY, OUR VOICE, OUR BREATH, UNTIL THE KEEPING ENDS. Reed traced the words back to the first figure. The same three things were written on the boundary stones."
+        },
+        {
+          "text": "The remaining lines lay underwater. With a blade, Reed scraped mineral deposits from the edge. She saw a word repeated on both sides of a long crack: RETURN."
+        },
+        {
+          "text": "Above, a cart crossed the bridge. Dust sifted down. The punt shifted and the lamp touched the water, hissing out."
+        },
+        {
+          "text": "Sera pulled them into daylight. A piece of the abutment came away behind them. The rest began to tilt. Pip was still crouched in the bow, holding the borrowed lamp and a fistful of wet paper."
+        },
+        {
+          "text": "There was time to haul him clear, or brace the block for Sera’s rubbing. “The whole clause could save people,” Pip said. He was watching Reed for permission to stay. She had to decide who would bear that risk.",
+          "when": {
+            "var": "bond",
+            "eq": true
+          }
+        },
+        {
+          "text": "There was time to haul him clear, or brace the block for Sera’s rubbing. Pip kept his eyes on the slipping boat. Since the bell, she had been somebody who read about knowing him. Now she had to act.",
+          "when": {
+            "not": {
+              "var": "bond",
+              "eq": true
+            }
+          }
+        }
+      ],
+      "choices": [
+        {
+          "id": "bridge-child",
+          "label": "Pull Pip clear. Let the stone fall.",
+          "to": "save-boy",
+          "effects": [
+            {
+              "op": "set",
+              "key": "pip_safe",
+              "value": true
+            },
+            {
+              "op": "add",
+              "key": "witnesses",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "bridge-clause",
+          "label": "Hold the stone for Sera’s rubbing. Tell Pip to jump.",
+          "to": "save-stone",
+          "effects": [
+            {
+              "op": "set",
+              "key": "pip_injured",
+              "value": true
+            },
+            {
+              "op": "learn",
+              "key": "full_clause"
+            }
+          ],
+          "risk": "The boat is slipping against Pip’s hand."
+        }
+      ]
+    },
+    "save-boy": {
+      "chapter": 6,
+      "title": "The handhold",
+      "beats": [
+        {
+          "text": "Reed went into the river. She caught the back of Pip's apron and pushed him towards Sera. The bow lifted, spilling the paper. A stone slab dropped into the place where his legs had been."
+        },
+        {
+          "text": "Sera dragged him onto the bank. He vomited water, then began arguing that he had not needed to be carried. Reed sat beside him until he ran out of breath."
+        },
+        {
+          "text": "The inscription was broken beneath the water. They had the top half, Reed's spoken words and whatever Pip had kept in his fist. When he opened it, there were two blurred letters and a mark shaped like a cup."
+        },
+        {
+          "text": "“I'm sorry,” he said."
+        },
+        {
+          "text": "Sera wrapped her coat round his shoulders. “Get warm first.”"
+        },
+        {
+          "text": "Reed wrote down every word she had read. She could feel the missing clause waiting after them. It would have been easy to tell Pip they had enough. She left the blank on the page."
+        }
+      ],
+      "choices": [
+        {
+          "id": "save-boy-continue",
+          "label": "Continue",
+          "to": "aftermath",
+          "continue": true
+        }
+      ]
+    },
+    "save-stone": {
+      "chapter": 6,
+      "title": "What she held",
+      "beats": [
+        {
+          "text": "Reed braced the block with the punt pole. Sera pushed the waxed paper against the submerged carving and rubbed hard enough to tear it. Pip tried to steady the boat. The pole slipped."
+        },
+        {
+          "text": "“Jump,” Reed said."
+        },
+        {
+          "text": "He jumped. The punt trapped his left hand against the abutment before Sera caught him."
+        },
+        {
+          "text": "On the bank his fingers were bent the wrong way. Reed knew, without knowing where she had learned it, how to pull two of them straight. Pip screamed into Sera's skirt. He would not let Reed hold him afterwards."
+        },
+        {
+          "text": "The copy was readable. In return for their release, the Crown must surrender the memories held in pledge. The living witnesses could divide the cost among themselves, keeping their present households as anchors. Without witnesses, the whole cost fell on the Crown. A final line allowed the Crown to end the keeping by destroying the pledged memories instead of returning them."
+        },
+        {
+          "text": "All three methods opened the road. None brought back the dead."
+        },
+        {
+          "text": "Reed read it sitting outside the surgery. Her hands shook too much to make a second copy."
+        }
+      ],
+      "choices": [
+        {
+          "id": "save-stone-continue",
+          "label": "Continue",
+          "to": "aftermath",
+          "continue": true
+        }
+      ]
+    },
+    "aftermath": {
+      "chapter": 7,
+      "title": "The debt collector",
+      "beats": [
+        {
+          "text": "They found the door below the hall open. Someone had left a child's muddy footprint on the third step. Reed stopped, but Sera pointed to an older tread beside it."
+        },
+        {
+          "text": "“Mine. I was twelve. That stair never dries.”"
+        },
+        {
+          "text": "The cellar contained grain bins, reserve tools and a root as thick as a man's body. It entered through a split in the wall and wound round an iron chair. On the chair lay a crown of living thorns."
+        },
+        {
+          "text": "A severed branch beside it had bled clear sap. Oren's pruning saw stood against the wall."
+        },
+        {
+          "text": "Reed remembered water running across her face in darkness. She had been lying somewhere beyond this room. The root had passed through the floor above her."
+        },
+        {
+          "text": "“You opened something,” she said when Oren came down."
+        },
+        {
+          "text": "“A chamber under the sluice. It was empty.”"
+        },
+        {
+          "text": "“It wasn't empty.”"
+        },
+        {
+          "text": "The root moved. A figure stood where there had been no figure before: narrow, sexless, dressed in the colour of wet wood. Its mouth had been made without much understanding of mouths."
+        },
+        {
+          "text": "“Guarantor,” it said to Reed."
+        },
+        {
+          "text": "She stepped back into Sera. The figure looked at the crown."
+        },
+        {
+          "text": "“Your mother requested an enclosed refuge. All within. Their children. You in pledge. The danger would pass. You would wake to return what was kept.”"
+        },
+        {
+          "text": "“What danger?”"
+        },
+        {
+          "text": "“The siege.”"
+        },
+        {
+          "text": "“When did it end?”"
+        },
+        {
+          "text": "“Why has nobody come in from outside?” Reed asked. The figure pointed towards the rooted posts. “The approach roads turn away from a besieged refuge. The inner roads turn back to it.” She thought of the moss-covered sign and its reversed arms. The concealment had stayed in place as faithfully as the killing."
+        },
+        {
+          "text": "“I was not required to observe the outside.”"
+        },
+        {
+          "text": "Oren sat down on a grain bin. Reed could hear water ticking in a drain. Nearly two hundred years of it."
+        }
+      ],
+      "choices": [
+        {
+          "id": "aftermath-continue",
+          "label": "Continue",
+          "to": "root-room",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "pledge"
+        }
+      ]
+    },
+    "witness": {
+      "chapter": 7,
+      "title": "The other half",
+      "beats": [
+        {
+          "text": "Marta brought a ledger to the kitchen after dark. She had sewn a note into her cuff: TAKE THIS EVEN IF YOU CANNOT REMEMBER WHY."
+        },
+        {
+          "text": "The ledger was her predecessor's copy of a much older roll. It recorded everyone sheltered in the basin during the siege. Beside each household was a pledge-mark. Beside the last was a title: Crown Witness."
+        },
+        {
+          "text": "The words under the bridge had been copied on its flyleaf. Reed followed them with her fingertip. Divided return required the living household witnesses and the original pledge-roll. Three independent groups must call, hold and check the returning shares; more could spread the strain. A lone guarantor could pay instead. Destruction would release the boundary by breaking the thing it protected, taking every stored relationship-memory with it."
+        },
+        {
+          "text": "“Why did nobody do this?” Sera asked."
+        },
+        {
+          "text": "“The instructions were public once.” Marta turned to a later page. “The seventh steward moved the return roll into the vault. He called it dangerous doctrine. Later stewards copied the warning and stopped copying the terms.”"
+        },
+        {
+          "text": "Oren had inherited the practice. That did not make him innocent of continuing it."
+        },
+        {
+          "text": "Marta opened the last page. Oren's signature authorised the destruction of duplicate registers after each annual audit. Beneath it was Marta's own acknowledgement."
+        },
+        {
+          "text": "“I thought we were avoiding errors,” she said. “Then I found myself copying errors I remembered correcting.”"
+        },
+        {
+          "text": "She left the ledger on the table. Reed did not tell her it was all right."
+        }
+      ],
+      "choices": [
+        {
+          "id": "witness-continue",
+          "label": "Continue",
+          "to": "hall",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "terms"
+        }
+      ]
+    },
+    "hall": {
+      "chapter": 8,
+      "title": "The girl under the sluice",
+      "beats": [
+        {
+          "text": "Reed returned to the chamber with Sera. The opening lay beyond the chair, where the root had been cut. Water had run through a broken wall and washed a sleeping body down into the millrace. Hers."
+        },
+        {
+          "text": "Inside was a stone bed, a rotten length of blue cloth and a child's discarded slipper. The slipper fitted neither of Reed's feet. Beside it lay a larger pair, left by someone who had grown while coming here to play."
+        },
+        {
+          "text": "A wall panel showed a girl at three ages. In the last, she was nearly a woman, lifting her chin while a painter worked. Reed recognised the impatient turn of her own mouth. She stood in front of it, unable to look away."
+        },
+        {
+          "text": "There was writing under the portrait. ILYEN, DAUGHTER OF MAUD, CROWN OF THE FEN BASIN. No list of distant ancestors. No promise about who ruled beyond the hills."
+        },
+        {
+          "text": "Princess Ilyen."
+        },
+        {
+          "text": "She said the name. It sounded like something overheard through a wall."
+        },
+        {
+          "text": "Under the bed, Sera found a sheet of metal with a message scratched into it. The handwriting sloped like Reed's entries in the pocketbook."
+        },
+        {
+          "text": "I am seventeen. Mother says they will burn the north pasture before the grain is in. I have agreed to sleep until we can open the gates. I have not agreed to keep anyone here after the siege."
+        },
+        {
+          "text": "Reed read it again, then sat on the bed. The stone was cold through her skirt."
+        },
+        {
+          "text": "She remembered a woman fastening a blue cloak, pricking her three times while her hands shook. She remembered being annoyed at the clumsiness. All these years, she had kept the annoyance and lost the woman's face."
+        }
+      ],
+      "choices": [
+        {
+          "id": "hall-continue",
+          "label": "Continue",
+          "to": "copies",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "identity"
+        }
+      ]
+    },
+    "name": {
+      "chapter": 8,
+      "title": "What she would answer to",
+      "beats": [
+        {
+          "text": "In the hall above, Pip was trying to spread butter one-handed. He watched her come in and moved the knife out of her way."
+        },
+        {
+          "text": "“They've found your name,” he said."
+        },
+        {
+          "text": "“They've found one.”"
+        },
+        {
+          "text": "“Is Reed still allowed?”"
+        },
+        {
+          "text": "She sat down beside him. He had been willing to trust a woman who did not know herself. Now everyone would want to know whether a princess knew enough to save them."
+        },
+        {
+          "text": "“Yes.”"
+        },
+        {
+          "text": "He pushed the bread towards her. “Then hold this.”"
+        },
+        {
+          "text": "She held it while he buttered. It took a very long time. When he finished, she asked him to stay away from the hall that night. He looked at his hand and did not argue."
+        },
+        {
+          "text": "Sera brought the public grain tally. Oren had offered to hand over the vault key if Reed signed a renewal first. One more year of enclosure, with the sleep chamber restored. One more year to find a safer way."
+        },
+        {
+          "text": "On the back of the tally, Reed wrote the date of the siege and the date on the oldest surviving mill record. Between them she marked the years in which somebody had decided that another year would do."
+        }
+      ],
+      "choices": [
+        {
+          "id": "name-continue",
+          "label": "Continue",
+          "to": "vault",
+          "continue": true
+        }
+      ]
+    },
+    "vault": {
+      "chapter": 9,
+      "title": "The original roll",
+      "beats": [
+        {
+          "text": "Oren kept the vault in his house. Reed had expected guards. Instead she found his father sitting in the doorway, holding a sock and asking whether it belonged to him."
+        },
+        {
+          "text": "Oren answered, “Yes, Father,” and moved the old man's chair out of the draught. He had to answer again before they reached the stairs."
+        },
+        {
+          "text": "Inside the vault were seed accounts, the return roll and a small painted portrait. Oren covered the portrait with a cloth."
+        },
+        {
+          "text": "“My daughter,” he said when Reed asked. “She died when she was six. At the boundary. My father took her to look for geese. He'd forgotten the stones.”"
+        },
+        {
+          "text": "Reed did not move towards him."
+        },
+        {
+          "text": "“Every time the bell goes, I lose a little more of her. If we restore everything, I'll have that day back too. If we fail, I'll have brought it back for nothing.”"
+        },
+        {
+          "text": "“So you chose for everyone.”"
+        },
+        {
+          "text": "“Yes.”"
+        },
+        {
+          "text": "It cost him something to say it without qualification. It changed nothing about the locked roll."
+        },
+        {
+          "text": "She could take his key by force; Sera was waiting outside, and he was alone. Or she could make the offer she had withheld: the public assembly would hear his account before passing judgement, including what he had done to the records. He would lose his office either way. He could still choose how to leave it."
+        }
+      ],
+      "choices": [
+        {
+          "id": "vault-force",
+          "label": "Take the roll by force.",
+          "to": "seize",
+          "effects": [
+            {
+              "op": "set",
+              "key": "seized",
+              "value": true
+            },
+            {
+              "op": "gain",
+              "key": "roll"
+            }
+          ]
+        },
+        {
+          "id": "vault-account",
+          "label": "Offer a public hearing, including his own admission.",
+          "to": "hearing",
+          "effects": [
+            {
+              "op": "set",
+              "key": "hearing",
+              "value": true
+            },
+            {
+              "op": "add",
+              "key": "witnesses",
+              "value": 1
+            },
+            {
+              "op": "gain",
+              "key": "roll"
+            }
+          ]
+        }
+      ]
+    },
+    "seize": {
+      "chapter": 9,
+      "title": "A door broken inward",
+      "beats": [
+        {
+          "text": "Oren would not move. Reed called Sera. Together they broke the little lock on the vault with a hearth iron while he stood in the corner, furious and shaking."
+        },
+        {
+          "text": "His father came upstairs at the noise. Oren had to take him away. Reed heard the old man ask what she had stolen. She heard Oren answer, “Nothing that belongs to us.”"
+        },
+        {
+          "text": "The return roll was wrapped in oilcloth. Reed carried it through the square openly. A few people cheered. Others shut their doors. Nobody would take instructions from Oren now, but neither would they necessarily take them from her."
+        },
+        {
+          "text": "Sera put the hearth iron back in Oren's kitchen before they left. Reed was grateful. She did not want to carry it into the hall with the roll."
+        }
+      ],
+      "choices": [
+        {
+          "id": "seize-continue",
+          "label": "Continue",
+          "to": "boat-rib",
+          "continue": true
+        }
+      ]
+    },
+    "hearing": {
+      "chapter": 9,
+      "title": "A statement witnessed",
+      "beats": [
+        {
+          "text": "Oren wrote his statement at the kitchen table. It took three sheets. Reed made him change one sentence from “the records were lost” to “I ordered the records burned.”"
+        },
+        {
+          "text": "He left the pen beside it and went upstairs for the roll. When he returned, his father had put on the sock."
+        },
+        {
+          "text": "“We're going to the square,” Oren told him."
+        },
+        {
+          "text": "“Is it a festival?”"
+        },
+        {
+          "text": "“No.”"
+        },
+        {
+          "text": "The old man considered this. “Should I bring a chair?”"
+        },
+        {
+          "text": "“Yes, Father.”"
+        },
+        {
+          "text": "In the square, Oren read without asking forgiveness. When he reached the name of his daughter, he had to stop. Hessa waited, arms folded. She was the first to ask a question afterwards. They let him finish answering before they took his clasp of office."
+        },
+        {
+          "text": "Reed placed the roll on the public table. This time, three different people made copies."
+        }
+      ],
+      "choices": [
+        {
+          "id": "hearing-continue",
+          "label": "Continue",
+          "to": "boat-rib",
+          "continue": true
+        }
+      ]
+    },
+    "assembly": {
+      "chapter": 10,
+      "title": "What returning would cost",
+      "beats": [
+        {
+          "text": "The Keeper came to the hall when the roll was unwrapped. Reed made it repeat the terms slowly, in front of everyone who would listen."
+        },
+        {
+          "text": "Reed passed round the notes she had kept from her first evening. Marta checked their dates against the mill tally. Another household agreed to hold a share after seeing that the record could be checked.",
+          "when": {
+            "var": "notebook",
+            "eq": true
+          }
+        },
+        {
+          "text": "It could not restore a living person's memory from writing. It could return only what it had taken. The dead stayed dead; their memories were gone with them. Nothing outside the basin belonged to its keeping."
+        },
+        {
+          "text": "The price of opening was the dissolution of its stored pledge. Returned all at once to one mind, nearly two centuries of living people's surrendered memories would erase the guarantor's own. Shared among willing households and held apart by present-day anchors, they could be returned to the people they belonged to. Unclaimed shares would come to Reed."
+        },
+        {
+          "text": "Destroyed instead, they would be lost. People would retain their skills, new facts and whatever relationships the bell had not yet taken. The road would open into a town that might no longer recognise its families."
+        },
+        {
+          "text": "“Why do you tell us this now?” Hessa asked."
+        },
+        {
+          "text": "“The Crown and Witness are present with the roll.”"
+        },
+        {
+          "text": "“We asked before.”"
+        },
+        {
+          "text": "“The roll was not present.”"
+        },
+        {
+          "text": "Reed wanted to hit it. It looked at her as patiently as the millwheel had turned above her head."
+        },
+        {
+          "text": "Outside, the bell's clapper struck once without a hand on the rope. The damaged root was failing. By dawn, the Keeper said, it would enforce an emergency renewal. Reed would sleep again, and the tithe would double until the damaged pledge had been repaired."
+        },
+        {
+          "text": "Nobody in the room needed the cost explained twice."
+        }
+      ],
+      "choices": [
+        {
+          "id": "assembly-continue",
+          "label": "Continue",
+          "to": "anchors",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "account"
+        },
+        {
+          "op": "add",
+          "key": "witnesses",
+          "value": 1,
+          "when": {
+            "var": "notebook",
+            "eq": true
+          }
+        }
+      ]
+    },
+    "anchors": {
+      "chapter": 10,
+      "title": "Who comes to the table",
+      "beats": [
+        {
+          "text": "They worked through the night. Sera set out scraps of cloth, family tools, cups repaired with wire. Objects did not remember. They gave a frightened person something to recognise while the memories came back."
+        },
+        {
+          "text": "The household witnesses had to speak for themselves. Reed could invite them; she could not sign on their behalf. Some refused. One woman said she did not want her husband's first anger back. A man with two children asked for another hour, then returned without them to give his own name."
+        },
+        {
+          "text": "Pip brought his boat drawing. He placed it flat, hiding his bandaged left hand behind his back. Two fingers would not straighten. He did not want her to count the hand among the costs.",
+          "when": {
+            "var": "pip_injured",
+            "eq": true
+          }
+        },
+        {
+          "text": "Pip brought his boat drawing. He spread it with both hands, pressing the creases from the paper as though a smooth drawing might help the boat get made.",
+          "when": {
+            "not": {
+              "var": "pip_injured",
+              "eq": true
+            }
+          }
+        },
+        {
+          "text": "“I'm a household,” he said."
+        },
+        {
+          "text": "Sera knelt beside him. “You're part of mine. I can hold your share if you want me to.”"
+        },
+        {
+          "text": "He thought about this. “You have to give it to me when I'm ready.”"
+        },
+        {
+          "text": "“Yes.”"
+        },
+        {
+          "text": "Reed copied the condition into the new register."
+        },
+        {
+          "text": "At the other end of the table, Marta read the return clause from her ledger. Her voice faded. She looked at the words, touched the cuff where her note had been sewn, and began again from the top."
+        },
+        {
+          "text": "Reed had to decide where to spend the last hours: going door to door to bring more witnesses, or reading the sealed memories in the crown to recover the missing personal thread that might help her bear an unshared return."
+        },
+        {
+          "text": "Pip told the room how Reed had caught him when the stone fell. He knew her; she still knew him. A household near the door put their names down after listening. Reed waited until they had read the conditions before she thanked them.",
+          "when": {
+            "all": [
+              {
+                "var": "bond",
+                "eq": true
+              },
+              {
+                "var": "pip_safe",
+                "eq": true
+              }
+            ]
+          }
+        }
+      ],
+      "choices": [
+        {
+          "id": "anchors-doors",
+          "label": "Go door to door. Ask for witnesses.",
+          "to": "invite",
+          "effects": [
+            {
+              "op": "add",
+              "key": "witnesses",
+              "value": 1
+            },
+            {
+              "op": "set",
+              "key": "invited",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "anchors-past",
+          "label": "Enter the crown’s sealed memory.",
+          "to": "crown",
+          "effects": [
+            {
+              "op": "set",
+              "key": "crown_connection",
+              "value": true
+            },
+            {
+              "op": "learn",
+              "key": "mother"
+            }
+          ],
+          "risk": "This spends the time you could use to invite more households."
+        }
+      ],
+      "effects": [
+        {
+          "op": "add",
+          "key": "witnesses",
+          "value": 1,
+          "when": {
+            "all": [
+              {
+                "var": "bond",
+                "eq": true
+              },
+              {
+                "var": "pip_safe",
+                "eq": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "invite": {
+      "chapter": 10,
+      "title": "Names at the door",
+      "beats": [
+        {
+          "text": "She knocked until her knuckles split. Not everyone opened. At Hessa's house she waited while the potter washed clay from her hands."
+        },
+        {
+          "text": "“I can promise the road,” Reed said. “I can't promise you'll like everything that comes back.”"
+        },
+        {
+          "text": "“Good,” Hessa said. “I was waiting to see if you'd start promising.”"
+        },
+        {
+          "text": "They went together to the next house."
+        },
+        {
+          "text": "By the time Reed returned, there were people sitting on the stairs and the grain bins. The hall smelled of damp coats. Someone had made tea in a kettle intended for heating pitch; nobody drank much of it."
+        },
+        {
+          "text": "Reed had not recovered another moment of her old life. She had learned the names of twenty-three people who wanted to take responsibility for their own."
+        }
+      ],
+      "choices": [
+        {
+          "id": "invite-continue",
+          "label": "Continue",
+          "to": "closed-door",
+          "continue": true
+        }
+      ]
+    },
+    "crown": {
+      "chapter": 10,
+      "title": "A morning before the siege",
+      "beats": [
+        {
+          "text": "Reed touched the crown where the smallest thorn curved inward. It pierced her finger. She was standing in a garden, holding a bucket she was supposed to have taken to the kitchens."
+        },
+        {
+          "text": "Her mother sat on the low wall. There was flour on the queen's skirt; she had been counting sacks. Reed knew the woman before she could see her face clearly. It was the certainty she had lost with Pip, returning from another life."
+        },
+        {
+          "text": "“I could say no,” the girl in the garden said."
+        },
+        {
+          "text": "“You could.”"
+        },
+        {
+          "text": "“You'd still ask.”"
+        },
+        {
+          "text": "Her mother looked down at her hands. “Yes.”"
+        },
+        {
+          "text": "Reed wanted the memory to make the choice easy. Instead it gave her a frightened mother asking too much of a daughter and knowing it. The girl set down the bucket. She put her arms round the queen and remained angry while she held her."
+        },
+        {
+          "text": "Reed came back with blood running down her finger. The Keeper waited. She knew now that she could enter the pledge deliberately and hold long enough to release it alone. Knowledge was not an instruction to do so."
+        },
+        {
+          "text": "Outside the hall, some doors were still closed. She had spent the time she could have used to knock on them."
+        }
+      ],
+      "choices": [
+        {
+          "id": "crown-continue",
+          "label": "Continue",
+          "to": "garden-after",
+          "continue": true
+        }
+      ]
+    },
+    "threshold": {
+      "chapter": 11,
+      "title": "The crown on the table",
+      "beats": [
+        {
+          "text": "Near dawn, the crown began to flower. The blossoms were small, colourless and unpleasantly warm. Sera moved the lamp away from them."
+        },
+        {
+          "text": "There were enough willing groups. Reed counted them again against the roll, leaving every refusal on the record.",
+          "when": {
+            "var": "witnesses",
+            "gte": 3
+          }
+        },
+        {
+          "text": "There were too few willing groups to keep the returning shares apart. Reed looked at the empty spaces in the register. A command would not fill them.",
+          "when": {
+            "var": "witnesses",
+            "lte": 2
+          }
+        },
+        {
+          "text": "Reed laid the original roll beside it. People had filled the hall, but an assembly was not the same thing as consent. The register showed who had chosen to hold a share, who had refused, and who had not been found in time."
+        },
+        {
+          "text": "“State the ending of the keeping,” the Keeper said."
+        },
+        {
+          "text": "She could order the stored memories destroyed. The destruction would open the road immediately. It would also take every relationship-memory stored in the pledge, including the ones still partly attached to living people. The morning would have to be built with names on paper and care given without recognition."
+        },
+        {
+          "text": "She could offer herself as the single vessel, if she had recovered enough of her old connection to the pledge to remain conscious through its opening. Then everyone else's stolen memories could go home. Hers would be consumed holding the passage open."
+        },
+        {
+          "text": "Or, if enough households had volunteered and the roll and present-day anchors were ready, she could attempt the divided return. It needed living cooperation. A title could authorise it but could not make people do it."
+        },
+        {
+          "text": "Waiting meant renewal: the old certainty, the doubled tithe, and another sleep."
+        },
+        {
+          "text": "Reed looked for Pip. He was sitting beside Sera, turning an ordinary button between his fingers. He had brought something to do while the adults decided."
+        }
+      ],
+      "choices": [
+        {
+          "id": "threshold-return",
+          "label": "Divide the return among consenting households.",
+          "to": "divide",
+          "require": {
+            "var": "witnesses",
+            "gte": 3
+          },
+          "requirement": "Needs enough willing households. Reed must carry the unclaimed shares.",
+          "risk": "Needs enough willing households. Reed must carry the unclaimed shares."
+        },
+        {
+          "id": "threshold-vessel",
+          "label": "Bear the return alone. Give up your own memories.",
+          "to": "vessel",
+          "require": {
+            "var": "crown_connection",
+            "eq": true
+          },
+          "requirement": "Needs the recovered connection to the crown. Your personal memories will be consumed.",
+          "risk": "Needs the recovered connection to the crown. Your personal memories will be consumed."
+        },
+        {
+          "id": "threshold-destroy",
+          "label": "Destroy the pledged memories and open the road.",
+          "to": "break",
+          "risk": "Everyone loses the relationships tied to the pledge. Written facts and skills survive."
+        },
+        {
+          "id": "threshold-renew",
+          "label": "Renew the keeping. Give the town more time.",
+          "to": "winter-book",
+          "risk": "Reed returns to sleep. The tithe doubles until the damaged root repairs."
+        }
+      ]
+    },
+    "divide": {
+      "chapter": 11,
+      "title": "The return",
+      "beats": [
+        {
+          "text": "Reed set the crown on her head. The first thorn went into the old scar. The hall disappeared beneath the smell of a stranger's kitchen."
+        },
+        {
+          "text": "She heard Sera say her own name. Someone answered with a baby's name. A man shouted for a door to be opened. Reed saw a woman whose face she did not know bending over bread. Then Sera pulled the memory towards herself, naming the person it belonged to."
+        },
+        {
+          "text": "The roll uncurled across the table. People spoke in turn. They made mistakes. Marta caught one household being counted twice and made them begin again. Nobody had expected the work to be so slow."
+        },
+        {
+          "text": "Reed held the unclaimed shares. There were too many. She tried to remember Pip's greeting and found only the shape of the question. Sera's voice moved away."
+        },
+        {
+          "text": "Then Hessa said Reed's chosen name. Other voices took it up, clumsily, without rhythm. They were keeping a place for her among themselves while she carried the people who had no one at the table."
+        },
+        {
+          "text": "The narrow figure put its hand over the crown. For the first time its fingers trembled."
+        },
+        {
+          "text": "“The outside has not been checked,” it said."
+        },
+        {
+          "text": "“We know.”"
+        },
+        {
+          "text": "“I cannot promise safety.”"
+        },
+        {
+          "text": "“Open it.”"
+        },
+        {
+          "text": "The thorn beneath her collarbone lifted out. Reed fell sideways into somebody's arms. Above her, a bell rang a complete hour. It was an ordinary wrong time, rung by an exhausted man who had forgotten to ask which hour they wanted."
+        }
+      ],
+      "choices": [
+        {
+          "id": "divide-continue",
+          "label": "Continue",
+          "to": "return-morning",
+          "continue": true
+        }
+      ]
+    },
+    "vessel": {
+      "chapter": 11,
+      "title": "Room for everyone",
+      "beats": [
+        {
+          "text": "Reed asked the Keeper to repeat one condition: her body would remain alive. It repeated it. Sera demanded that two people hear, and it repeated it again."
+        },
+        {
+          "text": "“You can still choose destruction,” Sera told her."
+        },
+        {
+          "text": "Reed nodded. She had not chosen because nobody would say that."
+        },
+        {
+          "text": "She put on the crown and named herself: Ilyen, called Reed, the girl who had signed at seventeen and the woman who had come out of the millrace. This time she spoke the limits. One return. No further keeping. No claim on a child born tomorrow. The Keeper put each condition onto the roll."
+        },
+        {
+          "text": "Pip came forward. Reed crouched because she wanted to see him without a circle of adults above their heads."
+        },
+        {
+          "text": "“What should I tell you?” he asked."
+        },
+        {
+          "text": "“The truth. Even the parts where you're angry.”"
+        },
+        {
+          "text": "He gave her the button he had been turning. She closed it in her fist."
+        },
+        {
+          "text": "The memories arrived without a shape she could defend herself against. A field. A woman labouring through the night. A long marriage ending in a chair by the window. The boy's face went before his name. Her mother's went almost immediately afterwards."
+        },
+        {
+          "text": "She kept her fist shut. She could no longer remember why, only that she had chosen to do it."
+        },
+        {
+          "text": "When the bell stopped, the crown was dry wood. The person who lifted it from her head had red eyes. The woman reached for her. Reed flinched."
+        },
+        {
+          "text": "The woman stopped at once."
+        },
+        {
+          "text": "“I'm Sera,” she said. “May I sit here?”"
+        },
+        {
+          "text": "Reed looked at the room, at all the people waiting for something from her. She made a small space beside herself."
+        }
+      ],
+      "choices": [
+        {
+          "id": "vessel-continue",
+          "label": "Continue",
+          "to": "empty-morning",
+          "continue": true
+        }
+      ]
+    },
+    "break": {
+      "chapter": 11,
+      "title": "The unmaking",
+      "beats": [
+        {
+          "text": "Reed asked for the mallet. Sera did not hand it over until Reed had said aloud what would be lost."
+        },
+        {
+          "text": "“Everything it took. Everything still tied to those memories. We keep the facts we wrote down. We keep what we know how to do. We won't keep the way we knew each other.”"
+        },
+        {
+          "text": "Hessa went outside. A few people followed. Nobody tried to stop them. The cost would reach them wherever they stood within the basin."
+        },
+        {
+          "text": "Reed struck the crown against the stone floor. The first blow broke a flowering branch. The second drove a thorn through the mallet's head. She pulled it free and hit again."
+        },
+        {
+          "text": "The third blow split the circlet."
+        },
+        {
+          "text": "Something warm passed through her, taking the kitchen with it. Not the room itself: the welcome. Sera became a woman beside a table. Pip became a child staring at her with a button in his hand."
+        },
+        {
+          "text": "Reed knew what she had done because she had made herself write it. She held the statement up. Her hand was bleeding. She had to read twice before she understood why the woman was weeping."
+        },
+        {
+          "text": "The Keeper had fallen in pieces among the grain bins. They were pieces of root. Nobody could say when it had stopped having a face."
+        },
+        {
+          "text": "Outside, someone shouted that the thorns along the road were dying. Pip looked towards the door, then back at Sera. The seamstress took out the household chart. She held it where they could all see."
+        },
+        {
+          "text": "“Start here,” she said."
+        }
+      ],
+      "choices": [
+        {
+          "id": "break-continue",
+          "label": "Continue",
+          "to": "strangers-morning",
+          "continue": true
+        }
+      ]
+    },
+    "renew": {
+      "chapter": 11,
+      "title": "Another year",
+      "beats": [
+        {
+          "text": "Reed asked for the renewal to be read. The Keeper did not make it sound merciful. The cut root must grow again. Until it did, every new moon would collect twice the old tithe. The guarantor would sleep, and could wake only when the keeping was called to account again."
+        },
+        {
+          "text": "“Write the release terms in public,” Reed told the assembly. “All of them. Keep the roll outside the vault.”"
+        },
+        {
+          "text": "Sera wrote. Marta made a second copy. It was a better renewal than the last one. Reed could see how a person might use that fact to bear signing it."
+        },
+        {
+          "text": "Pip did not say goodbye. He took his boat drawing off the table and folded it until it fitted in his pocket."
+        },
+        {
+          "text": "In the chamber below the sluice, Reed lay on the stone bed. Sera covered her with a blanket that smelled of the repair shop."
+        },
+        {
+          "text": "“I can't promise I'll be here,” Sera said."
+        },
+        {
+          "text": "“I know.”"
+        },
+        {
+          "text": "“I may not remember why I should come.”"
+        },
+        {
+          "text": "Reed held the edge of her sleeve. She wanted to change her mind. Up above, the frightened town was already preparing for a morning it could understand."
+        },
+        {
+          "text": "Sera waited until Reed released the cloth. Then she put the crown in place."
+        }
+      ],
+      "choices": [
+        {
+          "id": "renew-continue",
+          "label": "Continue",
+          "to": "sleep-ending",
+          "continue": true
+        }
+      ]
+    },
+    "open-ending": {
+      "chapter": 12,
+      "title": "Four steps",
+      "beats": [
+        {
+          "text": "Three days later, they took down the rope across the north road."
+        },
+        {
+          "text": "Reed went with Sera, Marta and Pip. Hessa carried a measuring pole. They had sent no animal first; the old ward had never held animals, and testing it that way would have told them nothing."
+        },
+        {
+          "text": "The white stones were still there. Reed stepped beyond them. One. Two. On the third, her breath caught because she expected it to stop. It did not."
+        },
+        {
+          "text": "She took a fourth step and stood there crying, annoyed that the others could see."
+        },
+        {
+          "text": "Beyond the hill, there were more hills. The old siege road had collapsed into a watercourse. Opening a boundary had not repaired a bridge, found trading partners or taught anyone what a two-hundred-year-old coin would buy."
+        },
+        {
+          "text": "They returned for spades."
+        },
+        {
+          "text": "In the weeks that followed, some people remembered more than they wanted. Sera had to go alone to a grave she had forgotten visiting. Marta found that being able to remember signing the destruction orders made her account clearer and harder to give. Nobody asked her to stop giving it."
+        },
+        {
+          "text": "Reed kept brief scraps of the lives she had carried. She could not always tell whether a remembered orchard belonged to her childhood or someone else's. Sera helped her label the uncertain ones without inventing answers."
+        },
+        {
+          "text": "Elian came to the bridge with Hessa. He remembered the morning with the bowl. He thanked Reed once, awkwardly, then asked where she wanted the next load of gravel.",
+          "when": {
+            "var": "elian_alive",
+            "eq": true
+          }
+        },
+        {
+          "text": "Hessa put Elian’s blue bowl in the archive. She did not want it displayed. Reed found a cupboard where it could be kept until Hessa decided what she wanted to do with it.",
+          "when": {
+            "not": {
+              "var": "elian_alive",
+              "eq": true
+            }
+          }
+        },
+        {
+          "text": "Pip asked her to inspect the ferry. His proposed boat was far too wide for the river. He listened to her objections, then asked whether the river might be widened."
+        },
+        {
+          "text": "That evening she sat at the repair-shop table and began a letter addressed simply to whoever lived beyond the basin. She did not sign as a ruler. There would be meetings about that; there were meetings about everything now."
+        },
+        {
+          "text": "She signed both names, Ilyen and Reed, and asked whether the road farther on was safe for walking."
+        }
+      ],
+      "ending": "return"
+    },
+    "vessel-ending": {
+      "chapter": 12,
+      "title": "The visitor book",
+      "beats": [
+        {
+          "text": "The road opened. Reed heard the report from people she had met that morning and did not know she had saved."
+        },
+        {
+          "text": "They brought gifts at first. She found the visits exhausting. Sera wrote visiting hours on the door and sent away three council members who arrived together with a speech. They could leave their gratitude on paper, she said."
+        },
+        {
+          "text": "Reed learned to work the treadle in the repair shop. Her hands had kept ordinary skills; she could thread a needle, cut bread and follow written instructions. A history read aloud did not give her back the experience of living it."
+        },
+        {
+          "text": "Sometimes somebody said, “You used to like this,” and waited for her to like it again. Sera began saying, “Ask her now.”"
+        },
+        {
+          "text": "Pip came on the fourth afternoon. He sat on the floor because the good chair was covered in mending. He did not begin with the crown."
+        },
+        {
+          "text": "“You got tied to a goose,” he said."
+        },
+        {
+          "text": "She looked up from the hem she was sewing."
+        },
+        {
+          "text": "“That seems unlikely.”"
+        },
+        {
+          "text": "He explained his reasons. She laughed before he finished. He waited a moment, as if he had heard something through an open window."
+        },
+        {
+          "text": "“You laughed like that before.”"
+        },
+        {
+          "text": "She did not know what answer he needed. He seemed to realise this and went on explaining the goose."
+        },
+        {
+          "text": "Pip’s hand had healed crookedly. When Reed asked about it, he told her what had happened at the bridge. She read her own account afterwards and asked whether he wanted to keep visiting. He said he did, but that he might change his mind.",
+          "when": {
+            "var": "pip_injured",
+            "eq": true
+          }
+        },
+        {
+          "text": "At the new bridge, they put up no statue. Reed had read the proposal and refused. They built a covered bench instead, with a place to leave messages for travellers."
+        },
+        {
+          "text": "By winter she could walk there without a guide. She kept a visitor book because people mattered to her now, and she did not want their new acquaintance confused with the debts they felt they owed."
+        },
+        {
+          "text": "On the first page she wrote: If we have met before, please tell me how. Then tell me something that happened today."
+        },
+        {
+          "text": "Pip's first entry concerned the ferry. Under it, in her own hand, Reed wrote a question about the boat he meant to build."
+        }
+      ],
+      "ending": "vessel"
+    },
+    "broken-ending": {
+      "chapter": 12,
+      "title": "The names they chose",
+      "beats": [
+        {
+          "text": "They left the doors open for a week, then began closing them again for rain and privacy. Reed found that this ordinary decision was reassuring."
+        },
+        {
+          "text": "The household charts became necessary in a new way. People read them over breakfast. Some went back to their old families. Others chose separate rooms. At the public table, the rule was that no written marriage or birth gave anyone permission to demand affection from a stranger."
+        },
+        {
+          "text": "There were arguments about this. There were arguments about almost everything."
+        },
+        {
+          "text": "Reed worked in the archive copying the destruction statement. She had made that decision for people who had not agreed. The freedom to walk away did not oblige them to thank her. Some did. Some would not share a table with her."
+        },
+        {
+          "text": "Hessa brought bowls to the repair shop one afternoon. She said the written record showed they had helped each other. She could not remember whether she liked Reed. Reed said she could start with the bowls."
+        },
+        {
+          "text": "They counted them together. One had a little blue flower in the glaze. Hessa turned it towards the light, then packed it at the bottom of the basket."
+        },
+        {
+          "text": "Pip asked whether he had to live with Sera. Sera said they could ask the household committee to find another place if he wanted. He thought for two days and stayed. Reed did not ask him why."
+        },
+        {
+          "text": "In spring, a travelling mason reached the new bridge. They had sent scouts ahead; they knew people lived beyond the basin. Knowing and seeing were different. Reed watched him unpack tools like their own, made in shapes she had never seen."
+        },
+        {
+          "text": "Pip learned to shape boat ribs one-handed. Reed offered to help and waited for his answer. He showed her the account of the bridge before he let her touch the tools.",
+          "when": {
+            "var": "pip_injured",
+            "eq": true
+          }
+        },
+        {
+          "text": "He asked where he could eat."
+        },
+        {
+          "text": "She took him to the public table. Sera moved a bowl to make room. Pip began asking questions before the man had sat down."
+        },
+        {
+          "text": "Reed read the household chart once more before she went to bed. Then she added a line about the day, leaving space beneath it for tomorrow."
+        }
+      ],
+      "ending": "break"
+    },
+    "sleep-ending": {
+      "chapter": 12,
+      "title": "The maintenance book",
+      "beats": [
+        {
+          "text": "The next new moon took two memories from each living person old enough to have them. Children were not charged before their seventh winter. Their parents still stood outside their doors when the muffled bell rang."
+        },
+        {
+          "text": "Reed slept through it. The first thing she knew of the doubled tithe was a visitor reading from the maintenance book beside her bed. She could hear through the crown sometimes, briefly, without waking enough to answer."
+        },
+        {
+          "text": "Sera had come to report that the release instructions were carved in six places. The roll was kept under three locks with three different households holding the keys. Oren had been removed from office. He was helping his father learn the new route to the market."
+        },
+        {
+          "text": "“We've made it harder to hide,” Sera said."
+        },
+        {
+          "text": "She did not say impossible."
+        },
+        {
+          "text": "Later, perhaps weeks later, Pip came. He read a description of a boat he was building. His voice changed halfway through. Reed wondered how much time had passed. He had brought a chair and was moving it closer, scraping the floor in short bursts."
+        },
+        {
+          "text": "“I don't know whether you can hear,” he said. “Aunt Sera says I should come because I want to, not because I owe you.”"
+        },
+        {
+          "text": "Reed tried to move her hand. The crown kept it still."
+        },
+        {
+          "text": "“I'm angry,” Pip said. “I wanted to tell you while I still remember.”"
+        },
+        {
+          "text": "He stayed for a while after that. She listened to him breathe. When he left, he put the boat drawing beside the bed."
+        },
+        {
+          "text": "Above them, the mills worked. New houses went up. People taught their apprentices to check the tally twice. On the north road, the white stones were repainted before winter."
+        },
+        {
+          "text": "In the maintenance book, someone recorded that the guarantor appeared peaceful. A second hand crossed out the word. They wrote instead: Sleeping. We do not know anything else."
+        }
+      ],
+      "ending": "renew"
+    },
+    "mill-work": {
+      "chapter": 3,
+      "title": "An apprentice's hands",
+      "beats": [
+        {
+          "text": "Before they went to ask questions, Sera sent Reed to the lower mill with a bundle of repaired sacks. Pip went with her. His goose was already there, waiting for the miller to leave his lunch unattended."
+        },
+        {
+          "text": "“You said he wasn't a pet.”"
+        },
+        {
+          "text": "“He isn't. He doesn't like me.”"
+        },
+        {
+          "text": "Boots followed them through the gate, hissing at Reed's bare ankle."
+        },
+        {
+          "text": "Inside, a girl was chalking the hopper doors. She had written OPEN over a closed one, rubbed it away and written CHECK WITH TOM. Tom, the miller, waited beside her."
+        },
+        {
+          "text": "“Do I have to do this every time?” the girl asked."
+        },
+        {
+          "text": "“Until you know which day it is.”"
+        },
+        {
+          "text": "“I know which day it is.”"
+        },
+        {
+          "text": "“Then why did you put yesterday's flour with today's?”"
+        },
+        {
+          "text": "The girl put down the chalk. Reed expected an argument. Instead Tom opened both bins and checked them with her. They sifted a little onto the same slate and compared the dampness. When they finished, the girl corrected the sack labels herself."
+        },
+        {
+          "text": "“She lost the week she started here,” Tom told Reed as she untied Sera's bundle. “Can still dress the stones better than I can.”"
+        },
+        {
+          "text": "“I can hear you,” the girl said."
+        },
+        {
+          "text": "“I meant you to.”"
+        },
+        {
+          "text": "Reed asked why they could not simply use dates from the council. Tom showed her a long beam notched near the ceiling. Each notch was a winter when the river had frozen hard enough to close the wheel. Beneath it was another, finer set of marks, made by generations of millers recording the months between."
+        },
+        {
+          "text": "“We don't take somebody's word for a count,” he said. “Not even ours.”"
+        },
+        {
+          "text": "The roof beams were older than the apprentice's great-grandmother, whose name Tom read from a page. They had been replaced one at a time. The wheel outside was new; it had been new eleven times, according to the maintenance record. No single person had remembered making all of it, and it had kept turning."
+        },
+        {
+          "text": "Reed looked at her own hands. She had expected a lost life to be wholly lost. It was frightening to discover how much a person could do while knowing so little about herself."
+        },
+        {
+          "text": "Tom gave her a barley token for carrying the sacks. He asked her to tell Sera that she had charged too little for the heavy stitching. Pip immediately asked whether that meant she should charge more next time."
+        },
+        {
+          "text": "“It means you should let a man say thank you without pricing it,” Tom said."
+        },
+        {
+          "text": "Pip considered that answer all the way out of the yard."
+        }
+      ],
+      "choices": [
+        {
+          "id": "market-records",
+          "label": "Trace the old records with Marta.",
+          "to": "archive",
+          "effects": [
+            {
+              "op": "learn",
+              "key": "date"
+            }
+          ]
+        },
+        {
+          "id": "market-neighbours",
+          "label": "Ask Hessa what the council would not answer.",
+          "to": "pottery",
+          "effects": [
+            {
+              "op": "learn",
+              "key": "water"
+            }
+          ]
+        }
+      ]
+    },
+    "perimeter": {
+      "chapter": 4,
+      "title": "The boundary by water",
+      "beats": [
+        {
+          "text": "Reed walked to the river fence before she went to the granary. A strip of wool had caught on it. Beyond, the river passed between two white stones set on opposite banks, then dropped into a gorge."
+        },
+        {
+          "text": "A ferryman was repairing the fence. His right foot was missing. He used the bottom of a broken oar as a crutch."
+        },
+        {
+          "text": "“If you're thinking boats are different, they're not.”"
+        },
+        {
+          "text": "She told him she was thinking about water. The current was leaving. The fish were leaving. A reed stem snapped off upstream could leave."
+        },
+        {
+          "text": "“Anything but us,” he said. “The third advance takes you, however you're carried. Horse, boat, somebody's back. The boundary counts the motion. We've written it down.”"
+        },
+        {
+          "text": "He showed her a small box fastened inside the fence. It contained copies of accounts. None were tests performed for her benefit. She read of a cart pulled back after its second wheel-turn; of a woman who had been carried out unconscious and died when the men carrying her made their third advance. The exact measure changed with the movement. The warning did not."
+        },
+        {
+          "text": "“I'm not going to try it,” she said."
+        },
+        {
+          "text": "“People say that before they come back with an idea.”"
+        },
+        {
+          "text": "“Your foot?”"
+        },
+        {
+          "text": "“Mill accident. Not everything's the curse.”"
+        },
+        {
+          "text": "Reed apologised. He nodded as if she had paid a small, appropriate toll, and went back to the fence."
+        },
+        {
+          "text": "She stood watching water go where she could not. Her first thought was that someone ought to have found a way. Her second was of the accounts in the box, each an attempt made by a person who had also believed that thought was new."
+        },
+        {
+          "text": "On the path back she found the remains of an old signpost. Its arms had been turned to point inward. Beneath a layer of moss she could make out the words RETURN TO THE REFUGE. The carving showed the same rooted figure that appeared on the oldest public warning stones."
+        },
+        {
+          "text": "She made a sketch of it on the wrapping from Sera's sacks. She was beginning to have things she did not want to lose."
+        }
+      ],
+      "choices": [
+        {
+          "id": "perimeter-continue",
+          "label": "Continue",
+          "to": "council",
+          "continue": true
+        }
+      ]
+    },
+    "night-watch": {
+      "chapter": 5,
+      "title": "The fourth bowl",
+      "beats": [
+        {
+          "text": "That night, before supper, Sera asked Reed to help turn the mattress in the loft. Reed said her leg was well enough. Sera said that was not what she had asked."
+        },
+        {
+          "text": "They did it slowly, stopping on the middle stair. The mattress smelled of sun-dried rushes. Reed had to squeeze past Sera to keep it from folding into the doorway. It was hard work, and she was pleased with herself afterwards for having done it."
+        },
+        {
+          "text": "In the loft Sera found an old ribbon under the bed. She put it in her apron pocket without looking at it properly."
+        },
+        {
+          "text": "“Was it yours?” Reed asked."
+        },
+        {
+          "text": "Sera brought out a small square of linen. On it she had stitched a name, LENN, and a list of dates. “My husband's. I have the marriage record. I have the day he died. I can't always find him between.”"
+        },
+        {
+          "text": "“Do the dates help?”"
+        },
+        {
+          "text": "“They stop other people telling me it didn't happen.”"
+        },
+        {
+          "text": "She put the linen back. Reed could hear Pip downstairs repeating the sums he had been set. He got to seven threes and went back to six."
+        },
+        {
+          "text": "“Sometimes I want somebody to tell me,” Sera said. “It seems wasteful to keep a bed for a man whose face I can't remember. Then I hear myself thinking that and I put the extra bowl away again.”"
+        },
+        {
+          "text": "Reed waited. Sera looked embarrassed at having said so much. She took the mattress from Reed's hands and gave her a pillow instead."
+        },
+        {
+          "text": "“Shake that out. Then we can eat.”"
+        },
+        {
+          "text": "Downstairs, Pip had got to eight threes. He asked Reed what came next. She knew at once. He asked when she had learned it. She did not know."
+        },
+        {
+          "text": "“That's all right,” he said, after thinking. “You can teach me now.”"
+        },
+        {
+          "text": "They did nine threes together while Sera set the table."
+        }
+      ],
+      "choices": [
+        {
+          "id": "night-watch-continue",
+          "label": "Continue",
+          "to": "supper",
+          "continue": true
+        }
+      ]
+    },
+    "after-bell": {
+      "chapter": 6,
+      "title": "The people who still came",
+      "beats": [
+        {
+          "text": "After the bell, the repair shop opened late. Customers stood outside with bundles in their arms. Sera let them in three at a time and made each one check the name on the ticket before handing anything over."
+        },
+        {
+          "text": "One man denied that a child's coat was his. It had six different patches and a sleeve turned twice. Sera showed him the payment record. He read it, looked at the coat again and asked whether he had a child."
+        },
+        {
+          "text": "Pip went upstairs. Reed stayed behind the counter because Sera had asked her to mark collections. She wanted to put down the pen. Instead she wrote the man's name while he and Sera looked for a household witness."
+        },
+        {
+          "text": "“He's at his sister's,” the witness said when she arrived. “You arranged it. Your son. His name's Benn.”"
+        },
+        {
+          "text": "“Why did I send him away?”"
+        },
+        {
+          "text": "“So he wouldn't watch the bell take you.”"
+        },
+        {
+          "text": "They sat on the steps together until the man was ready to go. He held the coat in his lap as carefully as if the child were inside it."
+        },
+        {
+          "text": "Reed waited until the shop was empty before asking whether this happened every month."
+        },
+        {
+          "text": "“Not to everyone,” Sera said. “That's how we keep going. Some of us can still tell the others.”"
+        },
+        {
+          "text": "Outside, a woman began singing a list of grain measures. A second voice joined, then stopped when they reached different numbers. Reed could hear them checking the verse against a board at the market. These were not the empty people she had begun to fear becoming. They were busy, impatient people who had work to do and kept finding new ways to do it."
+        },
+        {
+          "text": "She went upstairs. Pip was carving the rib of a boat from a split branch. He moved the knife away when she sat down. Reed asked whether he wanted company or quiet."
+        },
+        {
+          "text": "“Company,” he said. “Quiet company.”"
+        },
+        {
+          "text": "She sat until he asked her to hold the wood. They did not mention the greeting. When Sera called them to the bridge, Pip put the unfinished rib on the sill where the sun could dry it."
+        }
+      ],
+      "choices": [
+        {
+          "id": "after-bell-continue",
+          "label": "Continue",
+          "to": "bridge",
+          "continue": true
+        }
+      ]
+    },
+    "root-room": {
+      "chapter": 7,
+      "title": "A ledger made of wood",
+      "beats": [
+        {
+          "text": "Reed did not leave the cellar when the figure withdrew into the root. Oren wanted the door shut. Sera asked him to go upstairs and get clean water for Reed's bleeding leg. It gave him a task he could not turn into a command."
+        },
+        {
+          "text": "In the silence, Reed heard a woman laughing."
+        },
+        {
+          "text": "The sound came from the severed branch. She crouched beside it. Under its clear skin were rings like the growth rings of ordinary wood, except that each contained a dark point. On the newly cut face a bead of sap moved towards her hand."
+        },
+        {
+          "text": "She pulled away before it touched her. The laugh stopped. Somewhere farther along the root, a man began calling a name."
+        },
+        {
+          "text": "“It's keeping them,” she said."
+        },
+        {
+          "text": "Sera stood beside her. “That doesn't mean it will give them back.”"
+        },
+        {
+          "text": "Reed asked the empty chair whether the memories were payment or property. The figure returned slowly, assembling itself from the grain of the wood."
+        },
+        {
+          "text": "“Why did I wake without anything of my own?” Reed asked. The figure looked at the crown. “Your first deposit was your history. It holds the account together. Sleep preserved your body. It did not return the deposit.” She thought of the empty space around all the things her hands knew. Her life had been here, close enough to touch, while she was looking for it in the town."
+        },
+        {
+          "text": "“Pledge.”"
+        },
+        {
+          "text": "“Then you haven't spent them.”"
+        },
+        {
+          "text": "“They maintain the separation.”"
+        },
+        {
+          "text": "“That's not what I asked.”"
+        },
+        {
+          "text": "The figure looked down at the severed branch. Its sleeve had no seam. Reed found herself looking for some small ordinary detail that might help her understand how to speak to it."
+        },
+        {
+          "text": "“The memories of the living remain in pledge,” it said. “The death of an owner closes the account. It does not give that account to another.”"
+        },
+        {
+          "text": "Sera sat on the lowest step. For a while she asked nothing. Reed understood that one of the voices she had hoped to find had just become impossible."
+        },
+        {
+          "text": "“Your instructions don't say to stop collecting when people can't remember the release,” Reed said."
+        },
+        {
+          "text": "“No.”"
+        },
+        {
+          "text": "“Why not?”"
+        },
+        {
+          "text": "“And the three steps?” Reed asked. “Who chose that?” The figure touched the three points of the crown. “The Crown pledged way, voice and breath. The first advance confuses the way. The second takes the voice. The third takes the pledged breath. There were to be two warnings before a departure became final.” Reed looked at the old fastening scars on her chest. The promise had been made with her life as well as everyone else’s. “They thought two warnings made it fair?” she asked. The figure gave no answer to that."
+        },
+        {
+          "text": "“They were made by people who could remember it.”"
+        },
+        {
+          "text": "Reed looked towards the cellar window, where a strip of grey daylight showed the underside of someone's passing shoe. The prison had not been designed in one piece. People had added to it, repairing the parts that kept it closed while letting the parts that opened it disappear."
+        }
+      ],
+      "choices": [
+        {
+          "id": "root-room-continue",
+          "label": "Continue",
+          "to": "witness",
+          "continue": true
+        }
+      ]
+    },
+    "copies": {
+      "chapter": 8,
+      "title": "What had been corrected",
+      "beats": [
+        {
+          "text": "Marta stayed in Sera's kitchen after the others went to look beneath the sluice. Reed asked her to remain until she came back; she needed someone who could compare the chamber's dates with the public account."
+        },
+        {
+          "text": "When Reed returned, the table was covered in strips of paper. Marta had traced the same entry from four different registers. The earliest said the Crown slept in pledge. The second said the Crown slept to preserve the town. The third said the Crown required the town to remain. In the fourth, a later hand had added the word willingly."
+        },
+        {
+          "text": "Reed put the scratched message from beneath the bed beside them."
+        },
+        {
+          "text": "“I agreed to wait for the end of a siege,” she said."
+        },
+        {
+          "text": "Marta nodded. She did not reach for the paper."
+        },
+        {
+          "text": "“Did nobody notice?”"
+        },
+        {
+          "text": "“Someone did.” Marta showed her a margin note cut in half by the binding. “They asked which war. A later hand called the question disruptive.”"
+        },
+        {
+          "text": "The final register had been copied during Oren's first year in office. Reed could see why he had believed repairing the chamber was a duty. She could also see every place where somebody had stopped asking."
+        },
+        {
+          "text": "“Will you say this publicly?” she asked."
+        },
+        {
+          "text": "Marta laid the four strips side by side. “I said the opposite publicly. There will be people who remember that.”"
+        },
+        {
+          "text": "“There should be.”"
+        },
+        {
+          "text": "Marta looked up. Reed expected her to refuse. Instead the old woman carefully numbered each strip, then made a second set."
+        },
+        {
+          "text": "When Sera brought tea, Marta asked for hers without sugar. Sera reminded her she had always taken it sweet. Marta considered the cup, tasted it and decided she preferred it this way today. Reed watched the little decision with a concentration that made Marta smile at last."
+        },
+        {
+          "text": "“You aren't obliged to be who the record says you were,” she told her. “You are obliged to read what you've done.”"
+        },
+        {
+          "text": "Reed folded the message she had written at seventeen. It was smaller than the face of her palm. She had expected proof of her identity to be heavier."
+        }
+      ],
+      "choices": [
+        {
+          "id": "copies-continue",
+          "label": "Continue",
+          "to": "name",
+          "continue": true
+        }
+      ]
+    },
+    "boat-rib": {
+      "chapter": 10,
+      "title": "Work for two hands",
+      "beats": [
+        {
+          "text": "Reed found Pip at the repair-shop bench before the assembly. Sera had left him there with a neighbour while she checked the public tables. The half-made boat rib was clamped in a vice."
+        },
+        {
+          "text": "“I need the shaving knife,” he said. “The small one.”"
+        },
+        {
+          "text": "Reed found it under a rag. He watched her pick it up. She set it on the bench rather than putting it into his hand."
+        },
+        {
+          "text": "He showed her where to hold the wood. His drawing specified a curve much shallower than the one he had carved."
+        },
+        {
+          "text": "“Which one are you trying to make?” she asked."
+        },
+        {
+          "text": "“The drawing's wrong.”"
+        },
+        {
+          "text": "“Or the wood.”"
+        },
+        {
+          "text": "He examined it, then turned the drawing upside down. That made them both laugh. Reed let him decide which part to change."
+        },
+        {
+          "text": "They worked until there was a small heap of shavings on the floor. Through the window came the noise of people gathering at the hall. A cart was being loaded with benches. Every time Reed looked towards the sound, Pip told her to hold the rib steady."
+        },
+        {
+          "text": "“Are you trying to keep me here?” she asked at last."
+        },
+        {
+          "text": "He put down the knife. “A bit.”"
+        },
+        {
+          "text": "“I have to go.”"
+        },
+        {
+          "text": "“I know.”"
+        },
+        {
+          "text": "He turned the rib over. The curve had begun to fit his drawing. There were several places where he had cut too deeply. He would need another piece of wood, or a different boat."
+        },
+        {
+          "text": "“Don't let them tell you it's only you,” he said."
+        },
+        {
+          "text": "Reed sat down on the other side of the bench. The window was open and cold. She had been preparing arguments for the council, for the Keeper, for Oren. She had not prepared an answer for a boy who wanted her to survive being useful."
+        },
+        {
+          "text": "“I'll ask them to help,” she said."
+        },
+        {
+          "text": "He nodded, not satisfied, but willing to let her go with that. She swept the shavings into a box before she left. Pip objected that he had been keeping them for something. Reed gave him the box."
+        }
+      ],
+      "choices": [
+        {
+          "id": "boat-rib-continue",
+          "label": "Continue",
+          "to": "assembly",
+          "continue": true
+        }
+      ]
+    },
+    "closed-door": {
+      "chapter": 10,
+      "title": "A refusal",
+      "beats": [
+        {
+          "text": "The last house on Reed's round belonged to a woman called Eda. She had put a chair across the threshold. Behind it, a man was doing up his coat while an older girl watched from the table."
+        },
+        {
+          "text": "“My husband,” Eda said before Reed could ask. “He wants to go. I don't.”"
+        },
+        {
+          "text": "The man did not look round. “She said she'd stop me.”"
+        },
+        {
+          "text": "Reed explained that the witnesses could volunteer separately. Eda would not have to hold his share. He could not make her take hers back."
+        },
+        {
+          "text": "“But it'll all be here,” Eda said. She touched her forehead. “Everything he remembers. He'll want me to remember it too.”"
+        },
+        {
+          "text": "Reed had come to bring people to the hall. She looked at the chair across the door and understood that she was being asked what she meant by willing."
+        },
+        {
+          "text": "“Your refusal goes in the register,” she said. “So does his agreement. It won't say the household agreed. It'll say who did.”"
+        },
+        {
+          "text": "The girl got up from the table. She asked whether her mother could still live in the house if she refused. Reed said the keeping did not own the house. Eda made a sound that was nearly a laugh."
+        },
+        {
+          "text": "Her husband took his hat from its peg. He waited while Eda moved the chair. When he had gone outside, she asked Reed what the crown would do with her unclaimed memories."
+        },
+        {
+          "text": "“I'll have to carry them through the opening.”"
+        },
+        {
+          "text": "“Then you're paying because I won't.”"
+        },
+        {
+          "text": "“Yes.”"
+        },
+        {
+          "text": "Eda put the chair back. Reed could see her wanting a sentence that would make the refusal painless for both of them. Reed could not give her one. She left the copy of the terms and went down the path."
+        },
+        {
+          "text": "At the gate, the girl called after her. “Will you still open it?”"
+        },
+        {
+          "text": "Reed looked at the hat waiting beyond the hedge."
+        },
+        {
+          "text": "“I'm going to try.”"
+        }
+      ],
+      "choices": [
+        {
+          "id": "closed-door-continue",
+          "label": "Continue",
+          "to": "road-preparation",
+          "continue": true
+        }
+      ]
+    },
+    "garden-after": {
+      "chapter": 10,
+      "title": "What the memory left out",
+      "beats": [
+        {
+          "text": "When Reed withdrew her hand from the crown, Sera was holding a clean cloth. Reed had not noticed her coming back into the room."
+        },
+        {
+          "text": "“Tell me where you are,” Sera said."
+        },
+        {
+          "text": "“The hall. Fenmere.”"
+        },
+        {
+          "text": "“What's under your feet?”"
+        },
+        {
+          "text": "Reed looked down. Her shoes were different: one borrowed, one the shoe in which she had woken. “Stone.”"
+        },
+        {
+          "text": "“Good.”"
+        },
+        {
+          "text": "Sera wrapped the finger and waited until Reed could lift the cup she had brought without spilling it. Only then did she ask what had happened."
+        },
+        {
+          "text": "Reed described the garden. She could remember the bucket handle cutting her palm. There had been a hole in the queen's sleeve, near the elbow. The details seemed absurdly small to have survived all this time."
+        },
+        {
+          "text": "“Was she kind?” Sera asked."
+        },
+        {
+          "text": "“Sometimes. I think.”"
+        },
+        {
+          "text": "“You don't have to decide from one morning.”"
+        },
+        {
+          "text": "That was a relief Reed had not known she needed. She had been trying to decide whether a woman could love her daughter and still put her in the chamber. The memory had given her both things. She did not have to throw one away to make the other simpler."
+        },
+        {
+          "text": "At the table, Marta had left a question on a slate: CAN A NEW CROWN BE REQUIRED? Reed asked it aloud. The Keeper emerged beside the empty chair."
+        },
+        {
+          "text": "“This pledge names its guarantor,” it said. “It does not appoint another.”"
+        },
+        {
+          "text": "“Not Pip. Not someone born later.”"
+        },
+        {
+          "text": "“No.”"
+        },
+        {
+          "text": "She asked it to write that answer. Sera witnessed the line. Reed wanted the town to have the refusal in a form that could survive somebody needing a different answer next winter."
+        },
+        {
+          "text": "Outside, two people were arguing about where to put a table. Sera went to help them. Reed stayed a moment longer with the bandage and the written answer. Then she picked up a bench and followed."
+        }
+      ],
+      "choices": [
+        {
+          "id": "garden-after-continue",
+          "label": "Continue",
+          "to": "road-preparation",
+          "continue": true
+        }
+      ]
+    },
+    "road-preparation": {
+      "chapter": 11,
+      "title": "Before any opening",
+      "beats": [
+        {
+          "text": "They agreed that nobody would run for the boundary when the crown broke or the keeping ended. Hessa wrote it at the top of the practical list. They would check the white stones with a rope from inside, then send a person only when Reed said the account was closed."
+        },
+        {
+          "text": "“And if Reed can't say?” Sera asked."
+        },
+        {
+          "text": "The room quieted. Hessa turned back to the list."
+        },
+        {
+          "text": "“Then we wait for the root to die and the bell to stop. We take time. We don't turn her choice into another funeral.”"
+        },
+        {
+          "text": "Reed asked for a word with Sera while the others counted lamps. They went to the little space behind the granary door, where coats were hung over sacks of winter wool."
+        },
+        {
+          "text": "“If I don't remember,” Reed said, and found that she had prepared nothing after it."
+        },
+        {
+          "text": "Sera waited."
+        },
+        {
+          "text": "“Don't make me read everything at once.”"
+        },
+        {
+          "text": "“I won't.”"
+        },
+        {
+          "text": "“If I don't want the name—”"
+        },
+        {
+          "text": "“Then we'll call you what you ask.”"
+        },
+        {
+          "text": "Reed held out the scratched message from the chamber. Sera took it, read it and gave it back."
+        },
+        {
+          "text": "“That's yours,” she said. “You can keep it or put it away. I'm not going to use it to make you go downstairs.”"
+        },
+        {
+          "text": "For a moment Reed wanted to remain behind the door. There was nothing special about the wool sacks. She could smell lanolin and the onions somebody had stored too close to them. Sera was tired, her eyes red at the edges. Reed could have been an apprentice being told to go home after a long day's work."
+        },
+        {
+          "text": "Then a bench scraped in the hall. The bell gave a short, muffled sound. Sera touched Reed's sleeve and stepped aside so Reed could open the door herself."
+        }
+      ],
+      "choices": [
+        {
+          "id": "road-preparation-continue",
+          "label": "Continue",
+          "to": "threshold",
+          "continue": true
+        }
+      ]
+    },
+    "return-morning": {
+      "chapter": 12,
+      "title": "The work after",
+      "beats": [
+        {
+          "text": "Reed woke with her cheek against Sera's knee. She had been laid on the hall floor because nobody had been willing to move her farther."
+        },
+        {
+          "text": "Someone had taken off her shoes. She found herself worrying about losing the borrowed one, then laughing weakly at the size of the worry. Sera put a cup against her hand."
+        },
+        {
+          "text": "“A little. Sit up first.”"
+        },
+        {
+          "text": "Across the room, people were speaking in unfamiliar tones. A woman was telling the same small story three times. Each time, the man beside her asked to hear it again. Marta was counting the signatures on the roll. She kept reaching the end, checking one mark and starting over."
+        },
+        {
+          "text": "Reed tried to say that she needed a blanket. Instead she said a name she had never heard. The room slanted. Sera put the cup down and held her until it steadied."
+        },
+        {
+          "text": "“One of the unclaimed,” Marta said from the table. She came over slowly, carrying her chair. “Tell me what you can see.”"
+        },
+        {
+          "text": "Reed described an orchard in winter. Nobody recognised it. Marta wrote UNKNOWN beside the account and left room for a correction."
+        },
+        {
+          "text": "“What if it stays?” Reed asked."
+        },
+        {
+          "text": "“Then we'll make room for it without calling it yours.”"
+        },
+        {
+          "text": "It was not enough. Reed was grateful that Marta did not try to make it sound enough. She pulled the blanket round her shoulders and asked for the cup again."
+        },
+        {
+          "text": "Outside, people were testing the road with the long rope. Nobody had yet crossed. Reed could see the patience taking effort. Hessa stood by the door, stopping one person after another and telling them the same instruction. The crown lay on the floor with its roots grey and still."
+        },
+        {
+          "text": "At noon they carried it into the courtyard. Reed watched from the steps. Someone proposed burning it. Someone else wanted it locked away. Reed asked them to leave it in the rain until they had slept before making another permanent decision."
+        },
+        {
+          "text": "For once, everyone agreed."
+        }
+      ],
+      "choices": [
+        {
+          "id": "return-morning-continue",
+          "label": "Continue",
+          "to": "open-ending",
+          "continue": true
+        }
+      ]
+    },
+    "empty-morning": {
+      "chapter": 12,
+      "title": "An ordinary examination",
+      "beats": [
+        {
+          "text": "The surgeon asked Reed to follow his finger with her eyes. She did. He asked whether she knew where she was. A woman beside her chair answered too quickly, then put her hand over her mouth."
+        },
+        {
+          "text": "“I was asking her,” the surgeon said."
+        },
+        {
+          "text": "Reed looked round. A table, grain bins, a door standing open onto daylight. She could name each thing. She could not explain why everybody was so tired."
+        },
+        {
+          "text": "“A hall,” she said."
+        },
+        {
+          "text": "“That's right.” He wrote something down. “Does anything hurt?”"
+        },
+        {
+          "text": "She showed him her calf and her pricked forehead. The injuries were not new. The bandages were clean. Somebody had taken care over her and she could not remember being touched."
+        },
+        {
+          "text": "The woman beside her chair asked whether she wanted breakfast. Reed said yes because it was the first question whose answer she knew. A boy brought bread. He held the plate with unusual care."
+        },
+        {
+          "text": "“Do you live here?” she asked him."
+        },
+        {
+          "text": "He looked towards the woman. “With Aunt Sera. You can too.”"
+        },
+        {
+          "text": "Reed did not know whether that was a promise he could make. The woman seemed to understand."
+        },
+        {
+          "text": "“For as long as you want a room,” she said. “You don't have to decide anything else.”"
+        },
+        {
+          "text": "Later the surgeon showed Reed a statement signed in handwriting like her own. She read a paragraph, then stopped. The room had become too full of expectation again."
+        },
+        {
+          "text": "“Can I finish it tomorrow?”"
+        },
+        {
+          "text": "The boy reached for the page before anyone else could answer. He put it in a clean envelope and wrote TOMORROW on the outside."
+        },
+        {
+          "text": "Reed ate another piece of bread. Sera brought more butter. Outside the door, people were calling to one another from a road Reed did not know she had opened."
+        }
+      ],
+      "choices": [
+        {
+          "id": "empty-morning-continue",
+          "label": "Continue",
+          "to": "vessel-ending",
+          "continue": true
+        }
+      ]
+    },
+    "strangers-morning": {
+      "chapter": 12,
+      "title": "Tickets for the table",
+      "beats": [
+        {
+          "text": "By noon, six children were waiting at the public table. The adults there had fed them, but three would not go home with the people who had come to collect them. A written household chart was not enough to make a child take a stranger's hand."
+        },
+        {
+          "text": "Reed sat at the end of the bench. She could read the destruction statement, including her own name. It did not give her the authority to solve this by telling anyone to be reasonable."
+        },
+        {
+          "text": "Sera brought paper and began making tickets. The children could stay together for the afternoon. Anyone wanting to visit would come singly and sit across the table. Two people would witness each arrangement. They would try again tomorrow."
+        },
+        {
+          "text": "One woman said she had spent seven years raising her son and would not ask permission to take him home. The boy put both hands over his ears. Sera waited until the woman saw him."
+        },
+        {
+          "text": "“He doesn't know that,” she said."
+        },
+        {
+          "text": "The woman sat down. Reed fetched water. It was all she could think to do."
+        },
+        {
+          "text": "At the far end of the hall, someone began reading names. People answered when they recognised a fact they had written down. The sound was uneven. Sometimes two answered to the same name. They compared notes instead of choosing the louder voice."
+        },
+        {
+          "text": "In the courtyard, the white pieces of the crown had softened in the rain. Reed looked at them while she washed the cups. She could not feel the decision as her own, yet her hand fitted the signature on the statement. She went back inside when Sera called for more water."
+        },
+        {
+          "text": "That evening, they had found rooms for everyone who wanted one. Some slept in houses with people they no longer recognised. Others stayed in the hall. Reed took a blanket and lay beside the door, waking each time somebody needed to pass."
+        }
+      ],
+      "choices": [
+        {
+          "id": "strangers-morning-continue",
+          "label": "Continue",
+          "to": "broken-ending",
+          "continue": true
+        }
+      ]
+    },
+    "winter-book": {
+      "chapter": 11,
+      "title": "The first provision",
+      "beats": [
+        {
+          "text": "Before she slept, Reed made the assembly say where the extra grain would come from if the doubled tithe left more people unable to work alone. Oren brought the reserve accounts to the chamber door."
+        },
+        {
+          "text": "“We have enough for winter if the western fields are sown,” he said."
+        },
+        {
+          "text": "Sera asked who would sow them. Oren began to name the usual households, stopped and read the maintenance plan instead. Two of the named workers were on the well list. One had forgotten which children lived in his house."
+        },
+        {
+          "text": "They changed the plan. Apprentices would work in larger groups. Older people who could still teach would move nearer the fields. The public table would keep open through the winter. None of it removed the extra taking. It arranged who would carry it."
+        },
+        {
+          "text": "Reed watched them make the arrangements from the stone bed. She had asked for time; here was the price of having some."
+        },
+        {
+          "text": "“Don't write that I saved you,” she said."
+        },
+        {
+          "text": "Marta had been recording the meeting. She looked up, then drew a line through a heading and began another."
+        },
+        {
+          "text": "Oren set the accounts on the floor. Without the silver clasp, his coat looked much older. He asked if there was anything she wanted taken upstairs."
+        },
+        {
+          "text": "Reed gave him the public release copy. She had kept the page beside her in case she changed her mind. He recognised what he was being asked to carry and did not reach for it at once."
+        },
+        {
+          "text": "“Give it to three people,” she said. “Don't choose them yourself.”"
+        },
+        {
+          "text": "He took it to the door. Sera stood aside to let him pass, watching until he reached the light."
+        },
+        {
+          "text": "Later, when the sleep had begun to settle and Reed could no longer tell whether her eyes were open, she heard Marta reading the revised heading. TERMS OF THIS RENEWAL. Below it she put the date, the names of the witnesses and the warning about the doubled tithe. She read all of it aloud before closing the book."
+        }
+      ],
+      "choices": [
+        {
+          "id": "winter-book-continue",
+          "label": "Continue",
+          "to": "renew",
+          "continue": true
+        }
+      ]
+    }
+  },
+  "endings": {
+    "return": "Four Steps",
+    "vessel": "The Visitor Book",
+    "break": "The Names They Chose",
+    "renew": "The Maintenance Book"
+  },
+  "rules": {
+    "attributes": {},
+    "resources": {},
+    "abilities": {},
+    "startingPoints": 0
+  },
+  "atmosphere": "quiet",
+  "items": {
+    "pocketbook": "Sera’s pocketbook",
+    "bird": "Pip’s willow bird",
+    "hall_key": "The hall cellar key",
+    "roll": "The original return roll"
+  },
+  "knowledge": {
+    "date": {
+      "title": "The mill tally",
+      "text": "The enclosure began 197 years ago. The signed public copy has been scraped; a note points to the north bridge."
+    },
+    "water": {
+      "title": "The bridge text",
+      "text": "The Crown and Witness can open the road. The rest of the instruction is below the waterline."
+    },
+    "tithe": {
+      "title": "The memory tithe",
+      "text": "The bell takes an unheld autobiographical memory, beginning with distant connections. Rehearsing one memory through the bell leaves the rest exposed. Written facts and practical skills survive."
+    },
+    "full_clause": {
+      "title": "The water copy",
+      "text": "A shared return needs willing household witnesses, anchors, and the original roll. A lone guarantor can pay instead. Destroying the pledge also opens the road, at a permanent relational cost."
+    },
+    "pledge": {
+      "title": "An old keeping",
+      "text": "An enclosed wartime refuge became an inherited prison. The sleeping guarantor woke when Oren cut its root."
+    },
+    "terms": {
+      "title": "The hidden release terms",
+      "text": "The roll was locked away; duplicate records were deliberately destroyed. The Keeper requires the Crown, Witness and roll together to account for the pledge."
+    },
+    "identity": {
+      "title": "Ilyen, called Reed",
+      "text": "She is Princess Ilyen, daughter of Maud, the local Crown of the Fen Basin. Her voluntary wartime sleep lasted 197 years. No outside ancestry is established."
+    },
+    "account": {
+      "title": "The choices available",
+      "text": "Return the pledged memories, bear them alone, destroy them, or renew. No method revives the dead. Shared return requires living consent."
+    },
+    "mother": {
+      "title": "A morning in the garden",
+      "text": "Her mother asked a frightened daughter to be guarantor. The memory restored Reed’s conscious connection to the crown, making a lone return possible."
+    }
+  },
+  "characters": {
+    "protagonist": {
+      "name": "The traveller",
+      "text": "Found in the millrace. Her history is unknown."
+    },
+    "Pip": {
+      "name": "Pip",
+      "text": "A boy learning boatbuilding; Sera’s nephew.",
+      "when": {
+        "event": "met_pip"
+      }
+    }
+  },
+  "sheetSections": [
+    {
+      "title": "Her chosen name",
+      "text": "Reed. Pip offered it in Sera’s kitchen.",
+      "when": {
+        "event": "named"
+      }
+    },
+    {
+      "title": "Her recovered identity",
+      "text": "Ilyen, daughter of Maud. She continues to answer to Reed.",
+      "when": {
+        "lore": "identity"
+      }
+    }
+  ],
+  "recap": [
+    {
+      "text": "Elian survived at the boundary.",
+      "when": {
+        "var": "elian_alive",
+        "eq": true
+      }
+    },
+    {
+      "text": "Elian died on the third step.",
+      "when": {
+        "not": {
+          "var": "elian_alive",
+          "eq": true
+        }
+      }
+    },
+    {
+      "text": "Pip’s hand was permanently injured while the inscription was copied.",
+      "when": {
+        "var": "pip_injured",
+        "eq": true
+      }
+    },
+    {
+      "text": "Pip escaped the bridge without injury.",
+      "when": {
+        "var": "pip_safe",
+        "eq": true
+      }
+    },
+    {
+      "text": "Reed lost her recognition of Pip at the first bell.",
+      "when": {
+        "not": {
+          "var": "bond",
+          "eq": true
+        }
+      }
+    },
+    {
+      "text": "Oren gave a witnessed account of his actions.",
+      "when": {
+        "var": "hearing",
+        "eq": true
+      }
+    }
+  ],
+  "wordCount": 13902
+}

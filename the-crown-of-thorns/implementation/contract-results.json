@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "scenes": 52,
+  "choices": 59,
+  "stateVisits": 4687,
+  "completePaths": 818,
+  "endings": {
+    "return": 178,
+    "break": 256,
+    "renew": 256,
+    "vessel": 128
+  },
+  "minimumRouteWords": 9055,
+  "maximumRouteWords": 9352,
+  "checks": [
+    "all reachable states finish",
+    "all choices offered on a reachable path",
+    "all four endings reachable",
+    "all states save/load round trip",
+    "early identity withheld",
+    "survival and injury variants",
+    "memory choice persists",
+    "ending gates",
+    "fork isolation",
+    "read-only navigation",
+    "no repeated scene rewards",
+    "parallel saves",
+    "Last Call custom setup regression"
+  ],
+  "witnessPaths": {
+    "return": [
+      "start-catch",
+      "kitchen-notes",
+      "market-records",
+      "council-public",
+      "supper-person",
+      "bridge-child",
+      "vault-force",
+      "anchors-doors",
+      "threshold-return"
+    ],
+    "break": [
+      "start-catch",
+      "kitchen-notes",
+      "market-records",
+      "council-public",
+      "supper-person",
+      "bridge-child",
+      "vault-force",
+      "anchors-doors",
+      "threshold-destroy"
+    ],
+    "renew": [
+      "start-catch",
+      "kitchen-notes",
+      "market-records",
+      "council-public",
+      "supper-person",
+      "bridge-child",
+      "vault-force",
+      "anchors-doors",
+      "threshold-renew"
+    ],
+    "vessel": [
+      "start-catch",
+      "kitchen-notes",
+      "market-records",
+      "council-public",
+      "supper-person",
+      "bridge-child",
+      "vault-force",
+      "anchors-past",
+      "threshold-vessel"
+    ]
+  }
+}

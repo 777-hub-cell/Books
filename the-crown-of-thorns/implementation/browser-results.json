@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "width": 320,
+      "status": "PASS",
+      "test": "opening, library, concealed identity, reload, layout"
+    },
+    {
+      "width": 360,
+      "status": "PASS",
+      "test": "opening, library, concealed identity, reload, layout"
+    },
+    {
+      "width": 390,
+      "status": "PASS",
+      "test": "opening, library, concealed identity, reload, layout"
+    },
+    {
+      "width": 412,
+      "status": "PASS",
+      "test": "opening, library, concealed identity, reload, layout"
+    },
+    {
+      "width": 1280,
+      "status": "PASS",
+      "test": "opening, library, concealed identity, reload, layout"
+    },
+    {
+      "width": 390,
+      "ending": "return",
+      "status": "PASS",
+      "test": "full UI playthrough, reload, Previous, chapter fork, separate saves"
+    },
+    {
+      "width": 390,
+      "ending": "break",
+      "status": "PASS",
+      "test": "full UI playthrough, reload, Previous, chapter fork, separate saves"
+    },
+    {
+      "width": 390,
+      "ending": "renew",
+      "status": "PASS",
+      "test": "full UI playthrough, reload, Previous, chapter fork, separate saves"
+    },
+    {
+      "width": 390,
+      "ending": "vessel",
+      "status": "PASS",
+      "test": "full UI playthrough, reload, Previous, chapter fork, separate saves"
+    },
+    {
+      "width": 1280,
+      "ending": "return",
+      "status": "PASS",
+      "test": "full UI playthrough, reload, Previous, chapter fork, separate saves"
+    },
+    {
+      "width": 1280,
+      "ending": "break",
+      "status": "PASS",
+      "test": "full UI playthrough, reload, Previous, chapter fork, separate saves"
+    },
+    {
+      "width": 1280,
+      "ending": "renew",
+      "status": "PASS",
+      "test": "full UI playthrough, reload, Previous, chapter fork, separate saves"
+    },
+    {
+      "width": 1280,
+      "ending": "vessel",
+      "status": "PASS",
+      "test": "full UI playthrough, reload, Previous, chapter fork, separate saves"
+    },
+    {
+      "status": "PASS",
+      "test": "Last Call name and attribute setup"
+    }
+  ]
+}
