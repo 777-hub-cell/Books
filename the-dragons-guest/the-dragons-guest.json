@@ -1,0 +1,5393 @@
+{
+  "id": "the-dragons-guest",
+  "revision": 1,
+  "title": "The Dragon’s Guest",
+  "author": "NIGHT",
+  "start": "bread",
+  "identity": {
+    "firstName": "Edda",
+    "surname": "Venn"
+  },
+  "fixedIdentity": true,
+  "setupTitle": "Before the mountain",
+  "setupNote": "Edda Venn is twenty-seven, a sluice surveyor trying to clear her name. This dark fantasy romance includes bereavement, institutional murder and violence. Your choices shape trust, evidence, survival and three endings. Progress is saved in this browser.",
+  "rules": {
+    "attributes": {},
+    "resources": {},
+    "abilities": {},
+    "startingPoints": 0
+  },
+  "initial": {
+    "message": false,
+    "rubbing": false,
+    "read_receipts": false,
+    "released": false,
+    "great_stolen": false,
+    "ally": false,
+    "renounced": false,
+    "departed": false,
+    "plans": false,
+    "sealed": false,
+    "witness": false,
+    "returned": false,
+    "organised": false,
+    "romance": false,
+    "self_first": false,
+    "claims_first": false,
+    "rescued_first": false,
+    "archives_saved": false,
+    "voss_alive": false,
+    "trust": 0,
+    "injury": 0
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "The Question of Breakfast"
+    },
+    {
+      "number": 2,
+      "title": "The Woman in the Ditch"
+    },
+    {
+      "number": 3,
+      "title": "The Fourth Winter"
+    },
+    {
+      "number": 4,
+      "title": "What He Had Been Going to Do"
+    },
+    {
+      "number": 5,
+      "title": "Nine Heartbeats"
+    },
+    {
+      "number": 6,
+      "title": "Things Left Within Reach"
+    },
+    {
+      "number": 7,
+      "title": "The Service Bell"
+    },
+    {
+      "number": 8,
+      "title": "A Smaller Body"
+    },
+    {
+      "number": 9,
+      "title": "The Woman Who Came Back"
+    },
+    {
+      "number": 10,
+      "title": "Twenty-Seven"
+    },
+    {
+      "number": 11,
+      "title": "Leave-Taking"
+    },
+    {
+      "number": 12,
+      "title": "Two Sets of Books"
+    },
+    {
+      "number": 13,
+      "title": "What a Seal Can Prove"
+    },
+    {
+      "number": 14,
+      "title": "The Work She Had Done"
+    },
+    {
+      "number": 15,
+      "title": "What Sef Wanted"
+    },
+    {
+      "number": 16,
+      "title": "No Last Words"
+    },
+    {
+      "number": 17,
+      "title": "The Hand She Wanted"
+    },
+    {
+      "number": 18,
+      "title": "A Ring of Iron"
+    },
+    {
+      "number": 19,
+      "title": "What the Town Could Hear"
+    },
+    {
+      "number": 20,
+      "title": "The Register Opens"
+    },
+    {
+      "number": 21,
+      "title": "What Was Entered"
+    },
+    {
+      "number": 22,
+      "title": "The Work at the River"
+    },
+    {
+      "number": 23,
+      "title": "An Agreement with an End"
+    },
+    {
+      "number": 24,
+      "title": "A House with Two Doors"
+    }
+  ],
+  "nodes": {
+    "bread": {
+      "chapter": 1,
+      "title": "The Question of Breakfast",
+      "beats": [
+        {
+          "text": "The child had put a collar on the mountain goat."
+        },
+        {
+          "text": "Ordan lowered his head through the kitchen window, taking a little more stone out of the frame. The goat stood on the table eating his accounts. Linnet stood beside it with an expression he had learned to distrust."
+        },
+        {
+          "text": "“It followed me,” she said."
+        },
+        {
+          "text": "“Through three doors?”"
+        },
+        {
+          "text": "“It is determined.”"
+        },
+        {
+          "text": "He drew breath. His daughter pointed a floury finger at his nostril."
+        },
+        {
+          "text": "“No. We discussed sneezing indoors.”"
+        },
+        {
+          "text": "He shut his mouth. Far below the mountain, seven princes had lately paid to have his sleeping habits established by spies. The spies had disagreed about whether he slept. None had discovered that a girl of eleven could prevent him from sneezing."
+        },
+        {
+          "text": "“It has eaten your tax assessment,” Linnet said. “You might thank it.”"
+        },
+        {
+          "text": "The goat reached for a second page."
+        }
+      ],
+      "choices": [
+        {
+          "id": "bread:next",
+          "label": "Continue",
+          "to": "bread~1",
+          "continue": true
+        }
+      ]
+    },
+    "bread~1": {
+      "chapter": 1,
+      "title": "The Question of Breakfast",
+      "beats": [
+        {
+          "text": "Ordan withdrew from the window. A moment later he came through the door as a tall man in a coat with one sleeve inside out. Changing took nine heartbeats, and left him briefly soft as candle wax; Linnet had been taught to wait until he could speak before throwing herself at him. Today she did not wait. He caught her with a grunt."
+        },
+        {
+          "text": "“Eleven,” he said. “You are eleven. Your knees have become weapons.”"
+        },
+        {
+          "text": "“Then you should surrender.”"
+        },
+        {
+          "text": "He surrendered. She pushed a heel against his stomach and climbed to his shoulders, as she had done before she could say his name. For years he had carried her in dragon form cupped beneath his throat, terrified of every tiny sound she made. Now she was heavy, opinionated, and convinced that bread needed salt."
+        },
+        {
+          "text": "She was correct about the bread. He disliked this."
+        }
+      ],
+      "choices": [
+        {
+          "id": "bread~1:next",
+          "label": "Continue",
+          "to": "bread~2",
+          "continue": true
+        }
+      ]
+    },
+    "bread~2": {
+      "chapter": 1,
+      "title": "The Question of Breakfast",
+      "beats": [
+        {
+          "text": "At the cupboard, she leaned down to select a jar. Her dark plait swung across his remaining account books. He had found her beside a road in a basket made for eels, furious at the rain, her mouth open to denounce the weather. He had looked for whoever had left her. There had been no tracks beyond the cart ruts; no village had claimed her, no search had brought an answer. He had returned with a baby and no understanding of how a creature could need feeding so often."
+        },
+        {
+          "text": "He had learned."
+        },
+        {
+          "text": "“People in town keep goats,” Linnet said."
+        },
+        {
+          "text": "“People in town keep them outside.”"
+        },
+        {
+          "text": "“You live outside half the time.”"
+        },
+        {
+          "text": "“I own the mountain.”"
+        },
+        {
+          "text": "She considered this. “So does the goat, probably. Have you asked?”"
+        },
+        {
+          "text": "He felt her laughing through the soles of her feet."
+        },
+        {
+          "text": "Years later, when he tried to remember the sound, he would remember instead that he had been annoyed about the accounts."
+        }
+      ],
+      "choices": [
+        {
+          "id": "bread:continue",
+          "label": "Continue",
+          "to": "hinge",
+          "continue": true
+        }
+      ]
+    },
+    "hinge": {
+      "chapter": 1,
+      "title": "A Door That Opens Both Ways",
+      "beats": [
+        {
+          "text": "Eight years after the goat, Linnet brought home a brass hinge."
+        },
+        {
+          "text": "She put it beside Ordan’s plate. He was peeling an apple with a knife too small for his hand. Her boots left wet marks on the kitchen tiles."
+        },
+        {
+          "text": "“What is this?” he asked."
+        },
+        {
+          "text": "“A hinge.”"
+        },
+        {
+          "text": "“I had reached that conclusion.”"
+        },
+        {
+          "text": "“For the old storehouse. We’re making a school.”"
+        },
+        {
+          "text": "He set down the apple. She had begun saying we about people who lived in the river towns. He was proud of this in principle and very tired of it in practice."
+        },
+        {
+          "text": "“The floor floods.”"
+        },
+        {
+          "text": "“Only because the council hasn’t repaired the western sluice.”"
+        },
+        {
+          "text": "“The council has thirty reasons why it cannot repair anything.”"
+        },
+        {
+          "text": "“Thirty-one. They’ve invented another.” She sat beside him and stole a slice. “I’ve done the measurements. The storehouse is sound. Children can come by the high road.”"
+        },
+        {
+          "text": "“And in winter?”"
+        },
+        {
+          "text": "“I intend to let them inside.”"
+        },
+        {
+          "text": "He looked at her. She chewed with deliberate seriousness until he laughed."
+        },
+        {
+          "text": "The hinge was handsome. Someone had filed its edges smooth. He turned it over and saw her name scratched on the underside, a declaration that she had made something."
+        }
+      ],
+      "choices": [
+        {
+          "id": "hinge:next",
+          "label": "Continue",
+          "to": "hinge~1",
+          "continue": true
+        }
+      ]
+    },
+    "hinge~1": {
+      "chapter": 1,
+      "title": "A Door That Opens Both Ways",
+      "beats": [
+        {
+          "text": "“You need not spend your life making them like you,” he said."
+        },
+        {
+          "text": "“I don’t. There’s a boy who bites. I dislike him.”"
+        },
+        {
+          "text": "“Then why teach him?”"
+        },
+        {
+          "text": "“He still ought to read.”"
+        },
+        {
+          "text": "She took the knife and peeled the rest of the apple in one long strip. Outside, the little summerstone he had given her kept a covered bed of seedlings warm. Such stones held dragon heat for months; they gave it back steadily, no matter who owned them. Linnet had asked for hers to grow cabbages. Kings had asked for theirs to warm siege furnaces. He had refused the kings."
+        },
+        {
+          "text": "“Don’t go down tomorrow,” he said. “The river smells wrong.”"
+        },
+        {
+          "text": "“That’s why I have to. They’re opening the relief gates without warning the tenants.”"
+        },
+        {
+          "text": "He had arguments ready. She reached across and put the apple peel over his wrist like a bracelet."
+        },
+        {
+          "text": "“Come on market day. You can frighten the biting boy.”"
+        },
+        {
+          "text": "“I am excellent at that.”"
+        },
+        {
+          "text": "“At biting?”"
+        },
+        {
+          "text": "“At being frightening.”"
+        },
+        {
+          "text": "She kissed his cheek, quick and careless. He thought he would have another opportunity to tell her about the river."
+        }
+      ],
+      "choices": [
+        {
+          "id": "hinge:continue",
+          "label": "Continue",
+          "to": "market",
+          "continue": true
+        }
+      ]
+    },
+    "market": {
+      "chapter": 2,
+      "title": "The Woman in the Ditch",
+      "beats": [
+        {
+          "text": "One hundred and twelve years later, Edda Venn lay in a drainage ditch while a cooper’s son tried to break her measuring hand."
+        },
+        {
+          "text": "He stamped on her wrist. She dragged it beneath her chest and tasted mud. Someone laughed at the sound she made. Her leather survey roll lay open on the road. The brass dividers were gone. So was the little tin of salve she carried for her bad knee."
+        },
+        {
+          "text": "“Tell them what you did,” said the cooper’s son."
+        },
+        {
+          "text": "She knew him. Pate. He had once asked her to set a bone in his dog’s paw. She had managed it, though she was a sluice surveyor and her mother had been the bone-setter. The dog had recovered. Pate had never paid."
+        },
+        {
+          "text": "“I measured a wall,” she said."
+        },
+        {
+          "text": "He kicked her in the ribs."
+        }
+      ],
+      "choices": [
+        {
+          "id": "market:next",
+          "label": "Continue",
+          "to": "market~1",
+          "continue": true
+        }
+      ]
+    },
+    "market~1": {
+      "chapter": 2,
+      "title": "The Woman in the Ditch",
+      "beats": [
+        {
+          "text": "The wall belonged to the council. Behind it ran the water that should have reached the lower holdings. Edda had found a private diversion feeding the chairman’s bleaching works, and had put the measurement in writing. By noon she had been accused of opening the floodgate herself. By dusk somebody had painted a dragon’s mouth on her door."
+        },
+        {
+          "text": "Her brother Sef had gone to the north ferry three days earlier to arrange a berth for them. She had told him she would finish one small job. He was going to be unbearable about it, if she reached him."
+        },
+        {
+          "text": "The men on the road moved back."
+        },
+        {
+          "text": "A stranger stood above the ditch. His black coat was old, with beautifully darned elbows. His hair had gone silver at the temples. He looked at Pate’s raised boot and then at Edda’s hand, tucked under her body."
+        },
+        {
+          "text": "“Continue,” he said."
+        },
+        {
+          "text": "Pate lowered his foot."
+        },
+        {
+          "text": "“She opened the water,” someone offered."
+        },
+        {
+          "text": "“Did she.”"
+        }
+      ],
+      "choices": [
+        {
+          "id": "market~1:next",
+          "label": "Continue",
+          "to": "market~2",
+          "continue": true
+        }
+      ]
+    },
+    "market~2": {
+      "chapter": 2,
+      "title": "The Woman in the Ditch",
+      "beats": [
+        {
+          "text": "The stranger’s voice was quiet. Edda could see his hands. The nails were wrong: too smooth, too dark, as if someone had polished horn to resemble a man’s nails. Heat dried the mud at the hem of his coat."
+        },
+        {
+          "text": "One of the men ran. The others followed him. Pate backed away last, still looking for a way to make retreat appear his decision."
+        },
+        {
+          "text": "The stranger crouched. His gaze caught on the red welts around Edda’s wrist. For a moment he seemed to be seeing something beyond her, and the ditch filled with the smell of hot stone."
+        },
+        {
+          "text": "She could ask him to help her reach the ferry. Or she could ask him to witness the broken wall: his face had been enough to scatter five men, and she still had a fact worth saving."
+        }
+      ],
+      "choices": [
+        {
+          "id": "market:ferry",
+          "label": "Ask him to help you reach the ferry and send word to Sef.",
+          "to": "ferry",
+          "effects": [
+            {
+              "op": "set",
+              "key": "message",
+              "value": true
+            },
+            {
+              "op": "learn",
+              "key": "message"
+            }
+          ]
+        },
+        {
+          "id": "market:wall",
+          "label": "Record the diversion before the water covers the tool marks.",
+          "to": "wall",
+          "effects": [
+            {
+              "op": "set",
+              "key": "rubbing",
+              "value": true
+            },
+            {
+              "op": "gain",
+              "key": "rubbing"
+            },
+            {
+              "op": "learn",
+              "key": "rubbing"
+            }
+          ]
+        }
+      ]
+    },
+    "ferry": {
+      "chapter": 2,
+      "title": "A Place on the Boat",
+      "beats": [
+        {
+          "text": "“The north ferry,” Edda said. “Can you take me there?”"
+        },
+        {
+          "text": "The stranger held out his arm. She used it to get upright. Her knee locked and then gave. He steadied her without lifting her off the ground, for which she was grateful."
+        },
+        {
+          "text": "They walked slowly. She collected her survey roll but left the broken rod. Behind them the ditch water continued running in the wrong direction."
+        },
+        {
+          "text": "“You believe I broke it?” she asked."
+        },
+        {
+          "text": "“I have no opinion about the wall.”"
+        },
+        {
+          "text": "“But you’ve an opinion about people.”"
+        },
+        {
+          "text": "“Several.”"
+        },
+        {
+          "text": "At the ferry office he paid the keeper to send a message north. Sef would be told she was alive, delayed, and in need of help. Edda dictated the message twice until the keeper repeated it correctly. Sef had work unloading timber; a few days’ absence would not starve him. He would come."
+        },
+        {
+          "text": "Outside, she thanked the stranger."
+        },
+        {
+          "text": "“You need not,” he said."
+        },
+        {
+          "text": "“I’m capable of deciding who to thank.”"
+        },
+        {
+          "text": "His face changed. The look was so nakedly pained that she wondered whether she had insulted him."
+        },
+        {
+          "text": "He left before she could ask his name."
+        }
+      ],
+      "choices": [
+        {
+          "id": "ferry:next",
+          "label": "Continue",
+          "to": "ferry~1",
+          "continue": true
+        }
+      ]
+    },
+    "ferry~1": {
+      "chapter": 2,
+      "title": "A Place on the Boat",
+      "beats": [
+        {
+          "text": "That night the ferry keeper gave her a blanket and let her sleep beside the empty cages. At dawn three wardens arrived with a warrant. They had gone to her rooms first and broken the door. The keeper protested that she had not moved all night."
+        },
+        {
+          "text": "“That is useful,” said the warden. “It saves us looking.”"
+        },
+        {
+          "text": "They took the blanket from her shoulders because the cost was not included in the warrant."
+        }
+      ],
+      "choices": [
+        {
+          "id": "ferry:continue",
+          "label": "Continue",
+          "to": "veil",
+          "continue": true
+        }
+      ]
+    },
+    "wall": {
+      "chapter": 2,
+      "title": "The Mark Under the Water",
+      "beats": [
+        {
+          "text": "“Look at the wall,” Edda said."
+        },
+        {
+          "text": "The stranger glanced towards the ferry. “You are hurt.”"
+        },
+        {
+          "text": "“I’ll still be hurt in ten minutes. The water may cover it by then.”"
+        },
+        {
+          "text": "He helped her along the ditch. At the breach she knelt, trying not to breathe against her ribs, and brushed silt from the old stone. A brass maker’s plate sat below the new cut. Her fingertips found a raised bird and the letters L.I.N."
+        },
+        {
+          "text": "“There,” she said. “The old channel points south. They’ve cut through it into the works. You can see the new tool marks.”"
+        },
+        {
+          "text": "The stranger did not answer. He had put his hand flat on the bird."
+        },
+        {
+          "text": "“Do you know the mason?”"
+        },
+        {
+          "text": "He shook his head once. She had the unpleasant impression that another movement might break something in him."
+        },
+        {
+          "text": "She took an impression with charcoal and damp paper from her roll. The bird emerged crookedly, followed by the line where old stone ended and fresh work began. She added the angle of flow. Nothing here would prove who had struck her, but it might prove what she had measured."
+        },
+        {
+          "text": "“A witness should sign,” she said."
+        }
+      ],
+      "choices": [
+        {
+          "id": "wall:next",
+          "label": "Continue",
+          "to": "wall~1",
+          "continue": true
+        }
+      ]
+    },
+    "wall~1": {
+      "chapter": 2,
+      "title": "The Mark Under the Water",
+      "beats": [
+        {
+          "text": "“No court would accept my name.”"
+        },
+        {
+          "text": "“They might ask why.”"
+        },
+        {
+          "text": "He looked at her then. “You place too much faith in questions.”"
+        },
+        {
+          "text": "“It’s measurements I trust.”"
+        },
+        {
+          "text": "He went away without signing. Edda dried the rubbing against a warm stone and hid it inside the splint around her wrist. By then the ferry office had shut. She spent the night under the high bridge, watching lanterns pass above."
+        },
+        {
+          "text": "At dawn the wardens found her. One carried her measuring rod, repaired badly enough that she could see the join."
+        },
+        {
+          "text": "“Evidence,” he said."
+        },
+        {
+          "text": "She almost laughed. It would have hurt too much."
+        }
+      ],
+      "choices": [
+        {
+          "id": "wall:continue",
+          "label": "Continue",
+          "to": "veil",
+          "continue": true
+        }
+      ]
+    },
+    "veil": {
+      "chapter": 3,
+      "title": "The Fourth Winter",
+      "beats": [
+        {
+          "text": "There were twenty-seven red stitches on the inside of the ceremonial veil."
+        },
+        {
+          "text": "“One for each peace,” said the seamstress."
+        },
+        {
+          "text": "Edda sat with her hands bound loosely in front of her. They had cleaned the blood from her mouth, but a loose tooth worried her tongue. The seamstress was trying to fit the veil without touching the bruise on her cheek."
+        },
+        {
+          "text": "“One for each person,” Edda said."
+        },
+        {
+          "text": "The needle stopped."
+        },
+        {
+          "text": "In Harrowmere, every fourth winter was a peace winter. The market hung red cloth. Bakers sold little winged loaves. Names were drawn in the council chamber from debt rolls no one outside the chamber could inspect. A selected household received a remission of taxes and a pension. Families sometimes called the payment an honour, because calling it anything else did not feed the remaining children."
+        },
+        {
+          "text": "Edda’s hearing had lasted less than an hour. Chairman Voss had explained that criminal debts could also be remitted through public service. Flood sabotage carried a debt beyond any ordinary payment. She had asked to inspect the channel with an independent mason. Voss had called this a request for delay."
+        },
+        {
+          "text": "There had been no drawing."
+        }
+      ],
+      "choices": [
+        {
+          "id": "veil:next",
+          "label": "Continue",
+          "to": "veil~1",
+          "continue": true
+        }
+      ]
+    },
+    "veil~1": {
+      "chapter": 3,
+      "title": "The Fourth Winter",
+      "beats": [
+        {
+          "text": "“My brother,” she said. “Has anyone told him?”"
+        },
+        {
+          "text": "“Your household will receive the allowance.”"
+        },
+        {
+          "text": "“That isn’t what I asked.”"
+        },
+        {
+          "text": "The seamstress set the veil down. Her nails were stained blue from cheap dye."
+        },
+        {
+          "text": "“My mother did this before me. I have two girls.”"
+        },
+        {
+          "text": "Edda watched her thread another needle. She wanted to break something fragile enough to break. The seamstress’s daughters were at school across the lane, learning to write a king’s name. None of this made the woman innocent. None of it would help Edda escape."
+        },
+        {
+          "text": "“Then put in my name,” she said. “When you make the stitch. Not peace. Edda Venn.”"
+        },
+        {
+          "text": "The woman looked at the door before bending to the cloth."
+        },
+        {
+          "text": "An hour later the procession climbed towards the mountain. Wardens supported Edda between them so that no one in the town would see her limp. People threw rosemary. One elderly man turned his back. A child asked whether the dragon liked cakes, and his mother covered his mouth."
+        },
+        {
+          "text": "At the old gate the wardens untied Edda’s hands. They put her inside and closed the iron bars behind her."
+        }
+      ],
+      "choices": [
+        {
+          "id": "veil~1:next",
+          "label": "Continue",
+          "to": "veil~2",
+          "continue": true
+        }
+      ]
+    },
+    "veil~2": {
+      "chapter": 3,
+      "title": "The Fourth Winter",
+      "beats": [
+        {
+          "text": "She heard them hurry away before the official farewell was finished."
+        }
+      ],
+      "choices": [
+        {
+          "id": "veil:continue",
+          "label": "Continue",
+          "to": "guest",
+          "continue": true
+        }
+      ]
+    },
+    "guest": {
+      "chapter": 4,
+      "title": "What He Had Been Going to Do",
+      "beats": [
+        {
+          "text": "The dragon waited beyond the courtyard."
+        },
+        {
+          "text": "Edda had imagined a shape like a horse made enormous. His head alone was longer than the ferry office. Dark scales overlapped along his throat, with pale scars between them. One horn had broken long ago and grown back crooked. He lifted his face from the ground."
+        },
+        {
+          "text": "She knew the eyes."
+        },
+        {
+          "text": "“You,” she said."
+        },
+        {
+          "text": "His jaw shut. Smoke leaked between his teeth and dwindled."
+        },
+        {
+          "text": "Behind him stood a smaller door, ordinary enough to be ridiculous. It had a brass hinge shaped like a bird. Beyond its threshold she could see a table and two chairs. One chair was covered with a cloth."
+        },
+        {
+          "text": "She understood what he had been waiting to do. There was no feast laid out, no guard, no apparatus of judgment. He had been lying here as a butcher might wait for someone to deliver an animal."
+        },
+        {
+          "text": "“What happens now?” she asked."
+        },
+        {
+          "text": "He did not move."
+        },
+        {
+          "text": "“You know I didn’t open that gate.”"
+        },
+        {
+          "text": "“I know they hurt you.”"
+        },
+        {
+          "text": "His voice filled the courtyard without becoming loud. It pressed against her ribs. He looked away from the veil."
+        },
+        {
+          "text": "“Go inside.”"
+        },
+        {
+          "text": "“Why?”"
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "ordan"
+        }
+      ],
+      "choices": [
+        {
+          "id": "guest:next",
+          "label": "Continue",
+          "to": "guest~1",
+          "continue": true
+        }
+      ]
+    },
+    "guest~1": {
+      "chapter": 4,
+      "title": "What He Had Been Going to Do",
+      "beats": [
+        {
+          "text": "“There is water. A bed.”"
+        },
+        {
+          "text": "“For how long?”"
+        },
+        {
+          "text": "He dragged one claw through the courtyard moss. She had waited through a hearing, a dressing, a procession, and each polite delay had carried her closer to death. She would not mistake delay for mercy again."
+        },
+        {
+          "text": "“Are you going to kill me?”"
+        },
+        {
+          "text": "The question seemed to cost him effort to hear."
+        },
+        {
+          "text": "“I was,” he said."
+        },
+        {
+          "text": "Wind moved the veil against her mouth. The dragon kept looking at the ground. At last he shifted aside, leaving the kitchen door clear."
+        },
+        {
+          "text": "Edda could demand that he open the outer gate immediately, even though she could barely walk. Or she could accept the bed for tonight and insist on an answer when she could stand without shaking."
+        }
+      ],
+      "choices": [
+        {
+          "id": "guest:freedom",
+          "label": "Demand that he open the gate before accepting shelter.",
+          "to": "threshold",
+          "effects": [
+            {
+              "op": "add",
+              "key": "trust",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "guest:rest",
+          "label": "Accept a bed tonight; insist on freedom when you can stand.",
+          "to": "bed"
+        }
+      ]
+    },
+    "threshold": {
+      "chapter": 4,
+      "title": "The Open Gate",
+      "beats": [
+        {
+          "text": "“Open it,” she said. “The gate behind me.”"
+        },
+        {
+          "text": "The dragon lifted his head. For a moment she thought he would refuse. Then he reached past her, carefully avoiding the wet red cloth, and drew the bar from its brackets."
+        },
+        {
+          "text": "The gate swung outward."
+        },
+        {
+          "text": "There was the path. There were the trees. Beyond them lay the town that had sent her here. She could not walk down the mountain tonight. The fact that the way was open mattered anyway."
+        },
+        {
+          "text": "“You may stay until you can travel,” he said."
+        },
+        {
+          "text": "“And after?”"
+        },
+        {
+          "text": "“You may travel.”"
+        },
+        {
+          "text": "“Say I’m free.”"
+        },
+        {
+          "text": "His eyes returned to hers. “You are free.”"
+        },
+        {
+          "text": "She made him leave the bar on the ground."
+        },
+        {
+          "text": "Inside the kitchen, she found a jug of water and a folded cloth. The covered chair was smaller than the other, repaired at one arm. She chose a stool. The dragon watched from outside until she pulled a curtain over the window."
+        },
+        {
+          "text": "For the first time that day, no one could see her."
+        }
+      ],
+      "effects": [
+        {
+          "op": "set",
+          "key": "released",
+          "value": true
+        }
+      ],
+      "choices": [
+        {
+          "id": "threshold:next",
+          "label": "Continue",
+          "to": "threshold~1",
+          "continue": true
+        }
+      ]
+    },
+    "threshold~1": {
+      "chapter": 4,
+      "title": "The Open Gate",
+      "beats": [
+        {
+          "text": "She cried with her hand pressed to her sore ribs. When the crying stopped, she drank. Then she searched the cupboards for something she could use as a weapon and found a rolling pin."
+        },
+        {
+          "text": "It would not stop a dragon. It fitted her hand. She slept with it beneath the blanket."
+        }
+      ],
+      "choices": [
+        {
+          "id": "threshold:continue",
+          "label": "Continue",
+          "to": "seam",
+          "continue": true
+        }
+      ]
+    },
+    "bed": {
+      "chapter": 4,
+      "title": "A Night Bought with Nothing",
+      "beats": [
+        {
+          "text": "“A bed,” she said. “Then an answer.”"
+        },
+        {
+          "text": "He withdrew until the kitchen door stood clear. She crossed the courtyard, counting steps because she had no other way to keep moving. On the seventeenth she had to stop."
+        },
+        {
+          "text": "The dragon made a sound behind her. She held out a hand without turning."
+        },
+        {
+          "text": "“Don’t pick me up.”"
+        },
+        {
+          "text": "He stayed where he was."
+        },
+        {
+          "text": "The kitchen smelled of dust and apples. A pot stood clean on a shelf, though the hearth was cold. Someone had mended a child-sized chair with extraordinary patience. Edda pulled its cloth back into place."
+        },
+        {
+          "text": "She found the bed in a room off the kitchen. The sheets had been folded so long they retained hard creases. She checked under the mattress, a habit from furnished rooms in the river town, and found a wooden whistle. She laid it on the windowsill."
+        },
+        {
+          "text": "When she woke, the curtain glowed orange. The dragon lay outside with one forefoot across the kitchen threshold."
+        },
+        {
+          "text": "“No,” she said."
+        },
+        {
+          "text": "His head turned."
+        },
+        {
+          "text": "“You’re blocking the door.”"
+        },
+        {
+          "text": "He looked at his foot as though he had not known it was there. Slowly, he drew it back."
+        }
+      ],
+      "effects": [
+        {
+          "op": "set",
+          "key": "released",
+          "value": true
+        }
+      ],
+      "choices": [
+        {
+          "id": "bed:next",
+          "label": "Continue",
+          "to": "bed~1",
+          "continue": true
+        }
+      ]
+    },
+    "bed~1": {
+      "chapter": 4,
+      "title": "A Night Bought with Nothing",
+      "beats": [
+        {
+          "text": "“The gate,” she said. “That too.”"
+        },
+        {
+          "text": "He went to open it. Through the window she heard iron strike the earth. When he returned, he said, “You are free to leave.”"
+        },
+        {
+          "text": "She believed he meant it. She did not yet believe he understood what he had offered her last night instead."
+        }
+      ],
+      "choices": [
+        {
+          "id": "bed:continue",
+          "label": "Continue",
+          "to": "seam",
+          "continue": true
+        }
+      ]
+    },
+    "seam": {
+      "chapter": 5,
+      "title": "Nine Heartbeats",
+      "beats": [
+        {
+          "text": "He changed on the third morning."
+        },
+        {
+          "text": "Edda was sitting outside with her leg stretched on a bench. The kitchen contained flour but no bread. She had asked him to fetch yeast and he had stared at her until she understood that no one had asked him to fetch groceries in a very long time."
+        },
+        {
+          "text": "“Watch,” he said. “If you are staying near me, you must know when to move away.”"
+        },
+        {
+          "text": "The scales along his breast rose. Under them light showed like heat through cracked pottery. His body folded inward without becoming smaller all at once. For a few seconds Edda could not have said what stood before her. The joints were unfinished; the left side of his face was a patch of dark membrane that shivered in the cold."
+        },
+        {
+          "text": "She counted nine beats of her pulse. The man from the ditch stood in the grass, breathing hard."
+        },
+        {
+          "text": "“I cannot burn while changing,” he said. “The heat is holding the shape. Nor does scale protect what has not become scale.”"
+        },
+        {
+          "text": "“Why show me?”"
+        },
+        {
+          "text": "“Because a startled person may reach for a knife.”"
+        },
+        {
+          "text": "“You think I startle neatly.”"
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "change"
+        },
+        {
+          "op": "learn",
+          "key": "summerstones"
+        }
+      ],
+      "choices": [
+        {
+          "id": "seam:next",
+          "label": "Continue",
+          "to": "seam~1",
+          "continue": true
+        }
+      ]
+    },
+    "seam~1": {
+      "chapter": 5,
+      "title": "Nine Heartbeats",
+      "beats": [
+        {
+          "text": "He looked at the rolling pin beside her. She left it there."
+        },
+        {
+          "text": "He brought yeast from a cold store cut into the mountain. Beside it sat a thumb-sized red stone that radiated gentle warmth. There were larger ones behind iron grilles. Summerstones, he called them. He charged them with his own heat. Ordinary bodies could be warmed by them, but they could not create life, heal a wound or store a soul."
+        },
+        {
+          "text": "“That one keeps the nursery bed warm,” he said."
+        },
+        {
+          "text": "“There’s a nursery?”"
+        },
+        {
+          "text": "“For cabbages.”"
+        },
+        {
+          "text": "He seemed to expect laughter. She gave him a small amount, cautiously."
+        },
+        {
+          "text": "While the dough rose, she cleaned the cuts on her hand. Her mother had taught her to boil cloth and water, recognise swelling, leave a wound open enough to drain. Much of bone-setting involved persuading frightened people to keep still. Edda had preferred surveying because a wall did not argue about how much it hurt."
+        },
+        {
+          "text": "Ordan watched her bind her wrist."
+        },
+        {
+          "text": "“Does that help?” he asked."
+        },
+        {
+          "text": "“Some. Time does the rest.”"
+        },
+        {
+          "text": "He touched his own hand, examining the knuckles as though they belonged to someone else."
+        }
+      ],
+      "choices": [
+        {
+          "id": "seam:continue",
+          "label": "Continue",
+          "to": "shelf",
+          "continue": true
+        }
+      ]
+    },
+    "shelf": {
+      "chapter": 6,
+      "title": "Things Left Within Reach",
+      "beats": [
+        {
+          "text": "In the rain, the house made small sounds around her."
+        },
+        {
+          "text": "A gutter dripped against a bucket. The window latch clicked. Ordan had gone to the far side of the mountain to hunt; he had warned her because she had asked where meat came from and disliked being told only that it would be provided."
+        },
+        {
+          "text": "Her knee was better. She could walk as far as the gate without stopping. Beneath the kitchen window lay an overgrown cabbage bed. She pulled weeds until the roots came free with satisfying little pops."
+        },
+        {
+          "text": "On the shelf above the hearth stood an exercise book. Edda opened it to a page headed Difficult Words. Whoever had written it had included millennium, privy, and forgiveness. Beneath forgiveness, in another hand, someone had added: Most frequently demanded by people who owe you money."
+        },
+        {
+          "text": "She smiled before she could stop herself."
+        },
+        {
+          "text": "Between the pages lay a drawing of a dragon with his head in an oven. Steam issued from the oven door. A caption read Father has taken charge of the roast."
+        }
+      ],
+      "choices": [
+        {
+          "id": "shelf:next",
+          "label": "Continue",
+          "to": "shelf~1",
+          "continue": true
+        }
+      ]
+    },
+    "shelf~1": {
+      "chapter": 6,
+      "title": "Things Left Within Reach",
+      "beats": [
+        {
+          "text": "Edda shut the book. She had no right to be opening everything she found because she was frightened."
+        },
+        {
+          "text": "The covered chair stood near the wall. She could ask him about the person who had lived here, and risk giving him a question he might refuse. Or she could use the afternoon to inspect the barred store beyond the cold room, where she had seen old council seals among the gold. Her own warrant had borne one of those seals. The answers there might help her get home."
+        }
+      ],
+      "choices": [
+        {
+          "id": "shelf:daughter",
+          "label": "Ask about the person who left the exercise book.",
+          "to": "linnet",
+          "effects": [
+            {
+              "op": "add",
+              "key": "trust",
+              "value": 1
+            },
+            {
+              "op": "learn",
+              "key": "linnet"
+            }
+          ]
+        },
+        {
+          "id": "shelf:receipts",
+          "label": "Inspect the council seals in the cold store.",
+          "to": "ledger",
+          "effects": [
+            {
+              "op": "set",
+              "key": "read_receipts",
+              "value": true
+            },
+            {
+              "op": "learn",
+              "key": "receipts"
+            }
+          ]
+        }
+      ]
+    },
+    "linnet": {
+      "chapter": 6,
+      "title": "The Person in the Chair",
+      "beats": [
+        {
+          "text": "“Your daughter?” Edda asked, when he returned."
+        },
+        {
+          "text": "Ordan set a bundle of dry branches beside the hearth. One rolled away. He watched it until it stopped."
+        },
+        {
+          "text": "“Linnet.”"
+        },
+        {
+          "text": "“I opened her book. I’m sorry.”"
+        },
+        {
+          "text": "“She put it there to be read.”"
+        },
+        {
+          "text": "He sat in the larger chair. It creaked. Edda took the stool again."
+        },
+        {
+          "text": "“She was nineteen when she died,” he said. “She would have objected to people mentioning that first.”"
+        },
+        {
+          "text": "“Then tell me something else.”"
+        },
+        {
+          "text": "He considered. Rain pattered against the glass."
+        },
+        {
+          "text": "“She disliked plums. Not the taste. The stones offended her. She believed a fruit should make up its mind about being edible.”"
+        },
+        {
+          "text": "Edda laughed. His face moved towards the sound, uncertainly."
+        },
+        {
+          "text": "He told her about the goat. He did a poor imitation of Linnet’s voice, then stopped and did it again without trying to make it young. She had wanted a school. She had argued about bedtimes with the solemnity of an advocate. When she was small she had put blankets over his claws on cold nights."
+        },
+        {
+          "text": "“Were they cold?”"
+        },
+        {
+          "text": "“No.”"
+        },
+        {
+          "text": "“Did you tell her?”"
+        },
+        {
+          "text": "“I did not wish to hurt her feelings.”"
+        }
+      ],
+      "choices": [
+        {
+          "id": "linnet:next",
+          "label": "Continue",
+          "to": "linnet~1",
+          "continue": true
+        }
+      ]
+    },
+    "linnet~1": {
+      "chapter": 6,
+      "title": "The Person in the Chair",
+      "beats": [
+        {
+          "text": "She could imagine him lying absolutely still while a child struggled with enormous feet. The thought reached her before she remembered the red stitches. Her smile faded."
+        },
+        {
+          "text": "He saw it."
+        },
+        {
+          "text": "“I did those things too,” he said."
+        },
+        {
+          "text": "“I know.”"
+        },
+        {
+          "text": "There was no comfortable answer after that. She did not offer one. Yet when he rose to leave she asked him to put the exercise book back where it had been, uncovered."
+        },
+        {
+          "text": "He did, with one hand on the shelf for longer than was necessary."
+        }
+      ],
+      "choices": [
+        {
+          "id": "linnet:continue",
+          "label": "Continue",
+          "to": "bell",
+          "continue": true
+        }
+      ]
+    },
+    "ledger": {
+      "chapter": 6,
+      "title": "A Receipt for Peace",
+      "beats": [
+        {
+          "text": "The store door was unlocked. The grille beyond it was not."
+        },
+        {
+          "text": "Edda stood in the dusty passage looking at gold that could have paid for every broken sluice in Harrowmere. Much of it was ceremonial: cups with no practical handles, crowns made to rest on cushions, swords too elaborate to sharpen. Against the grille lay a leather case stamped with a council seal."
+        },
+        {
+          "text": "She could reach it with the hook used for lifting the hearth grate."
+        },
+        {
+          "text": "Inside were receipts."
+        },
+        {
+          "text": "The earliest named six men. Each was described as a signatory’s household successor. The later pages had abandoned names. Delivery acknowledged. Obligation satisfied. Twenty-seven red wafers marked twenty-seven winters, with four years between each."
+        },
+        {
+          "text": "On one sheet, beneath the seal, somebody had scratched a name through the wet ink. Mara Sill. There was a thumbprint beside it, from a hand forced down too hard."
+        },
+        {
+          "text": "“Who was she?” Edda asked."
+        },
+        {
+          "text": "Ordan stood behind her. She had not heard him arrive."
+        },
+        {
+          "text": "His eyes went to the paper. “I don’t know.”"
+        },
+        {
+          "text": "“You signed.”"
+        },
+        {
+          "text": "“Yes.”"
+        },
+        {
+          "text": "She put the receipt flat on the shelf. “Did you kill her?”"
+        }
+      ],
+      "choices": [
+        {
+          "id": "ledger:next",
+          "label": "Continue",
+          "to": "ledger~1",
+          "continue": true
+        }
+      ]
+    },
+    "ledger~1": {
+      "chapter": 6,
+      "title": "A Receipt for Peace",
+      "beats": [
+        {
+          "text": "He closed his eyes, then opened them because she was still waiting."
+        },
+        {
+          "text": "“Yes.”"
+        },
+        {
+          "text": "Edda moved away from him. He stayed beside the door, leaving the passage clear."
+        },
+        {
+          "text": "“I want a copy,” she said. “Every name there is.”"
+        },
+        {
+          "text": "He gave her paper. When she made him lift the grille, he obeyed. She copied until her fingers cramped, and copied Mara Sill twice so she would not lose the name if one page got wet."
+        },
+        {
+          "text": "He did not ask whether she understood why he had done it. She would have left if he had."
+        }
+      ],
+      "choices": [
+        {
+          "id": "ledger:continue",
+          "label": "Continue",
+          "to": "bell",
+          "continue": true
+        }
+      ]
+    },
+    "bell": {
+      "chapter": 7,
+      "title": "The Service Bell",
+      "beats": [
+        {
+          "text": "On the ninth day the road below the gate filled with men carrying covered packs."
+        },
+        {
+          "text": "Edda saw them from the kitchen. A woman led them, broad-shouldered, with a faded red cord tied around her wrist. She raised an empty hand when Ordan crossed the courtyard."
+        },
+        {
+          "text": "“Roof repairs,” she called. “The council sent us.”"
+        },
+        {
+          "text": "Edda had been on council jobs. They sent no one to repair a roof in winter without first sending three people to dispute who should pay. She reached for the little brass bell by the hearth. Ordan had told her it summoned him if she needed help; he had put it there before going to sleep outside, and had asked permission to leave it within reach."
+        },
+        {
+          "text": "She rang it."
+        },
+        {
+          "text": "He turned towards the kitchen. The woman shouted, “Now. Before he’s done digesting.”"
+        },
+        {
+          "text": "One of the men pulled a crossbow from his pack."
+        }
+      ],
+      "choices": [
+        {
+          "id": "bell:next",
+          "label": "Continue",
+          "to": "bell~1",
+          "continue": true
+        }
+      ]
+    },
+    "bell~1": {
+      "chapter": 7,
+      "title": "The Service Bell",
+      "beats": [
+        {
+          "text": "Ordan was already changing. He had chosen the smaller form to come through the kitchen door. Edda saw the light break between his scales, the unfinished membrane of his cheek. The crossbow bolt struck the wall. A second man, closer than she had realised, drove a narrow climbing spike into his left eye."
+        },
+        {
+          "text": "The dragon’s head struck stone. Heat burst outward. The attacker fell with his sleeve burning, and the woman dragged him back by the collar."
+        },
+        {
+          "text": "“The stone,” she shouted. “Take the stone!”"
+        },
+        {
+          "text": "Two men ran for the cold store. Ordan’s hind claws dug furrows through the courtyard. He could not raise his head. Half-made flesh along his jaw shook violently, each attempt to change drawing the spike deeper."
+        },
+        {
+          "text": "The woman saw Edda in the doorway. “You’re alive.”"
+        },
+        {
+          "text": "For the first time she sounded afraid."
+        },
+        {
+          "text": "They had come expecting a corpse and a heavy meal. Edda could run through the pantry to the rear chimney and ring the alarm gong, driving the thieves away from the stones. Or she could crawl to Ordan immediately and try to stop him moving against the iron."
+        },
+        {
+          "text": "Either way, they had seconds."
+        }
+      ],
+      "choices": [
+        {
+          "id": "bell:brace",
+          "label": "Brace his head immediately. The thieves may escape with the great stone.",
+          "to": "brace",
+          "effects": [
+            {
+              "op": "add",
+              "key": "trust",
+              "value": 1
+            },
+            {
+              "op": "set",
+              "key": "great_stolen",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "bell:gong",
+          "label": "Sound the alarm to drive the thieves off. His injury may worsen while you are away.",
+          "to": "gong",
+          "effects": [
+            {
+              "op": "set",
+              "key": "great_stolen",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    "brace": {
+      "chapter": 7,
+      "title": "Keep Still",
+      "beats": [
+        {
+          "text": "Edda crawled along the wall, keeping beneath the sweep of his foreleg."
+        },
+        {
+          "text": "“Ordan. Stop changing.”"
+        },
+        {
+          "text": "He made a sound that shook dust from the lintel. The spike moved. Blood ran hot over the courtyard stones, steaming in the rain."
+        },
+        {
+          "text": "She had once held a miller’s arm while her mother cut away a shirt caught in a pulley. The miller had screamed that she was hurting him. Her mother had said yes, she was. Edda had remembered that more than any comforting thing anyone had said in the room."
+        },
+        {
+          "text": "“You’re driving it deeper,” she told him. “You have to stay this size.”"
+        },
+        {
+          "text": "His one visible eye found her."
+        },
+        {
+          "text": "She put both hands against his jaw. He could have crushed her by turning his head. He did not turn it. Under her palms, the trembling began to slow."
+        },
+        {
+          "text": "Behind her a grille slammed. Men grunted beneath a weight. The woman in command swore at someone to leave the gold."
+        },
+        {
+          "text": "“I have to pull it out,” Edda said. “I can’t if you move.”"
+        }
+      ],
+      "effects": [
+        {
+          "op": "set",
+          "key": "injury",
+          "value": 1
+        }
+      ],
+      "choices": [
+        {
+          "id": "brace:next",
+          "label": "Continue",
+          "to": "brace~1",
+          "continue": true
+        }
+      ]
+    },
+    "brace~1": {
+      "chapter": 7,
+      "title": "Keep Still",
+      "beats": [
+        {
+          "text": "She wrapped a rag around the spike so she could grip it. Her damaged wrist failed once. She used the other hand and leaned her body away."
+        },
+        {
+          "text": "The iron came free with a sickening little release."
+        },
+        {
+          "text": "Ordan’s head dropped. She scrambled clear. He breathed across the stones, a ragged gust so hot the blood dried on her skirt."
+        },
+        {
+          "text": "The thieves were gone. From the cold store came a wavering red glow: one of the great summerstones had been levered from its cradle. Its broken retaining ring lay on the floor."
+        },
+        {
+          "text": "Edda pressed a folded cloth over the ruined eye. He held still for her."
+        }
+      ],
+      "choices": [
+        {
+          "id": "brace:continue",
+          "label": "Continue",
+          "to": "hearth",
+          "continue": true
+        }
+      ]
+    },
+    "gong": {
+      "chapter": 7,
+      "title": "What the Thieves Left",
+      "beats": [
+        {
+          "text": "Edda dragged herself through the pantry. The chimney shaft held an iron ladder and the old alarm gong."
+        },
+        {
+          "text": "She struck it with the rolling pin."
+        },
+        {
+          "text": "The sound rolled down the mountain. Below, a dog began barking. The thieves in the cold store hesitated. Through the shaft Edda saw one of them with a small summerstone under his coat. Another stood beside the great stone in its cradle, a pry bar beneath its iron collar."
+        },
+        {
+          "text": "“Leave it!” their captain shouted."
+        },
+        {
+          "text": "They ran. The last man struck the retaining ring with his bar in frustration. It cracked. Edda heard it above the gong, a high, clear note."
+        },
+        {
+          "text": "By the time she reached Ordan, he had made another involuntary attempt to change. The spike had twisted. His jaw lay against the wall, too still."
+        },
+        {
+          "text": "She knelt in his blood and spoke his name until the uninjured eye moved towards her. She could not undo the damage. She could stop more."
+        },
+        {
+          "text": "“No more changing,” she said. “Look at me. Stay here.”"
+        }
+      ],
+      "effects": [
+        {
+          "op": "set",
+          "key": "injury",
+          "value": 2
+        }
+      ],
+      "choices": [
+        {
+          "id": "gong:next",
+          "label": "Continue",
+          "to": "gong~1",
+          "continue": true
+        }
+      ]
+    },
+    "gong~1": {
+      "chapter": 7,
+      "title": "What the Thieves Left",
+      "beats": [
+        {
+          "text": "He obeyed by degrees. She wrapped her skirt around the spike and pulled until it came free. Then she pressed the cleanest cloth she could find over the wound and listened to his breathing."
+        },
+        {
+          "text": "The gong swung behind her. Every stroke was quieter than the last."
+        },
+        {
+          "text": "In the cold store, the cracked ring still held the great summerstone. Most of its little companions remained in their racks. She had saved them, at a cost she could not yet measure."
+        }
+      ],
+      "choices": [
+        {
+          "id": "gong:continue",
+          "label": "Continue",
+          "to": "hearth",
+          "continue": true
+        }
+      ]
+    },
+    "hearth": {
+      "chapter": 8,
+      "title": "A Smaller Body",
+      "beats": [
+        {
+          "text": "“I have to change,” he said near dusk."
+        },
+        {
+          "text": "Edda sat beside his head. Her skirt had dried stiff. She had washed the wound with water cooled from boiling, though he had flinched from cold far less than she expected."
+        },
+        {
+          "text": "“It tore you worse last time.”"
+        },
+        {
+          "text": "“It was unfinished. My blood keeps trying to finish it.”"
+        },
+        {
+          "text": "He explained in pieces, between long silences. Dragon flesh carried heat through a network beneath the scales. An injury of this size bled faster than he could close it. A human body would have a smaller wound and less surface to lose warmth. The change itself could kill him if he did it while shaking."
+        },
+        {
+          "text": "“And the eye?”"
+        },
+        {
+          "text": "“It will be gone.”"
+        },
+        {
+          "text": "He said it flatly. She was grateful for that. There was enough to do without pretending."
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "healing"
+        }
+      ],
+      "choices": [
+        {
+          "id": "hearth:next",
+          "label": "Continue",
+          "to": "hearth~1",
+          "continue": true
+        }
+      ]
+    },
+    "hearth~1": {
+      "chapter": 8,
+      "title": "A Smaller Body",
+      "beats": [
+        {
+          "text": "She moved the bench cushions into the hearth alcove, fetched the small summerstone and wrapped it in thick cloth. It would warm him while his own heat was occupied. Then she checked the cold store. The damaged great stone would need a new cradle soon. Until then, she closed the fire doors around it, using a lever because the handle was too hot."
+        },
+        {
+          "text": "“What if I fall?” he asked when she returned."
+        },
+        {
+          "text": "“Then you fall on cushions. I’ve organised it.”"
+        },
+        {
+          "text": "For a moment the corner of his mouth moved."
+        },
+        {
+          "text": "She told him to follow the rhythm of her tapping against the floor. Nine measured beats. A surveyor knew how to count while frightened; rivers did not pause to let her recover her nerve."
+        },
+        {
+          "text": "At the seventh beat his body buckled. She kept tapping. At the ninth, a man lay on the cushions, bleeding from a wound that crossed his brow into the empty socket."
+        }
+      ],
+      "choices": [
+        {
+          "id": "hearth~1:next",
+          "label": "Continue",
+          "to": "hearth~2",
+          "continue": true
+        }
+      ]
+    },
+    "hearth~2": {
+      "chapter": 8,
+      "title": "A Smaller Body",
+      "beats": [
+        {
+          "text": "She did not pack the socket or attempt her mother’s work with a blade. She supported his head, covered the eye lightly, and made him drink when he could swallow. For the next three days her tasks were plain: clean water, warmth, changed cloth, listening to his breathing, persuading him that rest did not mean he had stopped defending himself."
+        },
+        {
+          "text": "His own body closed the torn flesh. The summerstone only kept him warm. Edda could see the difference each time he woke and the wound looked a little less raw."
+        },
+        {
+          "text": "On the fourth morning he said, “You could have gone.”"
+        },
+        {
+          "text": "She wrung out a cloth. “Yes.”"
+        },
+        {
+          "text": "“Why didn’t you?”"
+        },
+        {
+          "text": "“I knew how to help.”"
+        },
+        {
+          "text": "He waited. She gave him no larger answer."
+        }
+      ],
+      "choices": [
+        {
+          "id": "hearth:continue",
+          "label": "Continue",
+          "to": "captain",
+          "continue": true
+        }
+      ]
+    },
+    "captain": {
+      "chapter": 9,
+      "title": "The Woman Who Came Back",
+      "beats": [
+        {
+          "text": "The captain returned alone with a white cloth tied to a stick."
+        },
+        {
+          "text": "Ordan was asleep. Edda met her outside the gate, carrying the climbing spike. The woman looked at it and lowered the stick."
+        },
+        {
+          "text": "“Merrow Sill,” she said."
+        },
+        {
+          "text": "Edda remembered the red cord. Sacrifice families received them, one for every household member left alive. The dye was supposed to fade before the next peace winter. This one had faded almost to brown."
+        },
+        {
+          "text": "“You came to rob him.”"
+        },
+        {
+          "text": "“We were paid to take a great stone. Voss wants heat for the works.”"
+        },
+        {
+          "text": "“And you believed we’d be dead.”"
+        },
+        {
+          "text": "Merrow looked through the gate at the kitchen door. “The stories say he eats first, sleeps after. We watched the procession. We thought we had an hour.”"
+        },
+        {
+          "text": "“They’re wrong.”"
+        },
+        {
+          "text": "“I gathered.”"
+        },
+        {
+          "text": "She had brought Edda’s dividers, recovered from one of the men who had attacked her in the ditch. Pate had sold them at a drinking house. Merrow set them on the gatepost. Then she put down a folded contract bearing Voss’s seal."
+        },
+        {
+          "text": "“Why bring that?”"
+        },
+        {
+          "text": "“He sent wardens to my lodging this morning. Apparently theft is a serious matter now.”"
+        }
+      ],
+      "effects": [
+        {
+          "op": "gain",
+          "key": "contract"
+        },
+        {
+          "op": "learn",
+          "key": "theft"
+        }
+      ],
+      "choices": [
+        {
+          "id": "captain:next",
+          "label": "Continue",
+          "to": "captain~1",
+          "continue": true
+        }
+      ]
+    },
+    "captain~1": {
+      "chapter": 9,
+      "title": "The Woman Who Came Back",
+      "beats": [
+        {
+          "text": "Practical, then. Edda preferred it to a speech about remorse."
+        },
+        {
+          "text": "Merrow said her mother had come up the mountain eight years earlier. She had bought the family’s seed on council credit after a flood. When the debt was called in, the council offered a remission. Merrow had been sixteen. She had watched the procession from a roof."
+        },
+        {
+          "text": "“Does he remember her?”"
+        },
+        {
+          "text": "Edda could not promise that he did. Merrow nodded as if she had expected nothing else."
+        },
+        {
+          "text": "She could hand Merrow the receipts, ask her to help recover evidence in town, and accept that a woman who had attacked them might still be useful. Or she could keep the captain outside their lives and send her to warn the lower holdings about Voss herself."
+        }
+      ],
+      "choices": [
+        {
+          "id": "captain:ally",
+          "label": "Accept Merrow’s help, on condition neither side takes revenge.",
+          "to": "bargain",
+          "effects": [
+            {
+              "op": "set",
+              "key": "ally",
+              "value": true
+            },
+            {
+              "op": "add",
+              "key": "trust",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "captain:refuse",
+          "label": "Send her to warn the holdings; keep her out of your work.",
+          "to": "refuse"
+        }
+      ]
+    },
+    "bargain": {
+      "chapter": 9,
+      "title": "A Conditional Ally",
+      "beats": [
+        {
+          "text": "Edda made Merrow wait while she fetched the leather receipt case."
+        },
+        {
+          "text": "She knew which page to turn to. She had copied the name twice.",
+          "when": {
+            "var": "read_receipts",
+            "eq": true
+          }
+        },
+        {
+          "text": "She had found the case behind the cold-room grille the morning after the attack, looking for spare cloth. The nameless acknowledgments had made her feel sick. Then she had found Mara Sill’s thumbprint.",
+          "when": {
+            "var": "read_receipts",
+            "eq": false
+          }
+        },
+        {
+          "text": "Mara Sill’s thumbprint was still there."
+        },
+        {
+          "text": "Merrow took the page with both hands. She read it twice. Her lips moved on the second reading, though she made no sound."
+        },
+        {
+          "text": "“I won’t give you his life for it,” Edda said."
+        },
+        {
+          "text": "Merrow looked up."
+        },
+        {
+          "text": "“And I won’t give him yours. If you work with us, that’s the condition.”"
+        },
+        {
+          "text": "“Us.”"
+        },
+        {
+          "text": "“For this work. Don’t make more of it.”"
+        },
+        {
+          "text": "Merrow folded the receipt. “What work?”"
+        },
+        {
+          "text": "The council kept two kinds of record: judgments in the public chamber, payments in the weighing house. Edda had entered measurements in both. The stamps in Ordan’s receipt case matched those on a century of sluice accounts. If the sacrifice levy paid for flood relief, as Voss claimed, the accounts ought to show where the relief went."
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "receipts"
+        }
+      ],
+      "choices": [
+        {
+          "id": "bargain:next",
+          "label": "Continue",
+          "to": "bargain~1",
+          "continue": true
+        }
+      ]
+    },
+    "bargain~1": {
+      "chapter": 9,
+      "title": "A Conditional Ally",
+      "beats": [
+        {
+          "text": "“You want to audit them?” Merrow asked."
+        },
+        {
+          "text": "“I want to know why they repaired my rod before exhibiting it.”"
+        },
+        {
+          "text": "Merrow gave a brief, unwilling laugh."
+        },
+        {
+          "text": "She would meet Edda at the abandoned storehouse when Edda could travel. She knew a door into the weighing house. Edda knew what to look for once they were through it."
+        },
+        {
+          "text": "At the gate Merrow stopped. “I don’t forgive him.”"
+        },
+        {
+          "text": "“I didn’t ask you to.”"
+        },
+        {
+          "text": "When Edda brought the contract indoors, Ordan was awake. He read Merrow’s surname, and did not ask why Edda had let her leave."
+        }
+      ],
+      "choices": [
+        {
+          "id": "bargain:continue",
+          "label": "Continue",
+          "to": "account",
+          "continue": true
+        }
+      ]
+    },
+    "refuse": {
+      "chapter": 9,
+      "title": "An Enemy Left Alive",
+      "beats": [
+        {
+          "text": "“Warn the lower holdings,” Edda said. “Tell them Voss is buying heat with their taxes.”"
+        },
+        {
+          "text": "Merrow’s mouth tightened. “That’s all?”"
+        },
+        {
+          "text": "“You stabbed a man who was changing shape to come through a door. I don’t know how to work beside you yet.”"
+        },
+        {
+          "text": "“He isn’t a man.”"
+        },
+        {
+          "text": "“You expected me to be dead.”"
+        },
+        {
+          "text": "Merrow looked away first."
+        },
+        {
+          "text": "Edda took the contract and the dividers. She did not take the captain’s offered hand. Merrow walked down the path without her white flag; she left it caught in the gate."
+        },
+        {
+          "text": "Inside, Ordan sat at the kitchen table with a blanket over his shoulders. The bandage had slipped. He was trying to wind it back into place without admitting he needed help."
+        },
+        {
+          "text": "“She came back,” he said."
+        },
+        {
+          "text": "“She lost her mother.”"
+        },
+        {
+          "text": "“I heard.”"
+        },
+        {
+          "text": "Edda set the contract in front of him. He looked at the seal, not the signature."
+        },
+        {
+          "text": "“Did you ever ask their names?” she asked."
+        },
+        {
+          "text": "“At first.”"
+        },
+        {
+          "text": "“And then?”"
+        },
+        {
+          "text": "“I stopped.”"
+        },
+        {
+          "text": "She sat down opposite him. “That was something you did. You keep saying it as if time did it.”"
+        },
+        {
+          "text": "His hand lay motionless on the blanket."
+        }
+      ],
+      "choices": [
+        {
+          "id": "refuse:next",
+          "label": "Continue",
+          "to": "refuse~1",
+          "continue": true
+        }
+      ]
+    },
+    "refuse~1": {
+      "chapter": 9,
+      "title": "An Enemy Left Alive",
+      "beats": [
+        {
+          "text": "“Yes,” he said at last. “I stopped asking.”"
+        },
+        {
+          "text": "She could stay in the room with that answer. She could not have stayed with an excuse."
+        }
+      ],
+      "choices": [
+        {
+          "id": "refuse:continue",
+          "label": "Continue",
+          "to": "account",
+          "continue": true
+        }
+      ]
+    },
+    "account": {
+      "chapter": 10,
+      "title": "Twenty-Seven",
+      "beats": [
+        {
+          "text": "Ordan brought the receipts to the table the next morning."
+        },
+        {
+          "text": "He read every name that remained. Six early names, then scattered later ones. Most pages held only a seal. Twenty-seven people had climbed the path; twenty-seven had died. Nothing in the receipts said how many people had been lost when he burned the river towns before the bargain. He could name the towns. He could not count the dead."
+        },
+        {
+          "text": "Linnet had been accused of opening the western relief gates to punish tenants who refused the dragon’s protection. They had tried her in her absence while she was locked beneath the weighing house. Witnesses had been threatened with losing their holdings. Her drawings had been called invasion maps. The council had executed her before sending him the verdict."
+        },
+        {
+          "text": "“They showed me a seal,” he said. “They thought I would accept their authority.”"
+        },
+        {
+          "text": "His voice had grown very controlled. Edda recognised the effort: the tone of someone carrying a full bowl through a crowd."
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "linnet"
+        },
+        {
+          "op": "learn",
+          "key": "charter"
+        },
+        {
+          "op": "learn",
+          "key": "receipts"
+        }
+      ],
+      "choices": [
+        {
+          "id": "account:next",
+          "label": "Continue",
+          "to": "account~1",
+          "continue": true
+        }
+      ]
+    },
+    "account~1": {
+      "chapter": 10,
+      "title": "Twenty-Seven",
+      "beats": [
+        {
+          "text": "He had burned the council chamber and the men inside it. The fire had spread to the market. An army had come from the next kingdom. He had destroyed that too. Then the surviving towns offered a bargain: one life every fourth winter, drawn at first from the households responsible for Linnet’s judgment, in exchange for no further attacks."
+        },
+        {
+          "text": "“Why agree?” Edda asked."
+        },
+        {
+          "text": "“It gave them a day to fear. I wanted them to know when.”"
+        },
+        {
+          "text": "He had also wanted a memorial. Linnet’s name had been cut into the first gate; each offering was supposed to acknowledge what had been done to her. He had accepted that acknowledgment in lives."
+        },
+        {
+          "text": "“Then they stopped saying her name,” he said. “I let them.”"
+        },
+        {
+          "text": "The gate now bore only the words PEACE THROUGH SERVICE."
+        },
+        {
+          "text": "Edda looked at the cloth on the little chair."
+        },
+        {
+          "text": "“Would she have wanted this?”"
+        },
+        {
+          "text": "“No.”"
+        },
+        {
+          "text": "“You knew that.”"
+        },
+        {
+          "text": "“Yes.”"
+        },
+        {
+          "text": "He did not look away. She found that harder to bear than if he had."
+        }
+      ],
+      "choices": [
+        {
+          "id": "account~1:next",
+          "label": "Continue",
+          "to": "account~2",
+          "continue": true
+        }
+      ]
+    },
+    "account~2": {
+      "chapter": 10,
+      "title": "Twenty-Seven",
+      "beats": [
+        {
+          "text": "At last he told her he had been considering ending the bargain before she came. He had circled the mountain on the last peace winter and thought of refusing the procession. Then he had landed in the courtyard and done what he had done before."
+        },
+        {
+          "text": "“Thinking was easier,” he said."
+        },
+        {
+          "text": "Edda could demand a public refusal now, risking retaliation from the council but giving the next selected family a chance. Or she could insist he first release the written charter into her keeping, so the terms could be challenged in court. Neither action could return a single person to the table."
+        }
+      ],
+      "choices": [
+        {
+          "id": "account:renounce",
+          "label": "Require a public end to the sacrifices now; Voss may retaliate.",
+          "to": "renounce",
+          "effects": [
+            {
+              "op": "set",
+              "key": "renounced",
+              "value": true
+            },
+            {
+              "op": "add",
+              "key": "trust",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "account:charter",
+          "label": "Take the charter and safe-conduct before seeking a hearing.",
+          "to": "charter",
+          "effects": [
+            {
+              "op": "gain",
+              "key": "charter"
+            }
+          ]
+        }
+      ]
+    },
+    "renounce": {
+      "chapter": 10,
+      "title": "No Next Procession",
+      "beats": [
+        {
+          "text": "Ordan wrote the refusal himself."
+        },
+        {
+          "text": "His handwriting was angular and cramped. Edda watched him cross out the phrase henceforth suspended and write ended in its place."
+        },
+        {
+          "text": "“No one may offer a person in my name,” he read. “No one owes me a death. I will not accept another.”"
+        },
+        {
+          "text": "“And if they send someone anyway?”"
+        },
+        {
+          "text": "“I will open the gate.”"
+        },
+        {
+          "text": "He signed it Ordan, without the titles kings had given him when they were afraid."
+        },
+        {
+          "text": "Edda made three copies. She paid a charcoal burner to take one to the lower holdings, one to the ferry, and one to the council. Ordan tried to offer gold. She made him count out ordinary silver instead. The man needed a wage he could spend without explaining how he had come by a royal goblet."
+        },
+        {
+          "text": "That afternoon someone lit the peace beacon below the town. It was the signal for a breached bargain."
+        },
+        {
+          "text": "Edda looked at Ordan. “That was quick.”"
+        },
+        {
+          "text": "“Voss has no need to think.”"
+        },
+        {
+          "text": "His attempt at humour was poor. She appreciated the effort anyway."
+        }
+      ],
+      "choices": [
+        {
+          "id": "renounce:next",
+          "label": "Continue",
+          "to": "renounce~1",
+          "continue": true
+        }
+      ]
+    },
+    "renounce~1": {
+      "chapter": 10,
+      "title": "No Next Procession",
+      "beats": [
+        {
+          "text": "They watched the smoke rise. He offered to take her anywhere beyond Harrowmere once he could change safely. She told him he was still bleeding through his bandage and that she had a brother to find."
+        },
+        {
+          "text": "“Then I will carry your luggage,” he said."
+        },
+        {
+          "text": "“You can start with that bucket.”"
+        },
+        {
+          "text": "He fetched it. The announcement had not made the kitchen easier to heat or the wound easier to clean. Work remained, and for once he did it without needing an enemy."
+        }
+      ],
+      "choices": [
+        {
+          "id": "renounce:continue",
+          "label": "Continue",
+          "to": "road",
+          "continue": true
+        }
+      ]
+    },
+    "charter": {
+      "chapter": 10,
+      "title": "The Charter in Her Keeping",
+      "beats": [
+        {
+          "text": "The charter was stored under the smallest crown."
+        },
+        {
+          "text": "It was not enchanted. Edda had expected a document stained with lives to do something when she touched it. The parchment felt dry. A careless fold had broken one of the signatures in half."
+        },
+        {
+          "text": "“Could you always have stopped?” she asked."
+        },
+        {
+          "text": "“Yes.”"
+        },
+        {
+          "text": "She looked up."
+        },
+        {
+          "text": "“There is no spell compelling me,” he said. “No hunger that requires them. They were afraid of what I would do without the bargain. I accepted that fear.”"
+        },
+        {
+          "text": "Edda folded the charter along its old creases. “Then I’m taking it.”"
+        },
+        {
+          "text": "He put the crown aside and gave her the leather tube."
+        },
+        {
+          "text": "She made him write a separate safe-conduct for anyone selected while she sought a hearing. It was less than ending the ritual publicly. It might be enough to keep Voss from closing the roads before she reached the records. She disliked making that calculation. She disliked more that she had become good at it."
+        },
+        {
+          "text": "“You’ll have to refuse them before people,” she told him. “A court cannot do your part for you.”"
+        },
+        {
+          "text": "“I know.”"
+        },
+        {
+          "text": "“I’m not certain you do.”"
+        },
+        {
+          "text": "He accepted that too."
+        }
+      ],
+      "choices": [
+        {
+          "id": "charter:next",
+          "label": "Continue",
+          "to": "charter~1",
+          "continue": true
+        }
+      ]
+    },
+    "charter~1": {
+      "chapter": 10,
+      "title": "The Charter in Her Keeping",
+      "beats": [
+        {
+          "text": "That evening she copied the charter into her survey book. The first six names matched the first six receipts. After the sixth, the council had been permitted to nominate substitutes. The word had been added in a smaller hand, with no date."
+        },
+        {
+          "text": "She put her finger on it. There was the opening through which a hundred years of ordinary families had been pushed."
+        }
+      ],
+      "choices": [
+        {
+          "id": "charter:continue",
+          "label": "Continue",
+          "to": "road",
+          "continue": true
+        }
+      ]
+    },
+    "road": {
+      "chapter": 11,
+      "title": "Leave-Taking",
+      "beats": [
+        {
+          "text": "Edda left on the twenty-third day."
+        },
+        {
+          "text": "Her wrist could bear the survey roll. Her knee could manage the descent with a stick. Ordan had packed bread, cheese, a small summerstone and so much money she could barely lift the purse."
+        },
+        {
+          "text": "She removed most of the money."
+        },
+        {
+          "text": "“It’s yours,” he said."
+        },
+        {
+          "text": "“Then I can leave it here.”"
+        },
+        {
+          "text": "He watched her tie the bag. His bandage was clean; he could change now, though it left him exhausted. The empty socket had closed beneath a new scar. She had stopped looking away from it. He had begun noticing when she did not."
+        },
+        {
+          "text": "At the gate he offered her a horse."
+        },
+        {
+          "text": "“Do you have one?”"
+        },
+        {
+          "text": "“I could obtain one.”"
+        },
+        {
+          "text": "“Please don’t.”"
+        },
+        {
+          "text": "He inclined his head. There was almost a smile."
+        },
+        {
+          "text": "She had slept in his house, argued with him, washed his blood from her skirt. None of those things meant she owed him a return. She said so because she needed him to hear it, and because some part of her needed to hear herself say it."
+        },
+        {
+          "text": "“You owe me nothing,” he said."
+        },
+        {
+          "text": "“Even if I never come back.”"
+        },
+        {
+          "text": "“Even then.”"
+        }
+      ],
+      "effects": [
+        {
+          "op": "set",
+          "key": "departed",
+          "value": true
+        }
+      ],
+      "choices": [
+        {
+          "id": "road:next",
+          "label": "Continue",
+          "to": "road~1",
+          "continue": true
+        }
+      ]
+    },
+    "road~1": {
+      "chapter": 11,
+      "title": "Leave-Taking",
+      "beats": [
+        {
+          "text": "He stayed inside the gate while she walked down. At the first turn she looked back. He had not followed her."
+        },
+        {
+          "text": "She kept going."
+        },
+        {
+          "text": "At the abandoned storehouse, Sef stood beneath the sagging porch, older than he had looked three weeks earlier. His hair stuck up where he had been pulling at it."
+        },
+        {
+          "text": "The ferry message had reached him. He had come with a cart, blankets and a furious letter written on both sides.",
+          "when": {
+            "var": "message",
+            "eq": true
+          }
+        },
+        {
+          "text": "He had found her name on the allowance roll. He had sold his tools to buy a mule, then searched every turn of the mountain road.",
+          "when": {
+            "var": "message",
+            "eq": false
+          }
+        },
+        {
+          "text": "He hugged her so hard she swore."
+        },
+        {
+          "text": "“You are,” he said into her hair, “an absolute idiot.”"
+        },
+        {
+          "text": "“I missed you too.”"
+        },
+        {
+          "text": "He held her at arm’s length and examined the scar on her cheek. Then he held her again, more carefully."
+        },
+        {
+          "text": "For the next seven nights she slept somewhere Ordan could not see. Each morning she could decide what to do with the day."
+        }
+      ],
+      "choices": [
+        {
+          "id": "road:continue",
+          "label": "Continue",
+          "to": "records",
+          "continue": true
+        }
+      ]
+    },
+    "records": {
+      "chapter": 12,
+      "title": "Two Sets of Books",
+      "beats": [
+        {
+          "text": "The storehouse still had Linnet’s hinge."
+        },
+        {
+          "text": "Edda recognised the bird on its underside when the wind pushed the door shut. Inside, damp exercise slates leaned against the wall. No school had opened here. The council had made it a store for salt, then abandoned it when the roof began to leak."
+        },
+        {
+          "text": "Sef wanted to leave the district. She wanted that too, in the way she wanted to pull a thorn from her foot. But her name remained on a conviction. If she crossed into another borough, the warrant could follow her. So could the next procession, with someone else under the veil."
+        },
+        {
+          "text": "They needed evidence other people could use."
+        },
+        {
+          "text": "Merrow could get Edda into the weighing house. A contract clerk named Oswin would be there, and he knew the modern payments. The weighing-house route risked discovery, but offered a chance to secure the sealed accounts.",
+          "when": {
+            "var": "ally",
+            "eq": true
+          }
+        }
+      ],
+      "choices": [
+        {
+          "id": "records:next",
+          "label": "Continue",
+          "to": "records~1",
+          "continue": true
+        }
+      ]
+    },
+    "records~1": {
+      "chapter": 12,
+      "title": "Two Sets of Books",
+      "beats": [
+        {
+          "text": "The other path followed the old western channel to the village survey chest, where copies of pre-flood drawings had been deposited outside council control. That would take longer and leave the weighing-house records unguarded. A current rubbing of the diversion could make the old plans evidence of continuing fraud. Without one, they would establish the older crime, but not the modern payments."
+        },
+        {
+          "text": "Sef set out three cups. “I’m going wherever you aren’t.”"
+        },
+        {
+          "text": "“That’s not a plan.”"
+        },
+        {
+          "text": "“It’s half of one. We have two people.”"
+        },
+        {
+          "text": "“You can’t read the old units.”"
+        },
+        {
+          "text": "“I can carry a chest.”"
+        },
+        {
+          "text": "She put her head on his shoulder for one tired moment. He smelled of wool and river tar. Then she drew the two routes on a slate and told him what not to touch if a floor beam had rotted."
+        }
+      ],
+      "choices": [
+        {
+          "id": "records:archive",
+          "label": "Use Merrow’s key to seek the sealed modern accounts.",
+          "to": "archive",
+          "when": {
+            "var": "ally",
+            "eq": true
+          }
+        },
+        {
+          "id": "records:channel",
+          "label": "Recover independent old plans from the western channel.",
+          "to": "channel",
+          "effects": [
+            {
+              "op": "set",
+              "key": "plans",
+              "value": true
+            },
+            {
+              "op": "learn",
+              "key": "plans"
+            }
+          ]
+        }
+      ]
+    },
+    "archive": {
+      "chapter": 12,
+      "title": "The Clerk’s Hands",
+      "beats": [
+        {
+          "text": "Merrow opened a side door with a key she declined to explain."
+        },
+        {
+          "text": "Edda followed her into the weighing house. The place smelled of damp sacks and ink. At the long desk Oswin sat with a coal pan under his chair, sorting warrants into bundles. He looked up and went white."
+        },
+        {
+          "text": "“I was told—”"
+        },
+        {
+          "text": "“People keep saying that,” Edda said."
+        },
+        {
+          "text": "He glanced at Merrow’s knife. Merrow turned the sheathed blade behind her hip."
+        },
+        {
+          "text": "Edda laid the theft contract beside her conviction. Same seal. Same clerk’s countersignature. She asked him to show her the flood relief payments."
+        },
+        {
+          "text": "“Those are private accounts.”"
+        },
+        {
+          "text": "“Public water.”"
+        },
+        {
+          "text": "He stared at her. Then he opened the lower drawer."
+        },
+        {
+          "text": "There were payments to the bleaching works from a fund named Peace Maintenance. The levy did not support the lower sluices. It paid wardens, ceremonial costs and credit advances to selected households, with interest accumulating until the next peace winter. It also paid Merrow’s company to take a great summerstone."
+        },
+        {
+          "text": "Oswin’s hands shook so badly he spilled sand across a fresh entry."
+        },
+        {
+          "text": "“The old judgments,” Edda said."
+        },
+        {
+          "text": "“Cellar.”"
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "trial"
+        }
+      ],
+      "choices": [
+        {
+          "id": "archive:next",
+          "label": "Continue",
+          "to": "archive~1",
+          "continue": true
+        }
+      ]
+    },
+    "archive~1": {
+      "chapter": 12,
+      "title": "The Clerk’s Hands",
+      "beats": [
+        {
+          "text": "Below, the walls held a century of flood stains. Linnet’s trial lay above the highest mark. A request for witnesses had been filed after the warrant of execution. Edda checked the dates twice. The council had asked for testimony from a dead defendant."
+        },
+        {
+          "text": "Edda copied the dates and gate instructions into her survey book. These were enough to understand the old accusation; they would not carry the weight of a sealed original."
+        },
+        {
+          "text": "In the next room boots struck the stairs. Oswin had come down after them."
+        },
+        {
+          "text": "“They’re burning the upper accounts,” he whispered. “Voss knows.”"
+        },
+        {
+          "text": "Smoke slipped through the joists. Edda could take the sealed payment ledger and leave by the coal hatch. Or she could go back for Oswin, whose cough was already growing thick, and trust Merrow to salvage what she could."
+        }
+      ],
+      "choices": [
+        {
+          "id": "archive:book",
+          "label": "Carry the sealed book out first. Oswin may die in the smoke.",
+          "to": "sealbook",
+          "effects": [
+            {
+              "op": "set",
+              "key": "sealed",
+              "value": true
+            },
+            {
+              "op": "gain",
+              "key": "ledger"
+            },
+            {
+              "op": "set",
+              "key": "witness",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "archive:clerk",
+          "label": "Go back for Oswin. The sealed ledger will burn.",
+          "to": "clerk",
+          "effects": [
+            {
+              "op": "set",
+              "key": "witness",
+              "value": true
+            },
+            {
+              "op": "set",
+              "key": "sealed",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    "sealbook": {
+      "chapter": 13,
+      "title": "What a Seal Can Prove",
+      "beats": [
+        {
+          "text": "The ledger was heavier than it looked."
+        },
+        {
+          "text": "Edda shoved it through the coal hatch. Merrow climbed out first and dragged it clear. Behind them Oswin tried the stair door. It had been barred from above."
+        },
+        {
+          "text": "“Come here,” Edda shouted."
+        },
+        {
+          "text": "He came slowly, bent double. She could not reach him and keep hold of the sill. Merrow seized her coat and hauled. Edda struck the ground outside with the breath knocked out of her."
+        },
+        {
+          "text": "They went back to the hatch. Smoke filled it. Merrow tied a cloth over her mouth and reached into the blackness, but the beam above the opening cracked. A shower of burning paper drove them away."
+        },
+        {
+          "text": "Edda heard Oswin once after that. She would remember exactly how little of his voice she had heard."
+        },
+        {
+          "text": "The fire brigade arrived to find them kneeling by the hatch with a sealed book. Voss’s wardens arrived almost at the same time. Merrow pulled Edda away before the wardens could reach them."
+        }
+      ],
+      "choices": [
+        {
+          "id": "sealbook:next",
+          "label": "Continue",
+          "to": "sealbook~1",
+          "continue": true
+        }
+      ]
+    },
+    "sealbook~1": {
+      "chapter": 13,
+      "title": "What a Seal Can Prove",
+      "beats": [
+        {
+          "text": "At the storehouse she scrubbed coal from the ledger until the seal showed clearly. It proved the payments. It would be admissible before the borough magistrates, whose seals were registered against the council’s. Oswin was dead, and she had the proof he had helped her find."
+        },
+        {
+          "text": "Sef did not tell her she had made the only choice. He washed her hands and let her be quiet."
+        }
+      ],
+      "choices": [
+        {
+          "id": "sealbook:continue",
+          "label": "Continue",
+          "to": "truth",
+          "continue": true
+        }
+      ]
+    },
+    "clerk": {
+      "chapter": 13,
+      "title": "A Man with a Cough",
+      "beats": [
+        {
+          "text": "Edda went back for Oswin."
+        },
+        {
+          "text": "He had fallen on the stairs. She got beneath his arm and half-carried him towards the coal hatch. Her knee nearly folded at the last step. Merrow reached through, caught his collar and pulled while Edda pushed."
+        },
+        {
+          "text": "Behind them something heavy fell. The payment ledger lay on the table under a burning beam."
+        },
+        {
+          "text": "“Leave it,” Edda said."
+        },
+        {
+          "text": "Merrow looked at her once. Then she dragged Oswin outside."
+        },
+        {
+          "text": "The clerk coughed until he brought up black phlegm. Edda knelt beside him, furious at how relieved she was to see it. Breathing badly was still breathing."
+        },
+        {
+          "text": "Merrow had saved three loose pages. None bore the intact seal. They could tell a magistrate what had happened, but Voss could call them forgeries. Oswin would have to testify in person, and he was shaking so badly he could not hold a cup."
+        },
+        {
+          "text": "At the storehouse Edda told him that. She offered him the north road if he wanted it."
+        },
+        {
+          "text": "“You’d let me go?” he asked."
+        },
+        {
+          "text": "“I’m trying to grow used to the idea.”"
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "witness"
+        }
+      ],
+      "choices": [
+        {
+          "id": "clerk:next",
+          "label": "Continue",
+          "to": "clerk~1",
+          "continue": true
+        }
+      ]
+    },
+    "clerk~1": {
+      "chapter": 13,
+      "title": "A Man with a Cough",
+      "beats": [
+        {
+          "text": "He slept for fourteen hours. When he woke, he asked for a pen. The first line of his statement took most of a page because his hand would not steady."
+        },
+        {
+          "text": "Edda fetched more paper."
+        }
+      ],
+      "choices": [
+        {
+          "id": "clerk:continue",
+          "label": "Continue",
+          "to": "truth",
+          "continue": true
+        }
+      ]
+    },
+    "channel": {
+      "chapter": 12,
+      "title": "Under the Old Sluice",
+      "beats": [
+        {
+          "text": "The western channel had been built twice."
+        },
+        {
+          "text": "Edda could see it even before she found the village chest. The oldest stones curved along a natural bank. Newer walls cut across them, sending relief water towards the holdings marked as unsafe on Linnet’s survey. Those holdings had been surrendered to the council after the flood."
+        },
+        {
+          "text": "An old woman named Bess kept the chest under a settle. Her family had been sluice tenders for five generations. She let Edda open it after seeing the dividers, which she recognised as belonging to a trade rather than a tax collector."
+        },
+        {
+          "text": "Linnet’s original plan showed a warning in red: do not close both relief leaves against the spring rise. Beside it lay the council copy, with the warning scraped away and a new instruction added in black. Edda held the sheets to the window. The scraped fibres shone thin."
+        },
+        {
+          "text": "“We sent one back,” Bess said. “Nobody answered.”"
+        },
+        {
+          "text": "“You weren’t alive then.”"
+        },
+        {
+          "text": "“My mother’s grandmother was. People don’t stop being told something because you weren’t alive for it.”"
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "trial"
+        }
+      ],
+      "choices": [
+        {
+          "id": "channel:next",
+          "label": "Continue",
+          "to": "channel~1",
+          "continue": true
+        }
+      ]
+    },
+    "channel~1": {
+      "chapter": 12,
+      "title": "Under the Old Sluice",
+      "beats": [
+        {
+          "text": "Bess showed her a brass plate kept with the plans. The bird matched the hinge. It had marked the original safe level."
+        },
+        {
+          "text": "Edda unwrapped the rubbing from her old splint. The new cut on it fitted exactly above the original safe level. The current diversion repeated the old fraud in a new place. Bess fetched two sluice tenders to witness the measurements before the water rose.",
+          "when": {
+            "var": "rubbing",
+            "eq": true
+          }
+        },
+        {
+          "text": "Edda wished she had recorded the fresh cut before her arrest. Since then the council had faced the ditch in new stone. They could prove the old alteration from the paired drawings; the current diversion would take an independent excavation and a court order to establish.",
+          "when": {
+            "var": "rubbing",
+            "eq": false
+          }
+        },
+        {
+          "text": "They could prove the false design by independent copies and physical measurements. They could not prove the modern payments without the weighing-house book."
+        },
+        {
+          "text": "By the time they returned to town, black smoke stood above the roof. Sef had been turned back by wardens. They watched the weighing house burn from a bridge packed with people, many holding debt papers they could no longer redeem."
+        },
+        {
+          "text": "Edda kept Linnet’s drawings beneath her coat. They felt very small against her body."
+        }
+      ],
+      "choices": [
+        {
+          "id": "channel:continue",
+          "label": "Continue",
+          "to": "truth",
+          "continue": true
+        }
+      ]
+    },
+    "truth": {
+      "chapter": 14,
+      "title": "The Work She Had Done",
+      "beats": [
+        {
+          "text": "Linnet had been right about the gates."
+        },
+        {
+          "text": "The surviving drawings made the sequence plain.",
+          "when": {
+            "var": "plans",
+            "eq": true
+          }
+        },
+        {
+          "text": "The trial exhibits Edda had copied in the cellar made the sequence plain.",
+          "when": {
+            "var": "plans",
+            "eq": false
+          }
+        },
+        {
+          "text": "The council had ordered the relief leaves shut so the upper warehouses could keep loading grain. Lower tenants had drowned. Linnet had measured the flood line, copied the order, and prepared to take both to the borough assize."
+        },
+        {
+          "text": "They had arrested her carrying the drawings. Then they had called the drawings proof that she knew how to flood the valley."
+        },
+        {
+          "text": "Edda sat at the storehouse table fitting the dates together. No missing conversation would have saved Linnet. The men who signed her death warrant had already seen the warning. They needed her silent before the circuit magistrate arrived. They had called witnesses only after the execution to make the file look complete."
+        },
+        {
+          "text": "The accusation had served three purposes: conceal the gate order, clear the drowned holdings for council purchase, and turn a dragon’s daughter into a threat from which the council claimed to protect the town."
+        },
+        {
+          "text": "Her father’s revenge had made the third lie easier to sell."
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "truth"
+        }
+      ],
+      "choices": [
+        {
+          "id": "truth:next",
+          "label": "Continue",
+          "to": "truth~1",
+          "continue": true
+        }
+      ]
+    },
+    "truth~1": {
+      "chapter": 14,
+      "title": "The Work She Had Done",
+      "beats": [
+        {
+          "text": "Sef read the reconstructed sequence and sat down heavily."
+        },
+        {
+          "text": "“Does knowing help?” he asked."
+        },
+        {
+          "text": "“It helps me know what happened.”"
+        },
+        {
+          "text": "“That’s not what I meant.”"
+        },
+        {
+          "text": "“I know.”"
+        },
+        {
+          "text": "Outside, someone knocked. Ordan stood under the porch, in human form, with a basket on his arm."
+        },
+        {
+          "text": "He had not come for her. He had brought the original sacrifice charter and the receipts, and asked whether they could be copied where people could inspect them. Edda had left him a message at the mountain asking for the documents. He had brought every paper, including his own acknowledgments of delivery."
+        },
+        {
+          "text": "In the basket, beneath the leather cases, he had put a loaf that had risen badly on one side."
+        },
+        {
+          "text": "Sef examined it. “You made this?”"
+        },
+        {
+          "text": "“Apparently.”"
+        },
+        {
+          "text": "“Ambitious.”"
+        },
+        {
+          "text": "For a moment Edda wanted to laugh and weep with equal force."
+        }
+      ],
+      "choices": [
+        {
+          "id": "truth:continue",
+          "label": "Continue",
+          "to": "brother",
+          "continue": true
+        }
+      ]
+    },
+    "brother": {
+      "chapter": 15,
+      "title": "What Sef Wanted",
+      "beats": [
+        {
+          "text": "Sef took Ordan outside."
+        },
+        {
+          "text": "Edda could hear their voices through the warped boards, too low to make out most of the words. She did not go to the door. Her brother had a right to speak to the person who had intended to kill her without being supervised."
+        },
+        {
+          "text": "When they came back, Ordan was carrying the empty basket. Sef’s eyes were red."
+        },
+        {
+          "text": "“He says he won’t take you away,” Sef said."
+        },
+        {
+          "text": "“He can’t take me anywhere.”"
+        },
+        {
+          "text": "“You know what I mean.”"
+        },
+        {
+          "text": "She did. For twenty-three days Sef had imagined her dead, or not dead yet. She could not ask him to put that down because she had begun to think of the kitchen as somewhere she missed."
+        },
+        {
+          "text": "Ordan waited by the door. “He asked if I would burn the town.”"
+        },
+        {
+          "text": "“And?”"
+        },
+        {
+          "text": "“I said no.”"
+        },
+        {
+          "text": "“He asked what happens if the town hurts you again.” Sef looked at Edda. “He took longer with that.”"
+        },
+        {
+          "text": "Ordan set the basket on the floor. “I should have answered sooner.”"
+        },
+        {
+          "text": "Edda watched him. He could have made a promise too quickly, to please her. Instead he stood looking ashamed of the time it had taken."
+        }
+      ],
+      "choices": [
+        {
+          "id": "brother:next",
+          "label": "Continue",
+          "to": "brother~1",
+          "continue": true
+        }
+      ]
+    },
+    "brother~1": {
+      "chapter": 15,
+      "title": "What Sef Wanted",
+      "beats": [
+        {
+          "text": "“You have to find something to do with being afraid,” she said. “Something besides making other people more afraid.”"
+        },
+        {
+          "text": "“Yes.”"
+        },
+        {
+          "text": "Sef leaned against the table. He wanted her north with him. He also wanted the wardens off their backs and the allowance rolls opened. He had spent days talking to families outside the council chamber. She had thought he was merely waiting for her. He had been learning the work too."
+        },
+        {
+          "text": "“I can stay here,” he said. “Get people together. You can take her drawings back to him.”"
+        },
+        {
+          "text": "Edda could return to the mountain as a collaborator, with rooms of her own and the road kept open. Or she could remain with Sef through the first petitions, keeping the relationship with Ordan at a distance. The documents and the campaign would continue either way."
+        }
+      ],
+      "choices": [
+        {
+          "id": "brother:return",
+          "label": "Return by choice, with your own room and key.",
+          "to": "return",
+          "effects": [
+            {
+              "op": "set",
+              "key": "returned",
+              "value": true
+            },
+            {
+              "op": "add",
+              "key": "trust",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "brother:stay",
+          "label": "Stay with Sef and organise the petitioners.",
+          "to": "stay",
+          "effects": [
+            {
+              "op": "set",
+              "key": "organised",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    "return": {
+      "chapter": 15,
+      "title": "A Return She Chose",
+      "beats": [
+        {
+          "text": "She arrived at dusk with her own key."
+        },
+        {
+          "text": "Ordan had left it at the storehouse, threaded onto a piece of ordinary string. It opened the kitchen and the side gate. He had not attached a message."
+        },
+        {
+          "text": "Inside, a new chair stood beside the table. It was too large and very ugly. One leg had been shortened twice."
+        },
+        {
+          "text": "“I misjudged,” he said."
+        },
+        {
+          "text": "She sat in it. The seat held."
+        },
+        {
+          "text": "“This is mine?”"
+        },
+        {
+          "text": "“If you want it.”"
+        },
+        {
+          "text": "She put her survey roll on the table. “I want a room with a lock.”"
+        },
+        {
+          "text": "“There is one.”"
+        },
+        {
+          "text": "“A lock from the inside.”"
+        },
+        {
+          "text": "He showed her. She tried it while he stood in the passage. Then she opened the door again."
+        },
+        {
+          "text": "That evening they ate bread and onion soup. She told him what the drawings proved. He listened without interrupting, one hand flat on the table. When she reached the forged gate instruction, his fingers curled."
+        },
+        {
+          "text": "“You may be angry,” she said."
+        },
+        {
+          "text": "“I am.”"
+        },
+        {
+          "text": "“I meant with her too. She went down after you warned her.”"
+        },
+        {
+          "text": "He stared at her. For a moment she thought she had lost the right to sit here."
+        }
+      ],
+      "choices": [
+        {
+          "id": "return:next",
+          "label": "Continue",
+          "to": "return~1",
+          "continue": true
+        }
+      ]
+    },
+    "return~1": {
+      "chapter": 15,
+      "title": "A Return She Chose",
+      "beats": [
+        {
+          "text": "Then he said, very quietly, “I was.”"
+        },
+        {
+          "text": "He had been angry that Linnet had gone, that she had trusted the road, that she had not called for him. He had taken that anger everywhere except to the person who could not answer it."
+        },
+        {
+          "text": "Edda let him say it. She did not tell him Linnet would forgive him. She had known Linnet through a book and a few stories, and would not borrow the dead woman’s mouth."
+        },
+        {
+          "text": "Later, he asked if she was comfortable. She shifted in the dreadful chair."
+        },
+        {
+          "text": "“Absolutely not.”"
+        },
+        {
+          "text": "He laughed properly for the first time."
+        }
+      ],
+      "choices": [
+        {
+          "id": "return:continue",
+          "label": "Continue",
+          "to": "grave",
+          "continue": true
+        }
+      ]
+    },
+    "stay": {
+      "chapter": 15,
+      "title": "The Petition Table",
+      "beats": [
+        {
+          "text": "Edda stayed at the storehouse."
+        },
+        {
+          "text": "Ordan accepted the drawings on the porch. She watched him recognise Linnet’s handwriting. He asked whether he might take them away for a day. She let him take the copies, keeping the originals dry beneath a board."
+        },
+        {
+          "text": "“I’m not punishing you,” she said."
+        },
+        {
+          "text": "“You need not explain where you sleep.”"
+        },
+        {
+          "text": "He meant it more easily now. She could hear the difference."
+        },
+        {
+          "text": "They worked apart for a fortnight. Each morning a basket arrived with paper, receipts, sometimes bread. Sef began grading the loaves on slates. A particularly lopsided one earned a charitable Could serve as a doorstop."
+        },
+        {
+          "text": "Ordan sent back a note: Depends on the door."
+        },
+        {
+          "text": "Edda kept that note after she had copied its accounts onto clean paper."
+        },
+        {
+          "text": "The petition table grew crowded. Some families wanted the levy ended. Others wanted the promised pensions honoured first. One woman said the dragon ought to be killed before anyone discussed money. Edda did not ask her to stop coming."
+        }
+      ],
+      "choices": [
+        {
+          "id": "stay:next",
+          "label": "Continue",
+          "to": "stay~1",
+          "continue": true
+        }
+      ]
+    },
+    "stay~1": {
+      "chapter": 15,
+      "title": "The Petition Table",
+      "beats": [
+        {
+          "text": "At night she missed the mountain’s quiet and resented herself for missing it. In the morning there were people waiting with names to spell correctly. That was work she could do."
+        },
+        {
+          "text": "On the seventeenth day Ordan asked them to meet him at the western sluice. He had found where Linnet had been buried."
+        },
+        {
+          "text": "Edda read the message twice. Then she put it down and told Sef she would go alone."
+        }
+      ],
+      "choices": [
+        {
+          "id": "stay:continue",
+          "label": "Continue",
+          "to": "grave",
+          "continue": true
+        }
+      ]
+    },
+    "grave": {
+      "chapter": 16,
+      "title": "No Last Words",
+      "beats": [
+        {
+          "text": "The grave lay behind the old lock keeper’s house."
+        },
+        {
+          "text": "Ordan had buried Linnet himself. In the years after, he had allowed brambles to cover the place, then told himself he did not remember the path. Edda followed him through the cleared thorns. His coat caught twice. He stopped to free it each time rather than tearing through."
+        },
+        {
+          "text": "The marker bore only her name and a small bird."
+        },
+        {
+          "text": "“I thought there should be more,” he said."
+        },
+        {
+          "text": "“Did you know what?”"
+        },
+        {
+          "text": "“No.”"
+        },
+        {
+          "text": "They stood beside it. Water sounded beyond the wall. Edda had brought the brass hinge from the storehouse, with Bess’s permission. They laid it against the marker, wrapped so the rain would not reach the iron pin."
+        },
+        {
+          "text": "Ordan told her the last thing Linnet had said to him. She had asked him to move the nursery pots before the frost. He had been irritated at being reminded, because he remembered every year."
+        },
+        {
+          "text": "“Did you move them?” Edda asked."
+        },
+        {
+          "text": "“Yes.”"
+        }
+      ],
+      "choices": [
+        {
+          "id": "grave:next",
+          "label": "Continue",
+          "to": "grave~1",
+          "continue": true
+        }
+      ]
+    },
+    "grave~1": {
+      "chapter": 16,
+      "title": "No Last Words",
+      "beats": [
+        {
+          "text": "She touched the wet grass. There had been no farewell worthy of a ballad, no final blessing that could tell the survivors what to do. There had been pots to move. Someone had moved them."
+        },
+        {
+          "text": "He sat on the low wall, and after a while she sat beside him."
+        },
+        {
+          "text": "“I wanted them to say her name,” he said. “And then I stopped saying the names of the people I killed.”"
+        },
+        {
+          "text": "Edda watched a beetle struggle over a clod. She turned the clod with one finger."
+        },
+        {
+          "text": "“You could start.”"
+        },
+        {
+          "text": "“It would not be enough.”"
+        },
+        {
+          "text": "“I know.”"
+        },
+        {
+          "text": "He had seven names now, including Mara Sill. Sef’s petitioners had brought more. Ordan said each one aloud, slowly, using the pronunciations Edda corrected. The missing names remained missing. They would have to look for them."
+        },
+        {
+          "text": "When they left, he looked back at the grave without needing her to wait for him."
+        }
+      ],
+      "choices": [
+        {
+          "id": "grave:continue",
+          "label": "Continue",
+          "to": "desire",
+          "continue": true
+        }
+      ]
+    },
+    "desire": {
+      "chapter": 17,
+      "title": "The Hand She Wanted",
+      "beats": [
+        {
+          "text": "Spring arrived while they were arguing about a bridge."
+        },
+        {
+          "text": "Ordan said the span had held for three hundred years. Edda said that was an observation about the past. He said the foundations were deep. She showed him where water had scoured beneath them."
+        },
+        {
+          "text": "He knelt in the mud to look."
+        },
+        {
+          "text": "She had spent a month expecting him to give way because he wanted her pleased. This time he asked for the rod, took his own measurement, found he was wrong and swore in a language that sounded like a collapsing quarry."
+        },
+        {
+          "text": "Edda laughed until her ribs ached with it. He looked up at her from the mud. There was a smear across his cheek. She wanted to put her hand there."
+        },
+        {
+          "text": "The wanting was specific enough to frighten her."
+        }
+      ],
+      "choices": [
+        {
+          "id": "desire:next",
+          "label": "Continue",
+          "to": "desire~1",
+          "continue": true
+        }
+      ]
+    },
+    "desire~1": {
+      "chapter": 17,
+      "title": "The Hand She Wanted",
+      "beats": [
+        {
+          "text": "It had not arrived while she changed his bandages. It had come later: in the way he listened when Sef spoke, the morning he sent money for a widow’s roof without putting his name on it, the hours they spent disagreeing over things that could be measured. He could still become silent with anger. He had learned to say he was angry before leaving the room."
+        },
+        {
+          "text": "None of it cancelled twenty-seven deaths. She had stopped trying to make affection produce a verdict."
+        },
+        {
+          "text": "He stood, returning the rod. Their hands touched. He let go first."
+        },
+        {
+          "text": "“Would you,” he began, and then stopped."
+        },
+        {
+          "text": "“What?”"
+        },
+        {
+          "text": "He looked at the muddy bank. “Walk with me. After we finish.”"
+        },
+        {
+          "text": "She could say that she wanted more than walks, and ask whether he did too. She could also keep the affection they had built without offering romance. He had not earned a claim on either answer."
+        }
+      ],
+      "choices": [
+        {
+          "id": "desire:romance",
+          "label": "Tell him you want to explore a romantic relationship.",
+          "to": "kiss",
+          "effects": [
+            {
+              "op": "set",
+              "key": "romance",
+              "value": true
+            },
+            {
+              "op": "add",
+              "key": "trust",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "desire:friendship",
+          "label": "Choose his friendship without promising romance.",
+          "to": "friends",
+          "effects": [
+            {
+              "op": "set",
+              "key": "romance",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    "kiss": {
+      "chapter": 17,
+      "title": "After the Bridge",
+      "beats": [
+        {
+          "text": "They finished the measurements before saying anything else."
+        },
+        {
+          "text": "Edda found this so funny she almost lost courage. At the top of the bank she put the rod down and said, “I want you to kiss me. If that is something you want.”"
+        },
+        {
+          "text": "He looked at her for a long time."
+        },
+        {
+          "text": "“I do.”"
+        },
+        {
+          "text": "“All right.”"
+        },
+        {
+          "text": "He did not move. She could see him rehearsing reasons he should refuse on her behalf."
+        },
+        {
+          "text": "“Ask me what worries you,” she said."
+        },
+        {
+          "text": "“What if you are grateful?”"
+        },
+        {
+          "text": "“I’m grateful to Bess. I don’t want to kiss Bess.”"
+        },
+        {
+          "text": "His mouth twitched. Then it grew serious again. “I was going to kill you.”"
+        },
+        {
+          "text": "“I remember. I need you to remember without using it to decide what I’m allowed to want.”"
+        },
+        {
+          "text": "He nodded, once. She stepped closer."
+        },
+        {
+          "text": "Their first kiss was awkward because he turned his blind side towards a low branch and struck it. She laughed against his mouth. He swore, quietly this time. Then he asked if he could try again."
+        },
+        {
+          "text": "She said yes."
+        },
+        {
+          "text": "Later, walking back with his hand warm in hers, she told him she was not Linnet."
+        },
+        {
+          "text": "He stopped. “I know.”"
+        }
+      ],
+      "choices": [
+        {
+          "id": "kiss:next",
+          "label": "Continue",
+          "to": "kiss~1",
+          "continue": true
+        }
+      ]
+    },
+    "kiss~1": {
+      "chapter": 17,
+      "title": "After the Bridge",
+      "beats": [
+        {
+          "text": "“I need it said.”"
+        },
+        {
+          "text": "“She hated measuring. She put it off until she could no longer avoid it. You measure furniture while people are talking.”"
+        },
+        {
+          "text": "“Only badly made furniture.”"
+        },
+        {
+          "text": "“All my furniture.”"
+        },
+        {
+          "text": "She squeezed his hand. He looked at her, with all the grief still in him and something else making room beside it."
+        },
+        {
+          "text": "That night she slept in her own room. In the morning he knocked before entering, carrying two cups and no expectation that a kiss had settled the future."
+        }
+      ],
+      "choices": [
+        {
+          "id": "kiss:continue",
+          "label": "Continue",
+          "to": "damage",
+          "continue": true
+        }
+      ]
+    },
+    "friends": {
+      "chapter": 17,
+      "title": "A Different Kind of Nearness",
+      "beats": [
+        {
+          "text": "“I want the walk,” Edda said. “I don’t want to promise anything beyond it.”"
+        },
+        {
+          "text": "He nodded. A small disappointment passed across his face. He did not ask her to account for it."
+        },
+        {
+          "text": "They walked along the old channel. Edda told him about the north coast, where she wanted to build sluices that opened from the village side. Ordan had been there when the coast was farther inland. He tried to describe a harbour that no longer existed, became annoyed with his own explanation, and drew it with a stick."
+        },
+        {
+          "text": "“That’s impossible,” she said."
+        },
+        {
+          "text": "“It was there.”"
+        },
+        {
+          "text": "“Your ships are larger than the bay.”"
+        },
+        {
+          "text": "He looked at the drawing. “The scale is approximate.”"
+        },
+        {
+          "text": "She took the stick from him."
+        },
+        {
+          "text": "By the time the light failed, they had constructed an entirely new harbour and disagreed about its best entrance. He carried the survey roll back. She carried her own coat because he had asked once and accepted the answer."
+        },
+        {
+          "text": "At the gate she touched his sleeve."
+        },
+        {
+          "text": "“I’m glad you asked me.”"
+        },
+        {
+          "text": "“So am I.”"
+        }
+      ],
+      "choices": [
+        {
+          "id": "friends:next",
+          "label": "Continue",
+          "to": "friends~1",
+          "continue": true
+        }
+      ]
+    },
+    "friends~1": {
+      "chapter": 17,
+      "title": "A Different Kind of Nearness",
+      "beats": [
+        {
+          "text": "The friendship did not feel like something left over from a better outcome. She had chosen it. He had stayed beside her in it. In a life full of people telling her what her choices meant, that was a form of tenderness she knew how to trust."
+        }
+      ],
+      "choices": [
+        {
+          "id": "friends:continue",
+          "label": "Continue",
+          "to": "damage",
+          "continue": true
+        }
+      ]
+    },
+    "damage": {
+      "chapter": 18,
+      "title": "A Ring of Iron",
+      "beats": [
+        {
+          "text": "The great summerstone was no longer safe."
+        },
+        {
+          "text": "A damaged retaining ring expanded in the day’s warmth and closed badly at night. Ordan drew its shape for Edda, showing where the thieves’ pry bar had broken it. The stone held months of his heat, compressed into a red mass the size of a grain barrel. If the ring failed, it would empty at once. In the cold store, the mountain could contain it. On a cart in a crowded town it would burn through everything around it."
+        },
+        {
+          "text": "“Can you discharge it?” she asked."
+        },
+        {
+          "text": "“Slowly. Over a week.”"
+        },
+        {
+          "text": "He could also take the heat back into himself. With his injured heat channels, that might kill him. He explained it before she could ask. No charm or prayer could make the exchange safe; the energy had to go somewhere."
+        },
+        {
+          "text": "The stone remained here behind fire doors. They began draining it into the empty stone beds, and she wrote to Sef to keep watch on the road.",
+          "when": {
+            "var": "great_stolen",
+            "eq": false
+          }
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "danger"
+        }
+      ],
+      "choices": [
+        {
+          "id": "damage:next",
+          "label": "Continue",
+          "to": "damage~1",
+          "continue": true
+        }
+      ]
+    },
+    "damage~1": {
+      "chapter": 18,
+      "title": "A Ring of Iron",
+      "beats": [
+        {
+          "text": "The thieves had taken the great stone. Sef had traced the heavy cart to Voss’s bleaching works. There had already been two fires. Voss refused to empty the works because doing so would admit how the stone had been obtained.",
+          "when": {
+            "var": "great_stolen",
+            "eq": true
+          }
+        },
+        {
+          "text": "Either way, the theft contract gave Voss a reason to seize what he called council property. The charter had given him a reason to seize Edda. He posted guards at the lower bridges and announced an emergency peace assembly."
+        },
+        {
+          "text": "All households on the allowance roll were required to attend."
+        },
+        {
+          "text": "Sef sent the proclamation up the mountain with a question beneath it: How many people can fit in the works yard?"
+        },
+        {
+          "text": "Edda read it and began drawing the yard from memory."
+        }
+      ],
+      "choices": [
+        {
+          "id": "damage:continue",
+          "label": "Continue",
+          "to": "assembly",
+          "continue": true
+        }
+      ]
+    },
+    "assembly": {
+      "chapter": 19,
+      "title": "What the Town Could Hear",
+      "beats": [
+        {
+          "text": "They met in the empty storehouse: Edda, Sef, Bess, and the people willing to put their names beneath a petition."
+        },
+        {
+          "text": "Ordan stood outside until Mara Sill’s sister told him to come in. She did not offer him a chair. He accepted that."
+        },
+        {
+          "text": "Sef had brought the magistrate’s runner from the neighbouring borough. The assize could issue a preservation order if presented with evidence it could register before Voss convened his assembly. A sealed account book would suffice. So would independent old drawings matched to current measurements. Oswin’s testimony could support an order, but would have to be taken in person before the runner left."
+        },
+        {
+          "text": "Without one of those, they still had enough to warn people and open the roads. They did not have authority to seize the council stores. Voss would call an armed arrival by Ordan an attack, and some frightened people would believe him."
+        },
+        {
+          "text": "The room argued about money first. Who would pay pensions when the levy stopped? Ordan offered the ceremonial gold, to be administered by trustees chosen by the families. Bess asked if that bought him pardon."
+        },
+        {
+          "text": "“No,” he said."
+        },
+        {
+          "text": "“Then write that too.”"
+        },
+        {
+          "text": "He did."
+        }
+      ],
+      "choices": [
+        {
+          "id": "assembly:next",
+          "label": "Continue",
+          "to": "assembly~1",
+          "continue": true
+        }
+      ]
+    },
+    "assembly~1": {
+      "chapter": 19,
+      "title": "What the Town Could Hear",
+      "beats": [
+        {
+          "text": "Edda spread the plans across the table. The summerstone was the immediate danger."
+        },
+        {
+          "text": "They could finish draining the great stone while Sef opened the north road. The smaller stolen stones would still need cooling at the works.",
+          "when": {
+            "var": "great_stolen",
+            "eq": false
+          }
+        },
+        {
+          "text": "They needed to clear the works yard and take the great stone into the river channel before the cracked ring failed.",
+          "when": {
+            "var": "great_stolen",
+            "eq": true
+          }
+        },
+        {
+          "text": "The runner waited with his register open. Edda had three possible courses, and could see the costs of each."
+        },
+        {
+          "text": "The public-hearing course required registered evidence: a sealed book, a living clerk, or old plans corroborated by the fresh channel rubbing. A future in the same house required something else: an affection both had chosen, and enough trust built through difficult acts to sustain it. That course would hold them here through the hearings. Without those foundations, Edda could still put the records before a court later, from the refuge."
+        },
+        {
+          "text": "She could instead open the north road, establish a refuge beyond the council’s reach, and rescue the people Voss meant to confine. It would cost the chance to hold him here today, but it would give frightened families somewhere to go."
+        }
+      ],
+      "choices": [
+        {
+          "id": "assembly~1:next",
+          "label": "Continue",
+          "to": "assembly~2",
+          "continue": true
+        }
+      ]
+    },
+    "assembly~2": {
+      "chapter": 19,
+      "title": "What the Town Could Hear",
+      "beats": [
+        {
+          "text": "Or she could take Ordan straight to the works before the crowd arrived, relying on his body to contain the stone and the wardens’ violence. His wound made that a grave risk. He said so himself. She could not ask him to do it without hearing that he might die."
+        },
+        {
+          "text": "The runner dipped his pen. Edda chose what they would carry into the morning."
+        }
+      ],
+      "choices": [
+        {
+          "id": "assembly:hearing",
+          "label": "Seek a public hearing, and build a shared home after the reckoning.",
+          "to": "hearing",
+          "require": {
+            "all": [
+              {
+                "var": "romance",
+                "eq": true
+              },
+              {
+                "var": "trust",
+                "gte": 3
+              },
+              {
+                "any": [
+                  {
+                    "var": "sealed",
+                    "eq": true
+                  },
+                  {
+                    "var": "witness",
+                    "eq": true
+                  },
+                  {
+                    "all": [
+                      {
+                        "var": "plans",
+                        "eq": true
+                      },
+                      {
+                        "var": "rubbing",
+                        "eq": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "requirement": "Requires mutual romantic commitment, trust built through earlier actions, and registered evidence: a sealed ledger, Oswin alive, or old plans with the fresh rubbing."
+        },
+        {
+          "id": "assembly:refuge",
+          "label": "Open the north road and build a refuge. Leave Voss’s arrest for another day.",
+          "to": "northroad"
+        },
+        {
+          "id": "assembly:direct",
+          "label": "Enter the works immediately, before a hearing. Ordan may die containing the heat.",
+          "to": "direct",
+          "risk": "His wounded heat channels may fail. This course can cost his life."
+        }
+      ]
+    },
+    "hearing": {
+      "chapter": 20,
+      "title": "The Register Opens",
+      "beats": [
+        {
+          "text": "The borough magistrate arrived in a hired cart with one wheel painted blue."
+        },
+        {
+          "text": "Edda had expected an army after all the trouble of obtaining an order. The magistrate had brought a registrar, two bailiffs and sandwiches. He introduced himself as Vale, asked where the privy was, and then made everyone leave the council chamber until the windows could be opened."
+        },
+        {
+          "text": "“Records are for reading,” he told the wardens. “That requires light.”"
+        },
+        {
+          "text": "Voss greeted him with controlled courtesy. The chairman was a careful dresser, with a silver chain that held his spectacles. Edda had last seen him from the defendant’s bench. He did not look at the scar on her cheek."
+        },
+        {
+          "text": "“You have permitted a convicted saboteur to summon an assize,” he said."
+        },
+        {
+          "text": "Vale opened his register. “I have permitted an allegation of falsified public records to be entered. Her conviction is one of the records.”"
+        },
+        {
+          "text": "People filled the windows outside. Sef had asked the allowance families to come with their papers. Some held them above their heads to keep them out of the rain."
+        }
+      ],
+      "effects": [
+        {
+          "op": "set",
+          "key": "renounced",
+          "value": true
+        },
+        {
+          "op": "learn",
+          "key": "registered"
+        }
+      ],
+      "choices": [
+        {
+          "id": "hearing:next",
+          "label": "Continue",
+          "to": "hearing~1",
+          "continue": true
+        }
+      ]
+    },
+    "hearing~1": {
+      "chapter": 20,
+      "title": "The Register Opens",
+      "beats": [
+        {
+          "text": "Edda laid out what she had saved. Evidence had boundaries: the old plans proved the alteration that condemned Linnet; modern accounts or testimony showed how the levy had been diverted. Where her proof ended, she said it ended. Voss tried twice to turn an uncertainty into the destruction of the whole case. Vale asked him to answer the part that was documented."
+        },
+        {
+          "text": "Then Ordan entered."
+        },
+        {
+          "text": "The chamber fell so quiet Edda heard someone outside cough. He had chosen human form and brought no sword. That did little to make him harmless. Everyone knew what stood beneath the black coat."
+        },
+        {
+          "text": "Vale asked his name for the register."
+        },
+        {
+          "text": "“Ordan.”"
+        },
+        {
+          "text": "“Do you claim jurisdiction over these people?”"
+        },
+        {
+          "text": "“No.”"
+        },
+        {
+          "text": "“Do you claim the charter as permission to kill?”"
+        },
+        {
+          "text": "“No.”"
+        },
+        {
+          "text": "Edda saw Voss’s hand tighten on his spectacles. The chairman had expected either a monster threatening the court or a lover pleading for mercy. Ordan gave him neither."
+        },
+        {
+          "text": "He said what he had done. He did not ask Linnet’s death to stand as his defence."
+        },
+        {
+          "text": "Outside, a woman shouted Mara Sill’s name. Ordan stopped until she had finished. Then he said it back, correctly."
+        }
+      ],
+      "choices": [
+        {
+          "id": "hearing:continue",
+          "label": "Continue",
+          "to": "testimony",
+          "continue": true
+        }
+      ]
+    },
+    "testimony": {
+      "chapter": 21,
+      "title": "What Was Entered",
+      "beats": [
+        {
+          "text": "Vale asked Edda whether she wished her own conviction heard first."
+        },
+        {
+          "text": "It would be quicker. Her survey, Voss’s theft contract and the evidence from the channel made a clear enough case for quashing the warrant pending a proper hearing. Once her name was cleared, she could travel, earn, rent a house without fearing an arrest at the door."
+        },
+        {
+          "text": "The allowance families waited outside. Their pensions could be suspended the moment the council’s charter was declared void. Voss had already begun calling the payments voluntary generosity. If the hearings broke for the day before those claims were registered, he might move the money."
+        },
+        {
+          "text": "Edda could put her own freedom first. She had earned the right to want it. Or she could ask Vale to secure the families’ claims before attending to her conviction, accepting another few weeks with her name under a charge."
+        },
+        {
+          "text": "Ordan stood behind her, close enough that she could feel the warmth of him. He did not tell her which mattered more."
+        }
+      ],
+      "choices": [
+        {
+          "id": "testimony:self",
+          "label": "Clear your own conviction first; some pension money may move.",
+          "to": "freedom",
+          "effects": [
+            {
+              "op": "set",
+              "key": "self_first",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "testimony:claims",
+          "label": "Secure the families’ claims first; your conviction must wait.",
+          "to": "families",
+          "effects": [
+            {
+              "op": "set",
+              "key": "claims_first",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    "freedom": {
+      "chapter": 21,
+      "title": "Her Own Name",
+      "beats": [
+        {
+          "text": "“My conviction,” Edda said."
+        },
+        {
+          "text": "The words came out more fiercely than she expected. She had spent months being useful to everyone else, and the thought of another night waiting for boots at the door made her stomach close."
+        },
+        {
+          "text": "Vale heard the case before noon."
+        },
+        {
+          "text": "Voss produced the repaired rod. Edda asked him to set it against the breach measurements. The joint put its marked length two inches out. His own exhibit could not have made the measurement written in her hand."
+        },
+        {
+          "text": "The registrar copied the finding. Edda’s conviction was quashed, the sabotage inquiry reopened, and the bailiffs took the rod into independent custody."
+        },
+        {
+          "text": "For a moment she could not stand. Ordan put a hand on the back of her chair and left her to rise under her own strength."
+        },
+        {
+          "text": "Outside, Sef took the order from her and read it so loudly that a man on the far side of the street asked him to begin again."
+        }
+      ],
+      "choices": [
+        {
+          "id": "freedom:next",
+          "label": "Continue",
+          "to": "freedom~1",
+          "continue": true
+        }
+      ]
+    },
+    "freedom~1": {
+      "chapter": 21,
+      "title": "Her Own Name",
+      "beats": [
+        {
+          "text": "The families’ claims had to wait. By evening two accounts had been emptied. It would take years of petitions and recovered assets to settle them, and some debts would remain disputed. Edda would not pretend that choosing herself had cost nothing. She also would not apologise for being glad to hear her own name without a charge attached."
+        }
+      ],
+      "choices": [
+        {
+          "id": "freedom:continue",
+          "label": "Continue",
+          "to": "containment",
+          "continue": true
+        }
+      ]
+    },
+    "families": {
+      "chapter": 21,
+      "title": "Names Before Numbers",
+      "beats": [
+        {
+          "text": "“The allowances first,” Edda said. “Before the accounts move.”"
+        },
+        {
+          "text": "Sef closed his eyes. She knew what he wanted to say. Then he went to bring the families inside."
+        },
+        {
+          "text": "They came one household at a time. A boy carried his grandmother’s papers because her fingers could no longer unfold them. A man had only a strip of red cord and the testimony of two neighbours. Vale entered the claims as claims, neither dismissing the poor evidence nor pretending it was complete."
+        },
+        {
+          "text": "By late afternoon the bailiffs held the pension accounts under seal. Voss objected that ending the charter ended the obligation. Vale asked which law permitted a public body to purchase a person’s death on credit and then repudiate the debt."
+        },
+        {
+          "text": "There was no answer the registrar could enter."
+        },
+        {
+          "text": "Edda’s conviction remained until the next sitting. She took home a temporary protection order and a frustration so sharp she could taste it. Sef walked beside her without speaking for half the road."
+        },
+        {
+          "text": "“You can be angry,” she said."
+        },
+        {
+          "text": "“I am.”"
+        }
+      ],
+      "choices": [
+        {
+          "id": "families:next",
+          "label": "Continue",
+          "to": "families~1",
+          "continue": true
+        }
+      ]
+    },
+    "families~1": {
+      "chapter": 21,
+      "title": "Names Before Numbers",
+      "beats": [
+        {
+          "text": "She heard Ordan’s answer from the storehouse in her brother’s voice, and was unexpectedly moved by how differently the two men carried it."
+        },
+        {
+          "text": "“I wanted the paper for you today,” Sef said."
+        },
+        {
+          "text": "“So did I.”"
+        },
+        {
+          "text": "He put his arm around her shoulders. They walked home slowly. Behind them the accounts stayed where they were, and fourteen families slept with receipts that could no longer be quietly destroyed."
+        }
+      ],
+      "choices": [
+        {
+          "id": "families:continue",
+          "label": "Continue",
+          "to": "containment",
+          "continue": true
+        }
+      ]
+    },
+    "containment": {
+      "chapter": 22,
+      "title": "The Work at the River",
+      "beats": [
+        {
+          "text": "Voss’s last order reached the works before the bailiffs did."
+        },
+        {
+          "text": "He had told the foreman to prepare the great summerstone for inspection, whether the works possessed it or the mountain did. It was to be carried to the yard in its original iron cradle. A public display would, he wrote, establish lawful ownership."
+        },
+        {
+          "text": "The foreman read the warning Edda had sent and refused. Voss dismissed him. His replacement ordered the men to harness the cart."
+        },
+        {
+          "text": "By the time Edda reached the lower bridge, smoke came from an empty wheelbarrow left too near the works furnace. The small stolen stones were already there."
+        },
+        {
+          "text": "The great stone’s broken ring glowed behind the loading gate. It would need moving first.",
+          "when": {
+            "var": "great_stolen",
+            "eq": true
+          }
+        },
+        {
+          "text": "Wardens had gone to the mountain with an empty cart and been turned away. The great stone was cooling safely there; the smaller stones were the danger left in town.",
+          "when": {
+            "var": "great_stolen",
+            "eq": false
+          }
+        },
+        {
+          "text": "Ordan looked at the yard. Then he looked at the crowd behind them."
+        },
+        {
+          "text": "“I could clear it in a moment,” he said."
+        },
+        {
+          "text": "She heard what a moment could mean."
+        },
+        {
+          "text": "“We have people who can open the doors.”"
+        }
+      ],
+      "choices": [
+        {
+          "id": "containment:next",
+          "label": "Continue",
+          "to": "containment~1",
+          "continue": true
+        }
+      ]
+    },
+    "containment~1": {
+      "chapter": 22,
+      "title": "The Work at the River",
+      "beats": [
+        {
+          "text": "He stood with his hands closed while Sef and the dismissed foreman took the keys from the bailiff. It was the longest Edda had ever seen him wait."
+        },
+        {
+          "text": "The workers came out in pairs. One turned back for a coat, and Ordan made a terrible sound in his throat. Edda touched his wrist."
+        },
+        {
+          "text": "“He’s coming,” she said."
+        },
+        {
+          "text": "He came."
+        },
+        {
+          "text": "They moved the hot stones on sledges packed with river clay. Ordan walked beside each one in human form, drawing off enough heat to keep the damaged iron from failing, stopping before his scarred channels began to shake. There were pauses, arguments, a broken rope. Edda kept the water moving through the empty relief channel. Her knee hurt. Nobody transformed the work into something noble while it was being done."
+        },
+        {
+          "text": "At dusk the last stone rested below the flood mark, cooling gradually into running water. Ordan sat on the bank too tired to speak. Edda sat beside him with her boots in the mud."
+        },
+        {
+          "text": "He offered his hand. She took it."
+        }
+      ],
+      "choices": [
+        {
+          "id": "containment:continue",
+          "label": "Continue",
+          "to": "reckoning",
+          "continue": true
+        }
+      ]
+    },
+    "reckoning": {
+      "chapter": 23,
+      "title": "An Agreement with an End",
+      "beats": [
+        {
+          "text": "The hearings lasted through the summer."
+        },
+        {
+          "text": "Voss lost his office. His conviction came later, for the modern diversion, hired theft and destruction of records. No living court could sentence the men who had killed Linnet; they had died long before the present case. Their titles were removed from the storehouse lintel after the village voted to remove them. Their names stayed in the record of what had happened."
+        },
+        {
+          "text": "Ordan’s case was harder. No prison could hold him. No human sentence could measure what he had done without pretending the court could enforce it. Vale refused to write a judgment he could not make real."
+        },
+        {
+          "text": "The families proposed terms instead. Ordan would fund repairs and pensions from a public trust, open the mountain records, grant a right of passage across his land and appear each year to answer claims. The agreement had a fixed term for administration, with review and appeal; it bound no child to inherit another person’s debt. Anyone could decline his money without losing the right to testify against him."
+        },
+        {
+          "text": "He signed."
+        }
+      ],
+      "choices": [
+        {
+          "id": "reckoning:next",
+          "label": "Continue",
+          "to": "reckoning~1",
+          "continue": true
+        }
+      ]
+    },
+    "reckoning~1": {
+      "chapter": 23,
+      "title": "An Agreement with an End",
+      "beats": [
+        {
+          "text": "Some called that justice. Others called it the best arrangement fear would permit. Edda knew people who held each view and ate at both tables. She would not make a wedding invitation into a test of forgiveness."
+        },
+        {
+          "text": "She and Ordan argued about the wedding anyway."
+        },
+        {
+          "text": "He offered the mountain hall. She said the roof leaked. He offered to repair it. She said she wanted the storehouse, where the school would finally open. He said that would mean inviting the biting boy’s descendants."
+        },
+        {
+          "text": "“They’ve had time to improve,” she said."
+        },
+        {
+          "text": "He considered. “I have been given the same opportunity.”"
+        },
+        {
+          "text": "They married before the winter rains, in a room with repaired windows and no thrones. Sef cried, denied it, and then cried again when Ordan shook his hand. Bess brought a plum cake. Ordan looked at the stones in the fruit and began laughing so helplessly Edda had to take the plate from him."
+        },
+        {
+          "text": "After the guests left, they sat on the school steps. He told her why the plums were funny. She had heard the story before. She let him tell it again."
+        }
+      ],
+      "choices": [
+        {
+          "id": "reckoning:continue",
+          "label": "Continue",
+          "to": "house",
+          "continue": true
+        }
+      ]
+    },
+    "house": {
+      "chapter": 24,
+      "title": "A House with Two Doors",
+      "beats": [
+        {
+          "text": "Their house stood below the mountain, where Edda could reach the works without a day’s climb."
+        },
+        {
+          "text": "It had two doors because she insisted on a second way out of every room that might flood. Ordan said she had built an entire dwelling as an objection to the council. She told him the objection was well founded."
+        },
+        {
+          "text": "They kept separate workrooms. They quarrelled about boots, money and his habit of agreeing to repairs before learning what they would require. Sometimes he woke believing the procession was at the gate. Sometimes she woke with mud in her mouth that was only memory. There were mornings when neither could be useful to the other. They learned to make breakfast anyway."
+        }
+      ],
+      "choices": [
+        {
+          "id": "house:next",
+          "label": "Continue",
+          "to": "house~1",
+          "continue": true
+        }
+      ]
+    },
+    "house~1": {
+      "chapter": 24,
+      "title": "A House with Two Doors",
+      "beats": [
+        {
+          "text": "When they began speaking of children, they did it in daylight over the kitchen table. Neither knew what dragon inheritance would mean in a human child. Ordan knew that his human form was living flesh, capable of fatherhood; he had never chosen it before. They sought a midwife willing to say what she did not know. They agreed that fear was reason to prepare, and that neither of them would use a child to repair a grave."
+        },
+        {
+          "text": "Their daughter was born four years after the hearings. She came early, furious at the cold. Ordan stood outside until Edda shouted his name with such conviction that the midwife went to fetch him personally."
+        },
+        {
+          "text": "The baby’s hands were warm. As she grew, she sensed the buried summerstones before anyone showed her where they lay. She could hold heat that made other children let go. A fever could still hurt her. A knife could cut her. She had inherited neither her father’s centuries nor a right to rule anyone."
+        }
+      ],
+      "choices": [
+        {
+          "id": "house~1:next",
+          "label": "Continue",
+          "to": "house~2",
+          "continue": true
+        }
+      ]
+    },
+    "house~2": {
+      "chapter": 24,
+      "title": "A House with Two Doors",
+      "beats": [
+        {
+          "text": "They named her Teren. Linnet’s name belonged to Linnet. They took Teren to her grave when she was old enough to walk the path, and told her about the goat."
+        },
+        {
+          "text": "Teren was the beginning of the line, not the beginning of a kingdom. Generations later, descendants of that household would use their inherited command of heat, their endurance and the loyalty built around them to conquer neighbouring territories. The dynasty would become powerful; under its rule a kingdom would know long prosperity. Its chronicles would favour victories over the work of floodgates, and legitimate marriages over other branches of the same blood. Those omissions would matter to a prince and to a girl who did not know her ancestry, in a story far beyond Edda’s life."
+        },
+        {
+          "text": "Here, there was only a small child who had found a snail on the kitchen step."
+        },
+        {
+          "text": "Ordan crouched beside her. His blind side turned towards Edda, who quietly moved the hot pot out of his way."
+        },
+        {
+          "text": "“Can it stay?” Teren asked."
+        },
+        {
+          "text": "He looked at the snail. He looked at Edda."
+        },
+        {
+          "text": "“Outside,” he said firmly."
+        },
+        {
+          "text": "Their daughter began her argument."
+        }
+      ],
+      "ending": "house"
+    },
+    "northroad": {
+      "chapter": 20,
+      "title": "The Road They Could Open",
+      "beats": [
+        {
+          "text": "Edda sent Sef to the north ferry with the first families before sunrise."
+        },
+        {
+          "text": "The council had stationed four wardens at the lower bridge. It had not considered the old towpath an exit because the towpath ended at a collapsed culvert. Edda had measured the gap two days earlier. Ordan brought two felled trees, and Bess’s grandsons lashed them into a footway."
+        },
+        {
+          "text": "It could take one person at a time."
+        },
+        {
+          "text": "Ordan stood beneath it in the river, in dragon form, his back making a dark island. Children stared down at him through the planks. One woman refused to cross until he moved away. He did. She came after an hour, carrying her husband’s ashes in a flour tin."
+        },
+        {
+          "text": "The refuge lay beyond the borough boundary, on land belonging to a mill cooperative. Sef had negotiated a season’s rent in labour and silver. There would be no gate pledging anyone’s safety to a single creature. The cooperative wanted roof repairs, skilled hands, and an honest account of why so many people were coming."
+        }
+      ],
+      "choices": [
+        {
+          "id": "northroad:next",
+          "label": "Continue",
+          "to": "northroad~1",
+          "continue": true
+        }
+      ]
+    },
+    "northroad~1": {
+      "chapter": 20,
+      "title": "The Road They Could Open",
+      "beats": [
+        {
+          "text": "At noon Merrow arrived with two wagons and men willing to surrender their weapons at the refuge. She had also warned the allowance families herself; seven households arrived before Voss could lock the yard.",
+          "when": {
+            "var": "ally",
+            "eq": true
+          }
+        },
+        {
+          "text": "The ferry keeper hired them two wagons. Every load had to be paid for before it left. Merrow had warned some families, but most had waited for the council’s promised arrears. Sef had to go back through the town to reach them.",
+          "when": {
+            "var": "ally",
+            "eq": false
+          }
+        },
+        {
+          "text": "There were not enough places for everyone at once."
+        },
+        {
+          "text": "Edda could keep the wagons on the rescue road until the last waiting families were clear, leaving Voss time to destroy or move more records. Or she could send one wagon back for the surviving archives, saving proof while making the people on foot walk until dark."
+        }
+      ],
+      "choices": [
+        {
+          "id": "northroad:people",
+          "label": "Keep every wagon on the rescue road until the families are clear.",
+          "to": "people",
+          "effects": [
+            {
+              "op": "set",
+              "key": "rescued_first",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "northroad:papers",
+          "label": "Send a wagon for the records; the last families will have to walk.",
+          "to": "papers",
+          "effects": [
+            {
+              "op": "set",
+              "key": "archives_saved",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    "people": {
+      "chapter": 21,
+      "title": "The Last Wagon",
+      "beats": [
+        {
+          "text": "“All of them,” Edda told the carters. “Then the papers.”"
+        },
+        {
+          "text": "The last family had a grandfather who could not walk and a cupboard they refused to leave. Edda argued about the cupboard, lost, and found herself helping carry it across the towpath."
+        },
+        {
+          "text": "Ordan watched from the river. When she slipped, he moved one claw beneath the plank without touching it, ready if she fell. She got her footing and kept going."
+        },
+        {
+          "text": "By dusk the north yard held everyone who had waited at the storehouse. Sef counted names against the slate, then counted again because a child had hidden in the cupboard."
+        },
+        {
+          "text": "The archive wagon returned empty. Voss had moved the surviving records to his own house and posted armed guards. Some testimony would now depend on memory; some missing names might never be recovered."
+        },
+        {
+          "text": "Edda sat beneath a cart and let the disappointment reach her. She had saved the people she could see. She could still mourn the proof she had not saved."
+        },
+        {
+          "text": "A small hand put a cup beside her boot. The child from the cupboard squatted outside."
+        },
+        {
+          "text": "“They said you made the bridge.”"
+        },
+        {
+          "text": "“Some of it.”"
+        }
+      ],
+      "choices": [
+        {
+          "id": "people:next",
+          "label": "Continue",
+          "to": "people~1",
+          "continue": true
+        }
+      ]
+    },
+    "people~1": {
+      "chapter": 21,
+      "title": "The Last Wagon",
+      "beats": [
+        {
+          "text": "“It was wobbly.”"
+        },
+        {
+          "text": "“I’ll remember your review.”"
+        },
+        {
+          "text": "The child smiled, missing both front teeth, and went away. Edda drank the cold tea. Then she got up to help find blankets."
+        }
+      ],
+      "choices": [
+        {
+          "id": "people:continue",
+          "label": "Continue",
+          "to": "rescueworks",
+          "continue": true
+        }
+      ]
+    },
+    "papers": {
+      "chapter": 21,
+      "title": "What They Carried North",
+      "beats": [
+        {
+          "text": "Edda sent the second wagon to the storehouse."
+        },
+        {
+          "text": "Sef went with it, furious about the delay and careful with every bundle. They took the surviving plans and copied trial evidence, receipts, petitions, witness statements, and debt rolls loaned by families who no longer trusted a single strongbox."
+        },
+        {
+          "text": "The remaining people walked."
+        },
+        {
+          "text": "Ordan could carry those who consented. He crouched at the far bank and asked, through Edda, before anyone climbed onto his back. Some did. Some preferred the road. An elderly man spat at his feet and then accepted a hand from Bess instead."
+        },
+        {
+          "text": "They arrived after dark, cold and exhausted. One woman’s feet were blistered so badly she could not work for a fortnight. Edda washed them on the second morning, hearing her complaint without interrupting. The woman said the papers had not needed shoes. Edda said she knew."
+        },
+        {
+          "text": "In the mill loft Sef spread the records on racks. Their case could outlive Harrowmere’s council. It could travel to another court, be copied again, survive a fire in one room. That mattered. It did not warm the people who had walked."
+        }
+      ],
+      "choices": [
+        {
+          "id": "papers:next",
+          "label": "Continue",
+          "to": "papers~1",
+          "continue": true
+        }
+      ]
+    },
+    "papers~1": {
+      "chapter": 21,
+      "title": "What They Carried North",
+      "beats": [
+        {
+          "text": "Ordan brought dry socks and put them beside the washbasin."
+        },
+        {
+          "text": "“Do you think I chose badly?” Edda asked."
+        },
+        {
+          "text": "“I think you chose something that cost somebody else. You have come back to hear the cost.”"
+        },
+        {
+          "text": "She looked at him. He sat down on the floor beside the basin, where the woman could refuse to speak to him without having to leave her chair."
+        }
+      ],
+      "choices": [
+        {
+          "id": "papers:continue",
+          "label": "Continue",
+          "to": "rescueworks",
+          "continue": true
+        }
+      ]
+    },
+    "rescueworks": {
+      "chapter": 22,
+      "title": "The Yard Without an Audience",
+      "beats": [
+        {
+          "text": "Voss’s emergency assembly found an almost empty town square."
+        },
+        {
+          "text": "Those who remained had heard enough to stay clear of the works. The council’s old threat had depended on nowhere else being safe. A rented mill and a repaired footway had damaged it more effectively than a speech."
+        },
+        {
+          "text": "There were still workers behind the bleaching-yard gate. Some had family allowances to protect. Some had nowhere they wished to go. Edda returned for them with Ordan after the road was open."
+        },
+        {
+          "text": "Voss met them on the upper gallery. “You are removing labour under lawful contract.”"
+        },
+        {
+          "text": "“Open the gate,” Edda said."
+        },
+        {
+          "text": "“He can open it himself.”"
+        },
+        {
+          "text": "Ordan stood below the gallery, very still. Edda could see how easy it would be. A single claw would break the bars. Voss wanted the workers to see an assault and forget what they had heard about a refuge."
+        },
+        {
+          "text": "Edda took out her dividers and walked to the side drain."
+        }
+      ],
+      "choices": [
+        {
+          "id": "rescueworks:next",
+          "label": "Continue",
+          "to": "rescueworks~1",
+          "continue": true
+        }
+      ]
+    },
+    "rescueworks~1": {
+      "chapter": 22,
+      "title": "The Yard Without an Audience",
+      "beats": [
+        {
+          "text": "The drain grille had been built into newer mortar. She had signed the measurement herself two winters earlier. Its fixing pins were accessible from outside. She drove one loose with a stone and pulled until the panel gave."
+        },
+        {
+          "text": "“This way,” she called through it."
+        },
+        {
+          "text": "The first worker had to crawl. The second passed a child through before coming herself. Ordan caught the child, awkwardly gentle, and set her down a long way from his feet."
+        },
+        {
+          "text": "The foreman came last with the small stolen stones wrapped in furnace cloth."
+        },
+        {
+          "text": "They could not leave the great stone above the crowded lower holdings. Ordan and the workers built a clay channel around it and ran water through the yard all night. They kept watch in shifts until its red light dulled.",
+          "when": {
+            "var": "great_stolen",
+            "eq": true
+          }
+        },
+        {
+          "text": "Ordan had already drained the great stone in the mountain store. The small stones needed only the empty dye vats to cool safely. By midnight they could be lifted without furnace cloth.",
+          "when": {
+            "var": "great_stolen",
+            "eq": false
+          }
+        }
+      ],
+      "choices": [
+        {
+          "id": "rescueworks~1:next",
+          "label": "Continue",
+          "to": "rescueworks~2",
+          "continue": true
+        }
+      ]
+    },
+    "rescueworks~2": {
+      "chapter": 22,
+      "title": "The Yard Without an Audience",
+      "beats": [
+        {
+          "text": "Voss left by the upper road before dawn. Nobody cheered. Edda watched a woman put her shoes back on outside the drain and felt the steadier satisfaction of a task completed."
+        }
+      ],
+      "choices": [
+        {
+          "id": "rescueworks:continue",
+          "label": "Continue",
+          "to": "refugevow",
+          "continue": true
+        }
+      ]
+    },
+    "refugevow": {
+      "chapter": 23,
+      "title": "A Promise People Could Refuse",
+      "beats": [
+        {
+          "text": "Ordan ended the bargain at the mill gate."
+        },
+        {
+          "text": "He had brought the charter. He read the clause permitting substitutes, then the names of the people he had killed. He said the missing names were his failure to record, not proof that those people had mattered less."
+        },
+        {
+          "text": "Then he tore the charter across the signatures and gave both halves to Sef for safekeeping. A destroyed agreement could still be evidence."
+        },
+        {
+          "text": "No one had been compelled to attend. A few came only to see whether he would lie. One woman asked why they should believe him this time."
+        },
+        {
+          "text": "“You should keep ways of leaving that do not require my permission,” he said."
+        },
+        {
+          "text": "The mill cooperative put those words in its own agreement. Ordan would provide heat in marked summerstones, small enough to be handled safely, for a fixed payment. He could not suspend the supply in return for obedience; the cooperative would keep a season’s reserve. It was not a bond of grateful subjects. He found the negotiation exhausting and returned for the second meeting anyway."
+        }
+      ],
+      "effects": [
+        {
+          "op": "set",
+          "key": "renounced",
+          "value": true
+        }
+      ],
+      "choices": [
+        {
+          "id": "refugevow:next",
+          "label": "Continue",
+          "to": "refugevow~1",
+          "continue": true
+        }
+      ]
+    },
+    "refugevow~1": {
+      "chapter": 23,
+      "title": "A Promise People Could Refuse",
+      "beats": [
+        {
+          "text": "Edda stayed to build the sluice. Sef stayed to run the accounts. The papers they had saved went to neighbouring courts, and the testimony travelled with them. Voss remained at large for a time. His successors disputed the pensions. This road had left unfinished fights behind them, but it had also left people alive to fight them."
+        },
+        {
+          "text": "Ordan asked whether Edda wanted him near the mill."
+        },
+        {
+          "text": "She told him she wanted to wake beside him, provided waking beside him did not turn every quarrel into a question of leaving. He said he would try. She said trying included learning to apologise about ordinary things too. They chose a shared life without children; there were enough other things they wanted to make.",
+          "when": {
+            "var": "romance",
+            "eq": true
+          }
+        },
+        {
+          "text": "She asked him to take the room above the old kiln when he visited. He asked whether the harbour drawing could go there. She said only after he corrected the scale.",
+          "when": {
+            "var": "romance",
+            "eq": false
+          }
+        },
+        {
+          "text": "They built their arrangement in pieces. It held because they could change it."
+        }
+      ],
+      "choices": [
+        {
+          "id": "refugevow:continue",
+          "label": "Continue",
+          "to": "openmountain",
+          "continue": true
+        }
+      ]
+    },
+    "openmountain": {
+      "chapter": 24,
+      "title": "The Open Mountain",
+      "beats": [
+        {
+          "text": "The first winter, Edda got the gate wrong."
+        },
+        {
+          "text": "The new sluice jammed when ice formed in the upper groove. Three fields flooded ankle-deep. She spent two miserable days with a mallet and took the complaint at the next cooperative meeting without using the dragon as a reason people ought to be grateful."
+        },
+        {
+          "text": "In spring she rebuilt it. Ordan helped lift the beams. He had begun asking where to put things before lifting them."
+        },
+        {
+          "text": "The refuge grew into a settlement with its own petty disputes: flour weights, grazing rights, whose turn it was to clear the privy ditch. Its charter banned the sale of household members for debt. Nobody thought that single sentence would end exploitation. They kept accounts because sentences needed people willing to enforce them."
+        },
+        {
+          "text": "The mountain gate remained open to travellers. Ordan let the cold rooms to carters at agreed prices and converted the old hall into a dry shelter. Linnet’s chair stayed in the kitchen, uncovered. He could sit beside it without making someone else’s death a tribute to hers."
+        }
+      ],
+      "choices": [
+        {
+          "id": "openmountain:next",
+          "label": "Continue",
+          "to": "openmountain~1",
+          "continue": true
+        }
+      ]
+    },
+    "openmountain~1": {
+      "chapter": 24,
+      "title": "The Open Mountain",
+      "beats": [
+        {
+          "text": "The family records gradually recovered more names. Mara Sill’s sister brought an account of her singing while she patched nets. Someone remembered a man who had hated onions. Another could recall only a blue coat. Edda wrote those things down too. They were not enough to restore the people. They were what the living had."
+        },
+        {
+          "text": "On the settlement’s fifth anniversary, Sef planted a plum tree beside the new school. Ordan declared it an act of provocation. Bess said he could lodge a complaint at the next meeting."
+        },
+        {
+          "text": "He did. The complaint lost by eleven votes."
+        },
+        {
+          "text": "Edda found him afterwards beside the river, looking up towards the path to Linnet’s grave. He had flowers in one hand and the remains of a slice of cake in the other."
+        },
+        {
+          "text": "“Will you come?” he asked."
+        },
+        {
+          "text": "She took the cake from him so he could manage the flowers."
+        },
+        {
+          "text": "In this life there would be no dragon dynasty. There would be a refuge, a difficult peace, and people who came home because the road stayed open. Edda had chosen a future that did not need a crown to make it substantial."
+        }
+      ],
+      "choices": [
+        {
+          "id": "openmountain~1:next",
+          "label": "Continue",
+          "to": "openmountain~2",
+          "continue": true
+        }
+      ]
+    },
+    "openmountain~2": {
+      "chapter": 24,
+      "title": "The Open Mountain",
+      "beats": [
+        {
+          "text": "They walked uphill together, arguing about the plum tree."
+        }
+      ],
+      "ending": "openmountain"
+    },
+    "direct": {
+      "chapter": 20,
+      "title": "Before the Crowd",
+      "beats": [
+        {
+          "text": "They went to the works while the yard was still empty."
+        },
+        {
+          "text": "Ordan offered to go alone. Edda refused. She knew where the drains ran and how to open the lower gate without turning a flood loose on the houses. He knew how much heat his body could carry. Neither knowledge was enough by itself."
+        },
+        {
+          "text": "“If I take too much,” he said, “I may not change back.”"
+        },
+        {
+          "text": "She stopped tightening the strap on her roll."
+        },
+        {
+          "text": "“I heard you.”"
+        },
+        {
+          "text": "“I need you to understand that it would not be something you failed to mend.”"
+        },
+        {
+          "text": "She looked at his scar. “Don’t give me a speech about how to grieve you while you’re still here.”"
+        },
+        {
+          "text": "He lowered his head. After a moment he said, “I am frightened.”"
+        },
+        {
+          "text": "That she could answer. She took his hand until both were steady enough to continue."
+        },
+        {
+          "text": "At the works they found the first assembly families already inside. Voss had brought them early, promising arrears of pension if they attended. Children slept on sacks beneath the gallery. A warden locked the gate as the sun reached the roof."
+        },
+        {
+          "text": "Edda had come before the crowd. Voss had collected his own."
+        }
+      ],
+      "choices": [
+        {
+          "id": "direct:next",
+          "label": "Continue",
+          "to": "direct~1",
+          "continue": true
+        }
+      ]
+    },
+    "direct~1": {
+      "chapter": 20,
+      "title": "Before the Crowd",
+      "beats": [
+        {
+          "text": "Ordan stayed in human form outside the drain while she went through. She counted sleepers, doors, buckets, everything she could make into work. At the back of the yard, furnace cloth smoked over the stones."
+        },
+        {
+          "text": "Voss stood above them with a crossbow."
+        },
+        {
+          "text": "“The bargain holds,” he called. “Stand away from the property.”"
+        },
+        {
+          "text": "Edda looked up. For the first time she thought he might actually believe that saying a thing under a seal made the world obliged to bear it."
+        }
+      ],
+      "choices": [
+        {
+          "id": "direct:continue",
+          "label": "Continue",
+          "to": "yard",
+          "continue": true
+        }
+      ]
+    },
+    "yard": {
+      "chapter": 21,
+      "title": "No One to Spend",
+      "beats": [
+        {
+          "text": "The first bolt struck the cobbles near Edda’s foot."
+        },
+        {
+          "text": "Ordan tore the drain grille from the wall. The sound woke the children. People began shouting. Voss pointed down at the dragon and cried that the town was under attack."
+        },
+        {
+          "text": "Edda climbed onto a trough so they could see her."
+        },
+        {
+          "text": "“The drain is open,” she said. “Follow the wall. Sef is outside.”"
+        },
+        {
+          "text": "Not everyone moved. Some had seen her procession. Some thought the dead had come back with teeth. A woman clutched her daughter so hard the child cried."
+        },
+        {
+          "text": "Ordan drew himself through the gap as a man. His coat tore at the shoulder. He stood beneath Voss’s gallery with both hands empty."
+        },
+        {
+          "text": "“There will be no more offerings,” he said."
+        },
+        {
+          "text": "Voss fired."
+        },
+        {
+          "text": "Ordan turned so the bolt struck his back instead of Edda. He fell against the trough. The damaged heat channels in his shoulder flashed beneath the skin, and the yard filled with the smell of scorching wool."
+        },
+        {
+          "text": "Above them, Voss dropped the bow. He had expected a harmless human disguise. Now he saw what the disguise was holding back."
+        }
+      ],
+      "choices": [
+        {
+          "id": "yard:next",
+          "label": "Continue",
+          "to": "yard~1",
+          "continue": true
+        }
+      ]
+    },
+    "yard~1": {
+      "chapter": 21,
+      "title": "No One to Spend",
+      "beats": [
+        {
+          "text": "Ordan could still have killed him. Edda saw the thought in the way his head moved. Then he saw the child beside the wall."
+        },
+        {
+          "text": "He shut his mouth and held the heat."
+        },
+        {
+          "text": "The summerstones began to crack in the furnace cloth."
+        },
+        {
+          "text": "The great stone carried enough heat to destroy the yard. Its broken ring had already opened at one end.",
+          "when": {
+            "var": "great_stolen",
+            "eq": true
+          }
+        },
+        {
+          "text": "The small stones had been stacked against the works furnace to increase their output. Their iron collars had softened in the added heat. Together they carried enough to burn everyone trapped near the wall.",
+          "when": {
+            "var": "great_stolen",
+            "eq": false
+          }
+        },
+        {
+          "text": "There was no time to drain the heat safely at the rate they needed."
+        },
+        {
+          "text": "Edda could go up the gallery for Voss, leaving the near doorway clear but spending precious moments on the person who had made this happen. Or she could stay at the drain and get the last families out, leaving Voss to find his own way off the gallery."
+        }
+      ],
+      "choices": [
+        {
+          "id": "yard:save",
+          "label": "Go back for Voss. Everyone must still be evacuated.",
+          "to": "savevoss",
+          "effects": [
+            {
+              "op": "set",
+              "key": "voss_alive",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "yard:families",
+          "label": "Stay at the drain for the last families; Voss may die.",
+          "to": "lastfamilies",
+          "effects": [
+            {
+              "op": "set",
+              "key": "voss_alive",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    "savevoss": {
+      "chapter": 22,
+      "title": "The Man on the Gallery",
+      "beats": [
+        {
+          "text": "Edda climbed the stair."
+        },
+        {
+          "text": "Voss backed away from her. Heat had warped the far door shut. He tugged at it until the spectacles fell from his chain and broke beneath his heel."
+        },
+        {
+          "text": "“I can pay,” he said."
+        },
+        {
+          "text": "She wanted to strike him so badly her hand closed without her asking it to."
+        },
+        {
+          "text": "“Walk,” she said."
+        },
+        {
+          "text": "He did not. She caught his sleeve and dragged him towards the stair. Halfway down he began to cough. At the bottom she shoved him towards the drain, where Sef’s hands reached for him without knowing whom he was taking."
+        },
+        {
+          "text": "Those moments had cost them. A beam fell across the near passage while two families were still waiting behind it. Ordan moved into the heat and lifted the beam. He was bleeding down one arm. The people crawled beneath him. Edda counted them as they passed."
+        },
+        {
+          "text": "All of them came through."
+        },
+        {
+          "text": "Voss survived to be tried by people who could ask him questions. Edda would attend those hearings with a fury that frightened her. She had saved his life. She had not discovered in the act any obligation to forgive it."
+        }
+      ],
+      "choices": [
+        {
+          "id": "savevoss:continue",
+          "label": "Continue",
+          "to": "lastheat",
+          "continue": true
+        }
+      ]
+    },
+    "lastfamilies": {
+      "chapter": 22,
+      "title": "Hands at the Drain",
+      "beats": [
+        {
+          "text": "Edda stayed beside the drain."
+        },
+        {
+          "text": "She passed children through first, then helped their parents after them. A man refused to release a sack until she cut the tie. Flour burst across the cobbles. He stared at it as though she had killed something."
+        },
+        {
+          "text": "“I’ll get you more,” she said. “Move.”"
+        },
+        {
+          "text": "The gallery door swelled in its frame. Voss beat against it. Edda heard him call her name, then use her conviction as an order, then plead."
+        },
+        {
+          "text": "She could not reach him and keep the drain clear. She kept the drain clear."
+        },
+        {
+          "text": "Merrow climbed onto a cart outside and broke a high window with her boot. She could not reach the gallery before the beam fell.",
+          "when": {
+            "var": "ally",
+            "eq": true
+          }
+        },
+        {
+          "text": "Sef tried to push a ladder up from the lower yard. He could not reach the gallery before the beam fell.",
+          "when": {
+            "var": "ally",
+            "eq": false
+          }
+        },
+        {
+          "text": "Edda did not watch him die. Later she would resent the moments in which she felt relief, and also resent the idea that she should have spent another family to make herself kinder."
+        }
+      ],
+      "choices": [
+        {
+          "id": "lastfamilies:next",
+          "label": "Continue",
+          "to": "lastfamilies~1",
+          "continue": true
+        }
+      ]
+    },
+    "lastfamilies~1": {
+      "chapter": 22,
+      "title": "Hands at the Drain",
+      "beats": [
+        {
+          "text": "The last child crawled out of the drain. Edda turned back to find Ordan kneeling beside the furnace cloth, his hands spread against the hot stone beneath it."
+        }
+      ],
+      "choices": [
+        {
+          "id": "lastfamilies:continue",
+          "label": "Continue",
+          "to": "lastheat",
+          "continue": true
+        }
+      ]
+    },
+    "lastheat": {
+      "chapter": 23,
+      "title": "The Last Crossing",
+      "beats": [
+        {
+          "text": "“Go,” Ordan said."
+        },
+        {
+          "text": "Edda knelt beside him instead. “We can still move it.”"
+        },
+        {
+          "text": "“The iron has opened.”"
+        },
+        {
+          "text": "She could see the iron ends drawing apart, red light pressing through the furnace cloth. He was taking the heat into himself, keeping it off the walls long enough for the people to get clear."
+        },
+        {
+          "text": "“Then stop. We’ll run.”"
+        },
+        {
+          "text": "He looked past her to the drain. A pair of small feet disappeared through it. His uninjured eye returned to hers."
+        },
+        {
+          "text": "“You aren’t the only one who knows how to help,” he said."
+        },
+        {
+          "text": "She hated him for making it sound like work. Then she understood that work was what he needed it to be. He was not paying for twenty-seven lives with one death. He was holding something dangerous while people left a room."
+        },
+        {
+          "text": "His skin had begun to shine along the old wound. He could not hold the heat in human form much longer, and changing would expose everything he was carrying. He needed space outside, the river, somewhere the release would not find a sleeping child."
+        },
+        {
+          "text": "He gathered the great stone against his chest. The floor cracked beneath its weight.",
+          "when": {
+            "var": "great_stolen",
+            "eq": true
+          }
+        }
+      ],
+      "choices": [
+        {
+          "id": "lastheat:next",
+          "label": "Continue",
+          "to": "lastheat~1",
+          "continue": true
+        }
+      ]
+    },
+    "lastheat~1": {
+      "chapter": 23,
+      "title": "The Last Crossing",
+      "beats": [
+        {
+          "text": "He pulled the furnace cloth around the broken small stones and gathered the bundle against his chest.",
+          "when": {
+            "var": "great_stolen",
+            "eq": false
+          }
+        },
+        {
+          "text": "Edda opened the lower sluice."
+        },
+        {
+          "text": "Water entered the yard, cold around her knees. She had to use both hands on the wheel. Ordan stood with the furnace cloth held to him. For nine heartbeats he was neither man nor dragon. She counted aloud, because she had once promised him a rhythm."
+        },
+        {
+          "text": "At the ninth he struck through the empty loading gate into the channel."
+        },
+        {
+          "text": "The river rose around his body. Steam hid him. She heard stone split, iron tear, and one enormous breath. The water struck her hard enough to take her feet out from under her. Hands caught her at the drain. Sef pulled until she was outside."
+        },
+        {
+          "text": "When the steam thinned, Ordan lay across the riverbed with his head on the far bank. The stones he had carried were black. He had taken the release through himself and carried it clear."
+        },
+        {
+          "text": "Edda crossed on broken planks before anyone could stop her."
+        },
+        {
+          "text": "He was still breathing when she reached him. She put her hands against his jaw, in the place he knew."
+        }
+      ],
+      "choices": [
+        {
+          "id": "lastheat~1:next",
+          "label": "Continue",
+          "to": "lastheat~2",
+          "continue": true
+        }
+      ]
+    },
+    "lastheat~2": {
+      "chapter": 23,
+      "title": "The Last Crossing",
+      "beats": [
+        {
+          "text": "“Stay,” she said."
+        },
+        {
+          "text": "His eye moved towards her. The breath beneath her hands grew shallower."
+        },
+        {
+          "text": "She did not ask him for a final promise. She told him the last families were out. He heard her. She was certain of that, and would be certain of very little else for a long time."
+        }
+      ],
+      "choices": [
+        {
+          "id": "lastheat:continue",
+          "label": "Continue",
+          "to": "after",
+          "continue": true
+        }
+      ]
+    },
+    "after": {
+      "chapter": 24,
+      "title": "What the Living Kept",
+      "beats": [
+        {
+          "text": "They did not put Linnet’s name on his grave."
+        },
+        {
+          "text": "Edda would not make her carry him in death any more than he had carried her in life. They buried him on the upper bank with room around the stone for people to stand or keep their distance."
+        },
+        {
+          "text": "Some came to thank him. Some came to make sure he was dead. One woman did both. Edda stayed away from the first gathering because she could not bear anyone making him simple."
+        },
+        {
+          "text": "The charter ended. Sef took the torn original to the borough assize with the receipts and whatever evidence had survived their choices. The hearings were slower without a preserved order and sometimes more cruel. Men who had watched a dragon die became brave about denying what they had watched their council do. Others testified because they had seen him hold the heat while their children crawled out."
+        }
+      ],
+      "choices": [
+        {
+          "id": "after:next",
+          "label": "Continue",
+          "to": "after~1",
+          "continue": true
+        }
+      ]
+    },
+    "after~1": {
+      "chapter": 24,
+      "title": "What the Living Kept",
+      "beats": [
+        {
+          "text": "There were convictions. There were also missing accounts, disputed pensions, names that never returned to the rolls. Edda worked until she could no longer read a column of figures without seeing the river. Then she stopped for a season. Bess did the work. Sef learned the old units badly and kept going."
+        },
+        {
+          "text": "The unfinished future became an ordinary thing she met everywhere: a bridge argument with no second voice, the cup she kept taking down by mistake, the side of a bed she had imagined sharing for years.",
+          "when": {
+            "var": "romance",
+            "eq": true
+          }
+        },
+        {
+          "text": "The loss was no smaller for lacking a marriage. She mourned the person who had learned to ask before offering his hand.",
+          "when": {
+            "var": "romance",
+            "eq": false
+          }
+        },
+        {
+          "text": "On the first anniversary she went to the mountain kitchen."
+        },
+        {
+          "text": "The nursery pots had survived. Someone had brought them inside before the frost. She sat at the table and read Linnet’s exercise book. At the word forgiveness she laughed once, and the laugh broke open into something she could not stop."
+        },
+        {
+          "text": "No one asked her to make that grief useful."
+        }
+      ],
+      "choices": [
+        {
+          "id": "after~1:next",
+          "label": "Continue",
+          "to": "after~2",
+          "continue": true
+        }
+      ]
+    },
+    "after~2": {
+      "chapter": 24,
+      "title": "What the Living Kept",
+      "beats": [
+        {
+          "text": "In spring she took a commission on the north coast. Sef helped her load the cart. She brought the dividers, the exercise book and one small summerstone that had gone cool months earlier. She left the rolling pin in the kitchen."
+        },
+        {
+          "text": "Before taking the road, she opened the gate and set its bar on the ground."
+        },
+        {
+          "text": "There was no dynasty in this telling. There were people who had lived because Ordan had made a different choice at the end, and people he had killed who remained dead. There was a woman with work ahead of her and a brother waiting beside a cart."
+        },
+        {
+          "text": "She went to him. They took the road while there was light."
+        }
+      ],
+      "ending": "after"
+    }
+  },
+  "endings": {
+    "house": "A House with Two Doors",
+    "openmountain": "The Open Mountain",
+    "after": "The Last Crossing"
+  },
+  "mainEndings": [
+    "house",
+    "openmountain",
+    "after"
+  ],
+  "atmosphere": "quiet",
+  "wordCount": 17611,
+  "items": {
+    "rubbing": "Charcoal rubbing of the fresh diversion",
+    "contract": "Voss’s signed theft contract",
+    "charter": "The original peace charter",
+    "ledger": "The sealed modern payment ledger"
+  },
+  "knowledge": {
+    "ordan": {
+      "title": "The guest’s host",
+      "text": "The stranger from the ditch is Ordan, the dragon who kills those delivered under the peace charter."
+    },
+    "message": {
+      "title": "A message north",
+      "text": "Sef has been told Edda is alive. He can keep his tools and arrange transport."
+    },
+    "rubbing": {
+      "title": "Fresh tool marks",
+      "text": "The rubbing preserves the current diversion before it can be hidden with new stone."
+    },
+    "linnet": {
+      "title": "Linnet",
+      "text": "Ordan raised an abandoned infant as his daughter. She grew into a stubborn maker and teacher; she was killed at nineteen."
+    },
+    "receipts": {
+      "title": "People delivered",
+      "text": "Twenty-seven receipts acknowledge deaths. Many omit names. Mara Sill is one of those named."
+    },
+    "change": {
+      "title": "Nine heartbeats",
+      "text": "Transformation temporarily exposes unarmoured living tissue. Ordan cannot breathe fire while his heat holds the changing shape. The attack exploited this by accident."
+    },
+    "summerstones": {
+      "title": "Stored warmth",
+      "text": "Summerstones store dragon heat. They do not hold souls or create healing. Size and iron containment determine the danger of a rapid release."
+    },
+    "healing": {
+      "title": "Care, not a cure",
+      "text": "Clean water, protected warmth, rest and Ordan’s own repair closed the wound. His eye is permanently lost. Damaged heat channels remain vulnerable."
+    },
+    "theft": {
+      "title": "A purchased raid",
+      "text": "Voss hired Merrow’s company to steal a great summerstone for his works. Their theory of post-sacrifice weakness was wrong."
+    },
+    "charter": {
+      "title": "A voluntary atrocity",
+      "text": "No spell compels Ordan. The original revenge bargain became a substitution system that the council used to exploit indebted households."
+    },
+    "plans": {
+      "title": "Independent drawings",
+      "text": "Village copies preserve the warning scraped from the council plan. Matched with a fresh rubbing, they can support a preservation order."
+    },
+    "trial": {
+      "title": "A verdict before witnesses",
+      "text": "The request for Linnet’s witnesses was filed after the execution warrant. The accusation was engineered, not misunderstood."
+    },
+    "witness": {
+      "title": "Oswin survives",
+      "text": "The clerk can testify about modern accounts, though the sealed ledger burned."
+    },
+    "truth": {
+      "title": "Why Linnet was killed",
+      "text": "She was preparing evidence of the council’s fatal gate order and land seizure. Her drawings were recast as plans for sabotage."
+    },
+    "danger": {
+      "title": "The damaged ring",
+      "text": "Heat must be drained over time or absorbed by a living dragon. Ordan’s injury makes rapid absorption potentially fatal."
+    },
+    "registered": {
+      "title": "A public record",
+      "text": "The assize has registered evidence, secured records and begun hearings. It does not cancel Ordan’s responsibility."
+    }
+  },
+  "recap": [
+    {
+      "when": {
+        "var": "message",
+        "eq": true
+      },
+      "text": "Sef kept his tools because your message reached him before the allowance roll did."
+    },
+    {
+      "when": {
+        "var": "message",
+        "eq": false
+      },
+      "text": "Sef sold his tools while searching for you. Finding you did not erase that cost."
+    },
+    {
+      "when": {
+        "var": "witness",
+        "eq": true
+      },
+      "text": "Oswin survived because you went back into the smoke. His testimony remains available."
+    },
+    {
+      "when": {
+        "var": "sealed",
+        "eq": true
+      },
+      "text": "You saved the sealed ledger. Oswin died in the weighing-house fire."
+    },
+    {
+      "when": {
+        "var": "ally",
+        "eq": true
+      },
+      "text": "Merrow became a conditional ally. She was never required to forgive her mother’s killer."
+    },
+    {
+      "when": {
+        "var": "ally",
+        "eq": false
+      },
+      "text": "You kept Merrow outside your work. The rescue road depended on other people and paid transport."
+    },
+    {
+      "when": {
+        "var": "great_stolen",
+        "eq": true
+      },
+      "text": "The thieves escaped with the great summerstone while you steadied Ordan’s head."
+    },
+    {
+      "when": {
+        "var": "great_stolen",
+        "eq": false
+      },
+      "text": "The gong drove the thieves away from the great stone, at the cost of a deeper eye injury."
+    },
+    {
+      "when": {
+        "var": "claims_first",
+        "eq": true
+      },
+      "text": "The pension claims were secured before money could be moved; your own clearance had to wait."
+    },
+    {
+      "when": {
+        "var": "self_first",
+        "eq": true
+      },
+      "text": "Your conviction was cleared first. Some family claims became harder to recover."
+    },
+    {
+      "when": {
+        "var": "archives_saved",
+        "eq": true
+      },
+      "text": "The records travelled north. The last families paid for that choice with a cold walk."
+    },
+    {
+      "when": {
+        "var": "rescued_first",
+        "eq": true
+      },
+      "text": "The waiting families rode to safety. More of the council’s proof escaped with Voss."
+    },
+    {
+      "when": {
+        "var": "romance",
+        "eq": true
+      },
+      "text": "You chose romance freely, after leaving the mountain and recovering the power to decide where you lived."
+    }
+  ],
+  "characters": {
+    "protagonist": {
+      "name": "Edda Venn",
+      "text": "A twenty-seven-year-old sluice surveyor, taught practical wound care by her mother. She wants to clear her conviction, protect her independence and build safer waterways."
+    },
+    "ordan": {
+      "name": "Ordan",
+      "when": {
+        "lore": "ordan"
+      },
+      "text": "An ancient dragon who can assume human form. He has killed the people delivered under the peace charter. His grief explains his history; it does not cancel his responsibility."
+    },
+    "linnet": {
+      "name": "Linnet",
+      "when": {
+        "lore": "linnet"
+      },
+      "text": "Ordan’s adopted daughter. A maker and teacher, stubborn, funny and affectionate. She died at nineteen after a knowingly falsified accusation."
+    },
+    "sef": {
+      "name": "Sef Venn",
+      "when": {
+        "var": "departed",
+        "eq": true
+      },
+      "text": "Edda’s brother. A timber worker who has begun organising the allowance families."
+    }
+  },
+  "sheetSections": [
+    {
+      "title": "Your relationship",
+      "text": "You and Ordan have freely chosen to explore a romantic relationship.",
+      "when": {
+        "var": "romance",
+        "eq": true
+      }
+    },
+    {
+      "title": "The road remains open",
+      "text": "You have left the mountain and can choose whether to return. No offer of shelter requires affection in exchange.",
+      "when": {
+        "var": "departed",
+        "eq": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "passages": 125,
+  "choices": 137,
+  "reachableStates": 29515,
+  "endings": [
+    "after",
+    "openmountain",
+    "house"
+  ],
+  "routeWords": {
+    "house": 11096,
+    "openmountain": 10577,
+    "after": 10766
+  }
+}

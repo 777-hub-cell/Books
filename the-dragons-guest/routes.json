@@ -1,0 +1,1206 @@
+{
+  "initial": {
+    "message": false,
+    "rubbing": false,
+    "read_receipts": false,
+    "released": false,
+    "great_stolen": false,
+    "ally": false,
+    "renounced": false,
+    "departed": false,
+    "plans": false,
+    "sealed": false,
+    "witness": false,
+    "returned": false,
+    "organised": false,
+    "romance": false,
+    "self_first": false,
+    "claims_first": false,
+    "rescued_first": false,
+    "archives_saved": false,
+    "voss_alive": false,
+    "trust": 0,
+    "injury": 0
+  },
+  "scenes": {
+    "bread": {
+      "choices": [
+        {
+          "id": "bread:continue",
+          "label": "Continue",
+          "to": "hinge",
+          "continue": true
+        }
+      ]
+    },
+    "hinge": {
+      "choices": [
+        {
+          "id": "hinge:continue",
+          "label": "Continue",
+          "to": "market",
+          "continue": true
+        }
+      ]
+    },
+    "market": {
+      "choices": [
+        {
+          "id": "market:ferry",
+          "label": "Ask him to help you reach the ferry and send word to Sef.",
+          "to": "ferry",
+          "effects": [
+            {
+              "op": "set",
+              "key": "message",
+              "value": true
+            },
+            {
+              "op": "learn",
+              "key": "message"
+            }
+          ]
+        },
+        {
+          "id": "market:wall",
+          "label": "Record the diversion before the water covers the tool marks.",
+          "to": "wall",
+          "effects": [
+            {
+              "op": "set",
+              "key": "rubbing",
+              "value": true
+            },
+            {
+              "op": "gain",
+              "key": "rubbing"
+            },
+            {
+              "op": "learn",
+              "key": "rubbing"
+            }
+          ]
+        }
+      ]
+    },
+    "ferry": {
+      "choices": [
+        {
+          "id": "ferry:continue",
+          "label": "Continue",
+          "to": "veil",
+          "continue": true
+        }
+      ]
+    },
+    "wall": {
+      "choices": [
+        {
+          "id": "wall:continue",
+          "label": "Continue",
+          "to": "veil",
+          "continue": true
+        }
+      ]
+    },
+    "veil": {
+      "choices": [
+        {
+          "id": "veil:continue",
+          "label": "Continue",
+          "to": "guest",
+          "continue": true
+        }
+      ]
+    },
+    "guest": {
+      "choices": [
+        {
+          "id": "guest:freedom",
+          "label": "Demand that he open the gate before accepting shelter.",
+          "to": "threshold",
+          "effects": [
+            {
+              "op": "add",
+              "key": "trust",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "guest:rest",
+          "label": "Accept a bed tonight; insist on freedom when you can stand.",
+          "to": "bed"
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "ordan"
+        }
+      ]
+    },
+    "threshold": {
+      "choices": [
+        {
+          "id": "threshold:continue",
+          "label": "Continue",
+          "to": "seam",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "set",
+          "key": "released",
+          "value": true
+        }
+      ]
+    },
+    "bed": {
+      "choices": [
+        {
+          "id": "bed:continue",
+          "label": "Continue",
+          "to": "seam",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "set",
+          "key": "released",
+          "value": true
+        }
+      ]
+    },
+    "seam": {
+      "choices": [
+        {
+          "id": "seam:continue",
+          "label": "Continue",
+          "to": "shelf",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "change"
+        },
+        {
+          "op": "learn",
+          "key": "summerstones"
+        }
+      ]
+    },
+    "shelf": {
+      "choices": [
+        {
+          "id": "shelf:daughter",
+          "label": "Ask about the person who left the exercise book.",
+          "to": "linnet",
+          "effects": [
+            {
+              "op": "add",
+              "key": "trust",
+              "value": 1
+            },
+            {
+              "op": "learn",
+              "key": "linnet"
+            }
+          ]
+        },
+        {
+          "id": "shelf:receipts",
+          "label": "Inspect the council seals in the cold store.",
+          "to": "ledger",
+          "effects": [
+            {
+              "op": "set",
+              "key": "read_receipts",
+              "value": true
+            },
+            {
+              "op": "learn",
+              "key": "receipts"
+            }
+          ]
+        }
+      ]
+    },
+    "linnet": {
+      "choices": [
+        {
+          "id": "linnet:continue",
+          "label": "Continue",
+          "to": "bell",
+          "continue": true
+        }
+      ]
+    },
+    "ledger": {
+      "choices": [
+        {
+          "id": "ledger:continue",
+          "label": "Continue",
+          "to": "bell",
+          "continue": true
+        }
+      ]
+    },
+    "bell": {
+      "choices": [
+        {
+          "id": "bell:brace",
+          "label": "Brace his head immediately. The thieves may escape with the great stone.",
+          "to": "brace",
+          "effects": [
+            {
+              "op": "add",
+              "key": "trust",
+              "value": 1
+            },
+            {
+              "op": "set",
+              "key": "great_stolen",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "bell:gong",
+          "label": "Sound the alarm to drive the thieves off. His injury may worsen while you are away.",
+          "to": "gong",
+          "effects": [
+            {
+              "op": "set",
+              "key": "great_stolen",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    "brace": {
+      "choices": [
+        {
+          "id": "brace:continue",
+          "label": "Continue",
+          "to": "hearth",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "set",
+          "key": "injury",
+          "value": 1
+        }
+      ]
+    },
+    "gong": {
+      "choices": [
+        {
+          "id": "gong:continue",
+          "label": "Continue",
+          "to": "hearth",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "set",
+          "key": "injury",
+          "value": 2
+        }
+      ]
+    },
+    "hearth": {
+      "choices": [
+        {
+          "id": "hearth:continue",
+          "label": "Continue",
+          "to": "captain",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "healing"
+        }
+      ]
+    },
+    "captain": {
+      "choices": [
+        {
+          "id": "captain:ally",
+          "label": "Accept Merrow’s help, on condition neither side takes revenge.",
+          "to": "bargain",
+          "effects": [
+            {
+              "op": "set",
+              "key": "ally",
+              "value": true
+            },
+            {
+              "op": "add",
+              "key": "trust",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "captain:refuse",
+          "label": "Send her to warn the holdings; keep her out of your work.",
+          "to": "refuse"
+        }
+      ],
+      "effects": [
+        {
+          "op": "gain",
+          "key": "contract"
+        },
+        {
+          "op": "learn",
+          "key": "theft"
+        }
+      ]
+    },
+    "bargain": {
+      "choices": [
+        {
+          "id": "bargain:continue",
+          "label": "Continue",
+          "to": "account",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "receipts"
+        }
+      ]
+    },
+    "refuse": {
+      "choices": [
+        {
+          "id": "refuse:continue",
+          "label": "Continue",
+          "to": "account",
+          "continue": true
+        }
+      ]
+    },
+    "account": {
+      "choices": [
+        {
+          "id": "account:renounce",
+          "label": "Require a public end to the sacrifices now; Voss may retaliate.",
+          "to": "renounce",
+          "effects": [
+            {
+              "op": "set",
+              "key": "renounced",
+              "value": true
+            },
+            {
+              "op": "add",
+              "key": "trust",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "account:charter",
+          "label": "Take the charter and safe-conduct before seeking a hearing.",
+          "to": "charter",
+          "effects": [
+            {
+              "op": "gain",
+              "key": "charter"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "linnet"
+        },
+        {
+          "op": "learn",
+          "key": "charter"
+        },
+        {
+          "op": "learn",
+          "key": "receipts"
+        }
+      ]
+    },
+    "renounce": {
+      "choices": [
+        {
+          "id": "renounce:continue",
+          "label": "Continue",
+          "to": "road",
+          "continue": true
+        }
+      ]
+    },
+    "charter": {
+      "choices": [
+        {
+          "id": "charter:continue",
+          "label": "Continue",
+          "to": "road",
+          "continue": true
+        }
+      ]
+    },
+    "road": {
+      "choices": [
+        {
+          "id": "road:continue",
+          "label": "Continue",
+          "to": "records",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "set",
+          "key": "departed",
+          "value": true
+        }
+      ]
+    },
+    "records": {
+      "choices": [
+        {
+          "id": "records:archive",
+          "label": "Use Merrow’s key to seek the sealed modern accounts.",
+          "to": "archive",
+          "when": {
+            "var": "ally",
+            "eq": true
+          }
+        },
+        {
+          "id": "records:channel",
+          "label": "Recover independent old plans from the western channel.",
+          "to": "channel",
+          "effects": [
+            {
+              "op": "set",
+              "key": "plans",
+              "value": true
+            },
+            {
+              "op": "learn",
+              "key": "plans"
+            }
+          ]
+        }
+      ]
+    },
+    "archive": {
+      "choices": [
+        {
+          "id": "archive:book",
+          "label": "Carry the sealed book out first. Oswin may die in the smoke.",
+          "to": "sealbook",
+          "effects": [
+            {
+              "op": "set",
+              "key": "sealed",
+              "value": true
+            },
+            {
+              "op": "gain",
+              "key": "ledger"
+            },
+            {
+              "op": "set",
+              "key": "witness",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "archive:clerk",
+          "label": "Go back for Oswin. The sealed ledger will burn.",
+          "to": "clerk",
+          "effects": [
+            {
+              "op": "set",
+              "key": "witness",
+              "value": true
+            },
+            {
+              "op": "set",
+              "key": "sealed",
+              "value": false
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "trial"
+        }
+      ]
+    },
+    "sealbook": {
+      "choices": [
+        {
+          "id": "sealbook:continue",
+          "label": "Continue",
+          "to": "truth",
+          "continue": true
+        }
+      ]
+    },
+    "clerk": {
+      "choices": [
+        {
+          "id": "clerk:continue",
+          "label": "Continue",
+          "to": "truth",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "witness"
+        }
+      ]
+    },
+    "channel": {
+      "choices": [
+        {
+          "id": "channel:continue",
+          "label": "Continue",
+          "to": "truth",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "trial"
+        }
+      ]
+    },
+    "truth": {
+      "choices": [
+        {
+          "id": "truth:continue",
+          "label": "Continue",
+          "to": "brother",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "truth"
+        }
+      ]
+    },
+    "brother": {
+      "choices": [
+        {
+          "id": "brother:return",
+          "label": "Return by choice, with your own room and key.",
+          "to": "return",
+          "effects": [
+            {
+              "op": "set",
+              "key": "returned",
+              "value": true
+            },
+            {
+              "op": "add",
+              "key": "trust",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "brother:stay",
+          "label": "Stay with Sef and organise the petitioners.",
+          "to": "stay",
+          "effects": [
+            {
+              "op": "set",
+              "key": "organised",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    "return": {
+      "choices": [
+        {
+          "id": "return:continue",
+          "label": "Continue",
+          "to": "grave",
+          "continue": true
+        }
+      ]
+    },
+    "stay": {
+      "choices": [
+        {
+          "id": "stay:continue",
+          "label": "Continue",
+          "to": "grave",
+          "continue": true
+        }
+      ]
+    },
+    "grave": {
+      "choices": [
+        {
+          "id": "grave:continue",
+          "label": "Continue",
+          "to": "desire",
+          "continue": true
+        }
+      ]
+    },
+    "desire": {
+      "choices": [
+        {
+          "id": "desire:romance",
+          "label": "Tell him you want to explore a romantic relationship.",
+          "to": "kiss",
+          "effects": [
+            {
+              "op": "set",
+              "key": "romance",
+              "value": true
+            },
+            {
+              "op": "add",
+              "key": "trust",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": "desire:friendship",
+          "label": "Choose his friendship without promising romance.",
+          "to": "friends",
+          "effects": [
+            {
+              "op": "set",
+              "key": "romance",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    "kiss": {
+      "choices": [
+        {
+          "id": "kiss:continue",
+          "label": "Continue",
+          "to": "damage",
+          "continue": true
+        }
+      ]
+    },
+    "friends": {
+      "choices": [
+        {
+          "id": "friends:continue",
+          "label": "Continue",
+          "to": "damage",
+          "continue": true
+        }
+      ]
+    },
+    "damage": {
+      "choices": [
+        {
+          "id": "damage:continue",
+          "label": "Continue",
+          "to": "assembly",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "learn",
+          "key": "danger"
+        }
+      ]
+    },
+    "assembly": {
+      "choices": [
+        {
+          "id": "assembly:hearing",
+          "label": "Seek a public hearing, and build a shared home after the reckoning.",
+          "to": "hearing",
+          "require": {
+            "all": [
+              {
+                "var": "romance",
+                "eq": true
+              },
+              {
+                "var": "trust",
+                "gte": 3
+              },
+              {
+                "any": [
+                  {
+                    "var": "sealed",
+                    "eq": true
+                  },
+                  {
+                    "var": "witness",
+                    "eq": true
+                  },
+                  {
+                    "all": [
+                      {
+                        "var": "plans",
+                        "eq": true
+                      },
+                      {
+                        "var": "rubbing",
+                        "eq": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "requirement": "Requires mutual romantic commitment, trust built through earlier actions, and registered evidence: a sealed ledger, Oswin alive, or old plans with the fresh rubbing."
+        },
+        {
+          "id": "assembly:refuge",
+          "label": "Open the north road and build a refuge. Leave Voss’s arrest for another day.",
+          "to": "northroad"
+        },
+        {
+          "id": "assembly:direct",
+          "label": "Enter the works immediately, before a hearing. Ordan may die containing the heat.",
+          "to": "direct",
+          "risk": "His wounded heat channels may fail. This course can cost his life."
+        }
+      ]
+    },
+    "hearing": {
+      "choices": [
+        {
+          "id": "hearing:continue",
+          "label": "Continue",
+          "to": "testimony",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "set",
+          "key": "renounced",
+          "value": true
+        },
+        {
+          "op": "learn",
+          "key": "registered"
+        }
+      ]
+    },
+    "testimony": {
+      "choices": [
+        {
+          "id": "testimony:self",
+          "label": "Clear your own conviction first; some pension money may move.",
+          "to": "freedom",
+          "effects": [
+            {
+              "op": "set",
+              "key": "self_first",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "testimony:claims",
+          "label": "Secure the families’ claims first; your conviction must wait.",
+          "to": "families",
+          "effects": [
+            {
+              "op": "set",
+              "key": "claims_first",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    "freedom": {
+      "choices": [
+        {
+          "id": "freedom:continue",
+          "label": "Continue",
+          "to": "containment",
+          "continue": true
+        }
+      ]
+    },
+    "families": {
+      "choices": [
+        {
+          "id": "families:continue",
+          "label": "Continue",
+          "to": "containment",
+          "continue": true
+        }
+      ]
+    },
+    "containment": {
+      "choices": [
+        {
+          "id": "containment:continue",
+          "label": "Continue",
+          "to": "reckoning",
+          "continue": true
+        }
+      ]
+    },
+    "reckoning": {
+      "choices": [
+        {
+          "id": "reckoning:continue",
+          "label": "Continue",
+          "to": "house",
+          "continue": true
+        }
+      ]
+    },
+    "northroad": {
+      "choices": [
+        {
+          "id": "northroad:people",
+          "label": "Keep every wagon on the rescue road until the families are clear.",
+          "to": "people",
+          "effects": [
+            {
+              "op": "set",
+              "key": "rescued_first",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "northroad:papers",
+          "label": "Send a wagon for the records; the last families will have to walk.",
+          "to": "papers",
+          "effects": [
+            {
+              "op": "set",
+              "key": "archives_saved",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    "people": {
+      "choices": [
+        {
+          "id": "people:continue",
+          "label": "Continue",
+          "to": "rescueworks",
+          "continue": true
+        }
+      ]
+    },
+    "papers": {
+      "choices": [
+        {
+          "id": "papers:continue",
+          "label": "Continue",
+          "to": "rescueworks",
+          "continue": true
+        }
+      ]
+    },
+    "rescueworks": {
+      "choices": [
+        {
+          "id": "rescueworks:continue",
+          "label": "Continue",
+          "to": "refugevow",
+          "continue": true
+        }
+      ]
+    },
+    "refugevow": {
+      "choices": [
+        {
+          "id": "refugevow:continue",
+          "label": "Continue",
+          "to": "openmountain",
+          "continue": true
+        }
+      ],
+      "effects": [
+        {
+          "op": "set",
+          "key": "renounced",
+          "value": true
+        }
+      ]
+    },
+    "direct": {
+      "choices": [
+        {
+          "id": "direct:continue",
+          "label": "Continue",
+          "to": "yard",
+          "continue": true
+        }
+      ]
+    },
+    "yard": {
+      "choices": [
+        {
+          "id": "yard:save",
+          "label": "Go back for Voss. Everyone must still be evacuated.",
+          "to": "savevoss",
+          "effects": [
+            {
+              "op": "set",
+              "key": "voss_alive",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "yard:families",
+          "label": "Stay at the drain for the last families; Voss may die.",
+          "to": "lastfamilies",
+          "effects": [
+            {
+              "op": "set",
+              "key": "voss_alive",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    "savevoss": {
+      "choices": [
+        {
+          "id": "savevoss:continue",
+          "label": "Continue",
+          "to": "lastheat",
+          "continue": true
+        }
+      ]
+    },
+    "lastfamilies": {
+      "choices": [
+        {
+          "id": "lastfamilies:continue",
+          "label": "Continue",
+          "to": "lastheat",
+          "continue": true
+        }
+      ]
+    },
+    "lastheat": {
+      "choices": [
+        {
+          "id": "lastheat:continue",
+          "label": "Continue",
+          "to": "after",
+          "continue": true
+        }
+      ]
+    },
+    "house": {},
+    "openmountain": {},
+    "after": {}
+  },
+  "items": {
+    "rubbing": "Charcoal rubbing of the fresh diversion",
+    "contract": "Voss’s signed theft contract",
+    "charter": "The original peace charter",
+    "ledger": "The sealed modern payment ledger"
+  },
+  "knowledge": {
+    "ordan": {
+      "title": "The guest’s host",
+      "text": "The stranger from the ditch is Ordan, the dragon who kills those delivered under the peace charter."
+    },
+    "message": {
+      "title": "A message north",
+      "text": "Sef has been told Edda is alive. He can keep his tools and arrange transport."
+    },
+    "rubbing": {
+      "title": "Fresh tool marks",
+      "text": "The rubbing preserves the current diversion before it can be hidden with new stone."
+    },
+    "linnet": {
+      "title": "Linnet",
+      "text": "Ordan raised an abandoned infant as his daughter. She grew into a stubborn maker and teacher; she was killed at nineteen."
+    },
+    "receipts": {
+      "title": "People delivered",
+      "text": "Twenty-seven receipts acknowledge deaths. Many omit names. Mara Sill is one of those named."
+    },
+    "change": {
+      "title": "Nine heartbeats",
+      "text": "Transformation temporarily exposes unarmoured living tissue. Ordan cannot breathe fire while his heat holds the changing shape. The attack exploited this by accident."
+    },
+    "summerstones": {
+      "title": "Stored warmth",
+      "text": "Summerstones store dragon heat. They do not hold souls or create healing. Size and iron containment determine the danger of a rapid release."
+    },
+    "healing": {
+      "title": "Care, not a cure",
+      "text": "Clean water, protected warmth, rest and Ordan’s own repair closed the wound. His eye is permanently lost. Damaged heat channels remain vulnerable."
+    },
+    "theft": {
+      "title": "A purchased raid",
+      "text": "Voss hired Merrow’s company to steal a great summerstone for his works. Their theory of post-sacrifice weakness was wrong."
+    },
+    "charter": {
+      "title": "A voluntary atrocity",
+      "text": "No spell compels Ordan. The original revenge bargain became a substitution system that the council used to exploit indebted households."
+    },
+    "plans": {
+      "title": "Independent drawings",
+      "text": "Village copies preserve the warning scraped from the council plan. Matched with a fresh rubbing, they can support a preservation order."
+    },
+    "trial": {
+      "title": "A verdict before witnesses",
+      "text": "The request for Linnet’s witnesses was filed after the execution warrant. The accusation was engineered, not misunderstood."
+    },
+    "witness": {
+      "title": "Oswin survives",
+      "text": "The clerk can testify about modern accounts, though the sealed ledger burned."
+    },
+    "truth": {
+      "title": "Why Linnet was killed",
+      "text": "She was preparing evidence of the council’s fatal gate order and land seizure. Her drawings were recast as plans for sabotage."
+    },
+    "danger": {
+      "title": "The damaged ring",
+      "text": "Heat must be drained over time or absorbed by a living dragon. Ordan’s injury makes rapid absorption potentially fatal."
+    },
+    "registered": {
+      "title": "A public record",
+      "text": "The assize has registered evidence, secured records and begun hearings. It does not cancel Ordan’s responsibility."
+    }
+  },
+  "recap": [
+    {
+      "when": {
+        "var": "message",
+        "eq": true
+      },
+      "text": "Sef kept his tools because your message reached him before the allowance roll did."
+    },
+    {
+      "when": {
+        "var": "message",
+        "eq": false
+      },
+      "text": "Sef sold his tools while searching for you. Finding you did not erase that cost."
+    },
+    {
+      "when": {
+        "var": "witness",
+        "eq": true
+      },
+      "text": "Oswin survived because you went back into the smoke. His testimony remains available."
+    },
+    {
+      "when": {
+        "var": "sealed",
+        "eq": true
+      },
+      "text": "You saved the sealed ledger. Oswin died in the weighing-house fire."
+    },
+    {
+      "when": {
+        "var": "ally",
+        "eq": true
+      },
+      "text": "Merrow became a conditional ally. She was never required to forgive her mother’s killer."
+    },
+    {
+      "when": {
+        "var": "ally",
+        "eq": false
+      },
+      "text": "You kept Merrow outside your work. The rescue road depended on other people and paid transport."
+    },
+    {
+      "when": {
+        "var": "great_stolen",
+        "eq": true
+      },
+      "text": "The thieves escaped with the great summerstone while you steadied Ordan’s head."
+    },
+    {
+      "when": {
+        "var": "great_stolen",
+        "eq": false
+      },
+      "text": "The gong drove the thieves away from the great stone, at the cost of a deeper eye injury."
+    },
+    {
+      "when": {
+        "var": "claims_first",
+        "eq": true
+      },
+      "text": "The pension claims were secured before money could be moved; your own clearance had to wait."
+    },
+    {
+      "when": {
+        "var": "self_first",
+        "eq": true
+      },
+      "text": "Your conviction was cleared first. Some family claims became harder to recover."
+    },
+    {
+      "when": {
+        "var": "archives_saved",
+        "eq": true
+      },
+      "text": "The records travelled north. The last families paid for that choice with a cold walk."
+    },
+    {
+      "when": {
+        "var": "rescued_first",
+        "eq": true
+      },
+      "text": "The waiting families rode to safety. More of the council’s proof escaped with Voss."
+    },
+    {
+      "when": {
+        "var": "romance",
+        "eq": true
+      },
+      "text": "You chose romance freely, after leaving the mountain and recovering the power to decide where you lived."
+    }
+  ]
+}
