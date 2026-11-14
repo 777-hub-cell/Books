@@ -21,7 +21,8 @@ const key='night-story:the-dragons-guest:v3';
   if(![390,1280].includes(width)){await context.close();result.push({width,opening:true,noOverflow:true});continue;}
   for(const [ending,overrides] of [['house',{}],['openmountain',{assembly:'refuge',desire:'friendship',northroad:'papers'}],['after',{assembly:'direct',yard:'families',bell:'gong'}]]){
    if(ending!=='house'){
-    await page.evaluate(k=>localStorage.removeItem(k),key);await page.reload();
+    await page.locator('#readerOptions summary').click();await page.locator('#openSaves').click();
+    await page.getByRole('button',{name:'Start a new playthrough',exact:true}).click();
     await page.getByRole('button',{name:'Begin',exact:true}).click();
    }
    const plan={...defaults,...overrides};let guard=0,reloaded=false,backTested=false,lockedTested=false;
@@ -58,11 +59,16 @@ const key='night-story:the-dragons-guest:v3';
    await page.locator('#openJournal').click();await page.locator('#storyDialog[open]').waitFor();
    assert.ok((await page.locator('#dialogBody').innerText()).includes('Your decisions'));
    await page.locator('.close-dialog').click();
+   await page.locator('#readerOptions summary').click();
    await page.locator('#openChapters').click();await page.locator('#storyDialog[open]').waitFor();
    await page.getByRole('button',{name:'Replay in a new playthrough',exact:true}).nth(6).click();
    const fork=await page.evaluate(k=>{const b=JSON.parse(localStorage.getItem(k));return b.playthroughs.find(r=>r.id===b.active)},key);
    assert.equal(story.nodes[fork.node].chapter,7);assert.equal(fork.ending,null);assert.equal(fork.state.vars.romance,false);
-   result.push({width,ending,playedThroughControls:true,reload:true,readBack:true,journal:true,chapterFork:true,noOverflow:true});
+   await page.locator('#readerOptions summary').click();await page.locator('#openSaves').click();
+   await page.getByRole('button',{name:'View ending',exact:true}).first().click();
+   const resumed=await page.evaluate(k=>{const b=JSON.parse(localStorage.getItem(k));return b.playthroughs.find(r=>r.id===b.active)},key);
+   assert.equal(resumed.ending,ending,'saves menu restores the preserved completed run');
+   result.push({width,ending,playedThroughControls:true,reload:true,readBack:true,journal:true,chapterFork:true,savesMenu:true,noOverflow:true});
   }
   assert.deepEqual(errors,[]);await context.close();
  }

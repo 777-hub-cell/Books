@@ -47,6 +47,9 @@ def compile_story():
             else:node['choices']=routes['scenes'][key]['choices']
             nodes[nodekey]=node
     chapters=[{'number':i,'title':next(v['title'] for v in scenes.values() if v['chapter']==i)} for i in range(1,25)]
+    route_titles={20:'The Chosen Road',21:'What to Carry',22:'The Cost of Help',23:'An Ending to the Bargain',24:'What Remains'}
+    for chapter in chapters:
+        if chapter['number'] in route_titles:chapter['title']=route_titles[chapter['number']]
     story={
         'id':'the-dragons-guest','revision':1,'title':"The Dragon’s Guest",'author':'NIGHT','start':'bread',
         'identity':{'firstName':'Edda','surname':'Venn'},'fixedIdentity':True,

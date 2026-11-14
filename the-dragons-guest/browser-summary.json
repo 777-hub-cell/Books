@@ -1,0 +1,13 @@
+{
+  "source": "Observed successful GitHub job stdout; full per-route result files are in the evidence artifact",
+  "status": "PASS",
+  "viewports": 5,
+  "completeUIPlaythroughs": 6,
+  "saveReload": true,
+  "journal": true,
+  "chapterReplay": true,
+  "lastCallRegression": true,
+  "implementationCommit": "7d07bb8c552be6b7e2e314f65a08834bab2abf79",
+  "workflowRun": "https://github.com/777-hub-cell/Night-play/actions/runs/43647906214",
+  "evidence": "https://github.com/777-hub-cell/Night-play/actions/runs/43647906214/artifacts/14134778253"
+}

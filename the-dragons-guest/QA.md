@@ -20,7 +20,7 @@ Python compiler executes; Python compilation and JavaScript syntax checks pass. 
 
 `browser-test.cjs` is committed with the implementation candidate. It attempts actual control-driven playthroughs at 390px and 1280px for each of three endings, plus opening/layout checks at 320px, 360px and 412px. Each complete run also reloads during healing, checks read-back state, opens the journal, and forks chapter seven using the Chapters dialog. The default Last Call setup is checked for its two identity inputs and required four-point allocation.
 
-Local execution is blocked by the host’s Chromium process-singleton socket restriction; a browser result must therefore come from the GitHub workflow, not be inferred from the local engine test. Final observed workflow status and evidence links are recorded in DELIVERY.md.
+Local execution is blocked by the host’s Chromium process-singleton socket restriction. GitHub run `43647795752`, at implementation commit `006b6593443d80307647d21a43ae01ef4603c1ec`, completed successfully: **six complete UI playthroughs, five viewport sizes, save/reload, journal, chapter replay, saves-menu restoration and default Last Call regression**. The 390px opening frame was retrieved from the successful job log and visually inspected: reading measure, paragraph spacing, controls and bottom continuation fit without clipping. Full screenshots and machine results are retained in that run’s evidence artifact. Final-head recheck and evidence links are recorded in DELIVERY.md.
 
 ## Editorial checks
 
@@ -37,3 +37,5 @@ Local execution is blocked by the host’s Chromium process-singleton socket res
 - No ending claims love or self-sacrifice cancels the dead.
 
 This is an authorial and technical review, not an assertion of external editorial approval or a live production playthrough.
+
+Final-head recheck: all browser and engine checks pass at `7d07bb8c552be6b7e2e314f65a08834bab2abf79`, GitHub run `43647906214`. The existing combined-candidate workflow also passes (`43647900736`). See DELIVERY.md for durable run links and the time-limited screenshot artifact.

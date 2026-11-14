@@ -2,7 +2,7 @@
 
 Category A2 · NIGHT Play shared fairytale universe.
 
-The source manuscript is `MANUSCRIPT.md`; every scene is complete prose. `routes.json` supplies choices, conditions and persistent consequences. `compile.py` produces the engine-native `the-dragons-guest.json` without executable story logic. The recovered NIGHT Play engine is retained unchanged for verification.
+The source manuscript is `MANUSCRIPT.md`; every scene is complete prose. For uninterrupted reading, `CANONICAL-READING.md` contains one complete realised canonical route. `routes.json` supplies choices, conditions and persistent consequences. `compile.py` produces the engine-native `the-dragons-guest.json` without executable story logic. The recovered NIGHT Play engine is retained unchanged for verification in the implementation candidate.
 
 Only **A House with Two Doors** supplies continuity to A3. **The Open Mountain** and **The Last Crossing** are equally complete alternate timelines.
 
